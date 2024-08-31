@@ -43,21 +43,21 @@ const Navbar = () => {
     </>
     return (
 
-        <div className='max-w-7xl mx-auto relative'>
-            <div className=' text-[18px] flex justify-between items-center'>
+        <div className='max-w-7xl mx-auto '>
+            <div className='text-[18px] flex justify-between items-center' >
                 <div><img src={logo} alt="" /></div>
-                <div className="p-4 flex  font-semibold" >
+                <div className="p-4 flex items-center font-semibold" >
                     <DevicePhoneMobileIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                     <div >
-                        <p className='hover:text-[#399918]'>017xxxxxxxxxx</p>
-                        <p className='hover:text-[#399918]'>017xxxxxxxxxx</p>
+                        <p className='hover:text-[#399918]'>+8801710-822207</p>
+                        <p className='hover:text-[#399918]'>+8801872-884988</p>
                     </div>
                 </div>
-                <div className="p-4 flex  font-semibold" >
+                <div className="p-4 flex items-center font-semibold" >
                     <DevicePhoneMobileIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                     <div >
-                        <p className='hover:text-[#399918]'>asib.bubt@gmail.com</p>
-                        <p className='hover:text-[#399918]'>asib.bubt@gmail.com</p>
+                        <p className='hover:text-[#399918]'>dcitltd2022@gmail.com</p>
+                        {/* <p className='hover:text-[#399918]'>asib.bubt@gmail.com</p> */}
                     </div>
                 </div>
                 <div>
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <p className='text-[#399918] mt-2 font-bold text-xl'>sitemap</p>
                 </div>
             </div>
-            <div className='shadow-lg p-4 fixed '>
+            <div className='shadow-lg p-4'>
                 <div className="navbar bg-base-100">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -97,7 +97,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a className="btn bg-[#399918] text-white">Admisssion Now </a>
+                        <a className="btn bg-[#399918] ml-8 text-white">Admisssion Now </a>
                     </div>
                 </div>
             </div>
