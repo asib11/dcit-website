@@ -54,7 +54,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="p-4 flex items-center font-semibold" >
-                    <DevicePhoneMobileIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                    <EnvelopeIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                     <div >
                         <p className='hover:text-[#399918]'>dcitltd2022@gmail.com</p>
                         {/* <p className='hover:text-[#399918]'>asib.bubt@gmail.com</p> */}

@@ -42,8 +42,8 @@ const Footer = () => {
                     <a className="btn bg-[#399918]  px-10 text-white">Contact Us </a>
                 </div>
             </div>
-            <div className='bg-[#d3e9d3] py-20 px-12'>
-                <h2 className='text-5xl font-extrabold flex mb-14 items-center justify-center'>Follow us</h2>
+            <div className='bg-[#d3e9d3] py-16 px-12'>
+                <h2 className='text-5xl font-extrabold flex mb-14 items-center justify-center'>Follow Us</h2>
                 <div className='flex justify-between items-center max-w-7xl mx-auto'>
                     <div><img src={logo} alt="" /></div>
                     <div>
