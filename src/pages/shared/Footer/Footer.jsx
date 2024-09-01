@@ -1,14 +1,13 @@
 import React from 'react';
 import logo from '../../../assets/logo.png'
 import footImage from '../../../assets/SSLCOMMERZ-Pay-With-logo-All-Size_Aug-21-02-2048x240.png.webp'
-import location from '../../../assets/European-it-location-2048x1215.jpg.webp'
 import { DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon, ClockIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-[#f4f4f4]'>
-            <div className=' px-[20px] py-[60px]'>
-                <div className=' flex justify-between max-w-7xl mx-auto'>
+            <div className=' px-[20px] py-[60px] '>
+                <div className=' flex justify-between max-w-7xl mx-auto flex-wrap'>
                     <div>
                         <MapPinIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                         <h3 className='font-extrabold text-3xl my-2'>Address</h3>
@@ -44,7 +43,7 @@ const Footer = () => {
             </div>
             <div className='bg-[#d3e9d3] py-16 px-12'>
                 <h2 className='text-5xl font-extrabold flex mb-14 items-center justify-center'>Follow Us</h2>
-                <div className='flex justify-between items-center max-w-7xl mx-auto'>
+                <div className='flex justify-between items-center max-w-7xl mx-auto flex-wrap max-[992px]:justify-center max-[992px]:gap-10'>
                     <div><img src={logo} alt="" /></div>
                     <div>
                         <div className='flex justify-around'>
@@ -87,11 +86,12 @@ const Footer = () => {
                         </div>
                     </div>
                     <div >
-                        <img className='w-[393px]' src={location} alt="" />
-                        <Link className='flex text-lg pt-5'><MapPinIcon className='size-6 p-1 text-[#399918] mr-2' /> Google Map</Link>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.9599409943826!2d90.36527617484678!3d23.784440787469606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c100504c6233%3A0x507015786bd5545d!2sDCIT%20Ltd!5e0!3m2!1sen!2sbd!4v1725171268137!5m2!1sen!2sbd" width="350" height="225" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <Link to={'https://maps.app.goo.gl/86uan3GWN2QWzwqd7'} className='flex text-lg pt-5'><MapPinIcon className='size-6 p-1 text-[#399918] mr-2' /> Google Map</Link>
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };
