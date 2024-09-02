@@ -1,15 +1,16 @@
 import React from 'react';
+import graphics1 from '../../../assets/approved-by/graphics.jpeg'
 
 const Regular = () => {
     return (
-        <div className='bg-[#e9ffec]'>
+        <div className='bg-[#e6e7e7]'>
             <h3 className='text-3xl text-center font-bold pt-16 '>REGULAR</h3>
             <h2 className=' text-5xl text-center font-extrabold my-6'>Course Programs</h2>
             <div className='grid grid-cols-2 gap-6 md:grid-cols-3 max-w-7xl mx-auto py-20'>
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -21,7 +22,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -33,7 +34,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -45,7 +46,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -57,7 +58,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -69,7 +70,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -81,7 +82,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -93,7 +94,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -105,7 +106,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -117,7 +118,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -129,7 +130,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -141,7 +142,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -156,7 +157,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -168,7 +169,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -180,7 +181,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -192,7 +193,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -204,7 +205,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -216,7 +217,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -228,7 +229,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -240,7 +241,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -252,7 +253,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -264,7 +265,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -276,7 +277,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -288,7 +289,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -301,7 +302,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -313,7 +314,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -325,7 +326,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -337,7 +338,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
@@ -349,7 +350,7 @@ const Regular = () => {
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src={graphics1}
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
