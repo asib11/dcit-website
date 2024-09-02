@@ -12,7 +12,7 @@ const Bannar = () => {
     return (
         <div>
             <Carousel>
-                <div>
+                <div className='ease-in-out'>
                     <img src={img6} />
                     
                 </div>
