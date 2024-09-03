@@ -6,6 +6,7 @@ import Recommed from '../Recommend/Recommed';
 import Forth from '../Forth/Forth';
 import Regular from '../Regular/Regular';
 import Facilities from '../Facilities/Facilities';
+import Team from '../Team/Team';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Forth></Forth>
             <Regular></Regular>
             <Facilities></Facilities>
+            <Team></Team>
         </div>
     );
 };
