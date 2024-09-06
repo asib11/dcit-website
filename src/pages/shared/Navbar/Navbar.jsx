@@ -6,8 +6,8 @@ import { DevicePhoneMobileIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 
 const Navbar = () => {
     const navbarItem = <>
-        <li><Link>Home</Link></li>
-        <li><Link>About Us</Link></li>
+        <li><Link to={'/'}>Home</Link></li>
+        <li><Link to={'/about'}>About Us</Link></li>
         <li>
             <details>
                 <summary><Link>Courses</Link></summary>
@@ -43,7 +43,7 @@ const Navbar = () => {
     </>
     return (
 
-        <div className='max-w-7xl mx-auto '>
+        <div className='max-w-7xl mx-auto'>
             <div className='text-[18px] flex justify-between items-center' >
                 <div className='w-20'><img src={logo} alt="" /></div>
                 <div className='navbar-center hidden lg:flex'>
@@ -67,7 +67,7 @@ const Navbar = () => {
                     <p className='text-[#399918] mt-2 font-bold text-xl'>sitemap</p>
                 </div>
             </div>
-            <div className='shadow-lg p-4'>
+            <div className='shadow-2xl p-4 '>
                 <div className="navbar bg-base-100">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -76,14 +76,14 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
                                 {navbarItem}
                             </ul>
                         </div>
 
                     </div>
                     <div className="navbar-center hidden lg:flex ">
-                        <ul className="menu menu-horizontal px-1 text-lg font-bold">
+                        <ul className="menu menu-horizontal px-1 text-lg font-bold ">
                             {/* <li><a>Item 1</a></li>
                     <li>
                         <details>

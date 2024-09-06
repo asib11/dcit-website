@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay,FreeMode, Pagination } from 'swiper/modules';
-import img1 from '../../../assets/team/WhatsApp Image 2024-08-02 at 5.43.31 PM.jpeg'
-import img2 from '../../../assets/team/WhatsApp Image 2024-09-01 at 12.56.49 AM.jpg'
+import img1 from '../../../assets/team/asib.jpeg'
+import img2 from '../../../assets/team/img1.jpg'
 import img3 from '../../../assets/team/file.jpg'
 
 import 'swiper/css';
