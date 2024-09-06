@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode, Pagination } from 'swiper/modules';
+import { Autoplay,FreeMode, Pagination } from 'swiper/modules';
 import img1 from '../../../assets/team/WhatsApp Image 2024-08-02 at 5.43.31 PM.jpeg'
 import img2 from '../../../assets/team/WhatsApp Image 2024-09-01 at 12.56.49 AM.jpg'
 import img3 from '../../../assets/team/file.jpg'
@@ -16,18 +16,22 @@ const Team = () => {
                 slidesPerView={3}
                 spaceBetween={30}
                 freeMode={true}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  }}
                 pagination={{
                     clickable: true,
                 }}
-                modules={[FreeMode, Pagination]}
+                modules={[Autoplay, FreeMode, Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide>
 
                     <div className=' flex flex-col justify-center items-center p-6'>
                         <img className='mb-4 rounded-full' src={img2} alt="" />
-                        <h3 className='text-3xl font-bold'>Roish</h3>
-                        <p>MD and CEO</p>
+                        <h3 className='text-3xl font-bold uppercase'>Raizul Islam Khan</h3>
+                        <p>Managing Director</p>
                     </div>
 
                 </SwiperSlide>
