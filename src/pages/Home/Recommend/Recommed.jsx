@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import graphics1 from '../../../assets/approved-by/graphics.jpeg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Recommed = () => {
+    useEffect(
+        () => {
+            AOS.init({ delay: 300, duration: 1000 });
+        }, []
+    )
     return (
         <div className='bg-[#e6e7e7]'>
-            <h3 className='text-3xl text-center font-bold pt-16 '>RECOMMENDED</h3>
-            <h2 className=' text-5xl text-center font-extrabold my-6'>Course Programs</h2>
-            <div className='grid grid-cols-1 justify-items-center gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20'>
-                <div className="card bg-base-100 w-96 shadow-xl">
+            <h3 className='text-3xl text-center font-bold pt-16 ' data-aos="zoom-in-down">RECOMMENDED</h3>
+            <h2 className=' text-5xl text-center font-extrabold my-6' data-aos="zoom-in-up">Course Programs</h2>
+            <div className='grid grid-cols-1 justify-items-center gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl" >
                     <figure>
                         <img
                             src={graphics1}
@@ -19,7 +26,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -31,7 +38,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -43,7 +50,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down"  className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -55,7 +62,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -67,7 +74,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down"  className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -79,7 +86,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -91,7 +98,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -103,7 +110,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -115,7 +122,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -127,7 +134,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}
@@ -139,7 +146,7 @@ const Recommed = () => {
                         
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img
                             src={graphics1}

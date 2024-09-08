@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.png'
 import basisLogo from '../../../assets/basis-logo.svg'
 import { DevicePhoneMobileIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Navbar = () => {
+    useEffect(
+        () => {
+            AOS.init({ delay: 300, duration: 1000 });
+        }, []
+    )
+
     const navbarItem = <>
         <li><Link to={'/'}>Home</Link></li>
         <li><Link to={'/about'}>About Us</Link></li>
@@ -44,7 +52,7 @@ const Navbar = () => {
     return (
 
         <div className='max-w-7xl mx-auto'>
-            <div className='text-[18px] flex justify-between items-center' >
+            <div className='text-[18px] flex justify-between items-center ' data-aos="fade-up" >
                 <div className='w-20'><img src={logo} alt="" /></div>
                 <div className='navbar-center hidden lg:flex'>
                     <div className="p-4 flex items-center font-semibold" >
@@ -68,7 +76,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='shadow-2xl p-4 '>
-                <div className="navbar bg-base-100">
+                <div className="navbar bg-base-100" data-aos="fade-down">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
