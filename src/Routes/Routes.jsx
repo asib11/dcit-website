@@ -3,6 +3,9 @@ import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
+import Admin from "../Layout/Admin";
+import AdminPage from "../pages/AdminPage/AdminPage";
+import AdminContact from "../pages/AdminPage/AdminContact/AdminContact";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +26,25 @@ const router = createBrowserRouter([
       },
       
       
+    ]
+  },
+  {
+    path: 'admin',
+    element: <Admin></Admin>,
+    children:[
+      {
+        path:'dashboard',
+        element:<AdminPage></AdminPage>
+      },
+      {
+        path:'dashboard',
+        element:<AdminPage></AdminPage>
+      },
+      {
+        path:'contact',
+        element:<AdminContact></AdminContact>,
+        loader: () => fetch('http://localhost:5000/users')
+      },
     ]
   },
 ]);

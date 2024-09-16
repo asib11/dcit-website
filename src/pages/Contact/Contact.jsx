@@ -1,4 +1,6 @@
 import React from 'react';
+import { DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon, ClockIcon } from '@heroicons/react/24/solid'
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
@@ -20,7 +22,22 @@ const Contact = () => {
             body:JSON.stringify(user)
         })
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(
+                data => {
+                    console.log(data)
+                    if(data.insertedId){
+                        
+                        Swal.fire({
+                            position: "top-center",
+                            icon: "success",
+                            title: "Your message has been sent successfully",
+                            showConfirmButton: false,
+                            timer: 1500
+                          });
+                          form.reset()
+                    }
+                    
+                })
     }
 
     return (
@@ -72,8 +89,37 @@ const Contact = () => {
                     </form>
 
                 </div>
-                <div className='columns-2'>
-                    <p>contacct info</p>
+                <div className='columns-1'>
+                <div className='pl-12 flex flex-col gap-8'>
+                    <div>
+                        <MapPinIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                        <h3 className='font-extrabold text-3xl my-2'>Address</h3>
+                        <p className='text-lg'>
+                            Doyel S.A. Tower 220/A/1, <br />
+                            South Pirerbag, Amtola, 60 feet,<br />
+                            Mirpur - 2, Dhaka-1216
+                        </p>
+                    </div>
+                    <div>
+                        <DevicePhoneMobileIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                        <h3 className='font-extrabold text-3xl my-2' >Call Us</h3>
+                        <p className='hover:text-[#399918] text-lg'>+8801710-822207</p>
+                        <p className='hover:text-[#399918] text-lg'>+8801872-884988</p>
+                    </div>
+                    <div>
+                        <EnvelopeIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                        <h3 className='font-extrabold text-3xl my-2'>Email</h3>
+                        <p className='hover:text-[#399918] text-lg'>dcitltd2022@gmail.com</p>
+                    </div>
+                    <div>
+                        <ClockIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                        <h3 className='font-extrabold text-3xl my-2'>Work Hours</h3>
+                        <p className='text-lg'>
+                            Monday - Sunday <br />
+                            10AM - 09PM
+                        </p>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
