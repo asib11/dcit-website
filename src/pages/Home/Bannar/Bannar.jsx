@@ -23,7 +23,7 @@ const Bannar = () => {
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 3500,
                     disableOnInteraction: false,
                 }}
                 pagination={{
@@ -31,7 +31,7 @@ const Bannar = () => {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
+                className="mySwiper absolute"
             >
                 <SwiperSlide ><img className='w-full h-full' src={img6} /></SwiperSlide>
                 <SwiperSlide><img className='w-full h-full' src={img2} /></SwiperSlide>
