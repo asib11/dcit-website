@@ -15,11 +15,11 @@ const Admin = () => {
                 <ul >
                     <li className='flex items-center pb-4'>
                         <HomeIcon className='size-6' />
-                        <NavLink to='/admin/dashboard'>Admin dashboard</NavLink>
+                        <NavLink to='/admin'>Admin dashboard</NavLink>
                     </li>
                     <li className='flex items-center pb-4'>
                         <PiStudent className='size-6' />
-                        <NavLink to='/admin/courses'>Courses</NavLink>
+                        <NavLink to='/admin'>Courses</NavLink>
                     </li>
                     <li className='flex items-center pb-4'>
                         <IoIosMailUnread className='size-6' />
