@@ -14,7 +14,7 @@ const Contact = () => {
         const textArea = form.textArea.value;
         const user = { name, email, phone, courseData, textArea }
 
-        fetch('http://localhost:5000/users', {
+        fetch('https://dcit-server.vercel.app/users', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",

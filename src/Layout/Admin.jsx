@@ -25,6 +25,8 @@ const Admin = () => {
                         <IoIosMailUnread className='size-6' />
                         <NavLink to='/admin/contact'>Contact us</NavLink>
                     </li>
+                    <hr className='border-red-600 pb-4'/>
+                    <li><NavLink to='/'>Home</NavLink></li>
                 </ul>
             </div>
             <div className='flex-1 p-10'>

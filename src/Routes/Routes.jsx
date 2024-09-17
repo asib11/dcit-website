@@ -43,7 +43,7 @@ const router = createBrowserRouter([
       {
         path:'contact',
         element:<AdminContact></AdminContact>,
-        loader: () => fetch('http://localhost:5000/users')
+        loader: () => fetch('https://dcit-server.vercel.app/users')
       },
     ]
   },
