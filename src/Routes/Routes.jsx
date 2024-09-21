@@ -6,6 +6,7 @@ import Contact from "../pages/Contact/Contact";
 import Admin from "../Layout/Admin";
 import AdminPage from "../pages/AdminPage/AdminPage";
 import AdminContact from "../pages/AdminPage/AdminContact/AdminContact";
+import Gallery from "../pages/Gallery/Gallery";
 
 const router = createBrowserRouter([
   {
@@ -25,11 +26,16 @@ const router = createBrowserRouter([
         element: <Contact></Contact>
       },
       
+      {
+        path: '/gallery',
+        element: <Gallery></Gallery>
+      },
+      
       
     ]
   },
   {
-    path: 'admin',
+    path: '/admin',
     element: <Admin></Admin>,
     children:[
       {
