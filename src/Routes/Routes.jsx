@@ -8,6 +8,8 @@ import AdminPage from "../pages/AdminPage/AdminPage";
 import AdminContact from "../pages/AdminPage/AdminContact/AdminContact";
 import Gallery from "../pages/Gallery/Gallery";
 import Courses from "../pages/Courses/Courses/Courses";
+import Event from "../pages/Event/Event";
+import Rpl from "../pages/Rpl/Rpl";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: '/python',
         element: <Courses></Courses>
+      },
+      {
+        path: '/event',
+        element: <Event></Event>
+      },
+      {
+        path: '/rpl',
+        element: <Rpl></Rpl>
       },
       
       

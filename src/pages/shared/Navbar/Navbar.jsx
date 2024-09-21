@@ -73,7 +73,7 @@ const Navbar = () => {
                 </Link>
             </div>
         </li>
-        <li className=''><Link>Events</Link></li>
+        <li className=''><Link to={'/event'}>Events</Link></li>
         {/* <li className="relative group">
             <details>
                 <summary><Link>Gallery</Link></summary>
@@ -98,9 +98,9 @@ const Navbar = () => {
             </div>
         </li> */}
         <li><Link to={'/gallery'}>Gallery</Link></li>
-        <li><Link>RPL</Link></li>
+        <li><Link to={'/rpl'}>RPL</Link></li>
         <li><Link>News</Link></li>
-        <li><Link>Reviews</Link></li>
+        {/* <li><Link>Reviews</Link></li> */}
         <li><Link to='/contact'>Contact Us</Link></li>
     </>
     return (
