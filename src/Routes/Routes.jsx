@@ -10,6 +10,8 @@ import Gallery from "../pages/Gallery/Gallery";
 import Courses from "../pages/Courses/Courses/Courses";
 import Event from "../pages/Event/Event";
 import Rpl from "../pages/Rpl/Rpl";
+import News from "../pages/News/News";
+import Jobplace from "../pages/Success/Jobplace/Jobplace";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
       {
         path: '/rpl',
         element: <Rpl></Rpl>
+      },
+      {
+        path: '/news',
+        element: <News></News>
+      },
+      {
+        path: '/job',
+        element: <Jobplace></Jobplace>
       },
       
       

@@ -59,16 +59,16 @@ const Navbar = () => {
             </details> */}
             Success Stories
             <div className="absolute left-3/4 top-full hidden group-hover:block bg-white p-2 space-y-2">
-                <Link to='' className="block px-4 py-2">
+                <Link to='/job' className="block px-4 py-2">
                     Student's Success
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/job' className="block px-4 py-2">
                 Professional Expert Opinion
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/job' className="block px-4 py-2">
                 Video Feedback
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/job' className="block px-4 py-2">
                 Job Placement Organization
                 </Link>
             </div>
@@ -99,7 +99,7 @@ const Navbar = () => {
         </li> */}
         <li><Link to={'/gallery'}>Gallery</Link></li>
         <li><Link to={'/rpl'}>RPL</Link></li>
-        <li><Link>News</Link></li>
+        <li><Link to={'/news'}>News</Link></li>
         {/* <li><Link>Reviews</Link></li> */}
         <li><Link to='/contact'>Contact Us</Link></li>
     </>
