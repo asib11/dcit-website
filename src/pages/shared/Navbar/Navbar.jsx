@@ -26,25 +26,25 @@ const Navbar = () => {
             </details> */}
             Courses
             <div className="absolute left-3/4 top-full hidden bg-white group-hover:block p-2 space-y-2">
-                <Link to='' className="block px-4 py-2">
+                <Link to='/python' className="block px-4 py-2">
                     Python Development
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/python' className="block px-4 py-2">
                     Web Design
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/python' className="block px-4 py-2">
                     Web Development
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/python' className="block px-4 py-2">
                     ReactJs
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/python' className="block px-4 py-2">
                     NextJs
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/python' className="block px-4 py-2">
                     MERN Stack Dev
                 </Link>
-                <Link to='' className="block px-4 py-2">
+                <Link to='/python' className="block px-4 py-2">
                     Networking
                 </Link>
             </div>
@@ -60,13 +60,16 @@ const Navbar = () => {
             Success Stories
             <div className="absolute left-3/4 top-full hidden group-hover:block bg-white p-2 space-y-2">
                 <Link to='' className="block px-4 py-2">
-                    Web Development
+                    Student's Success
                 </Link>
                 <Link to='' className="block px-4 py-2">
-                    App Development
+                Professional Expert Opinion
                 </Link>
                 <Link to='' className="block px-4 py-2">
-                    SEO Optimization
+                Video Feedback
+                </Link>
+                <Link to='' className="block px-4 py-2">
+                Job Placement Organization
                 </Link>
             </div>
         </li>
