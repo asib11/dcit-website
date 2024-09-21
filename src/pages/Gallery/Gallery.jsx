@@ -1,98 +1,36 @@
-import React from 'react';
-import {  MasonryGridGallery } from "@material-tailwind/react";
+import React from "react"
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+
+const images = [
+    "https://picsum.photos/200/300?image=1050",
+    "https://picsum.photos/300/300?image=206",
+    "https://picsum.photos/200/300?image=1050",
+    "https://picsum.photos/300/300?image=206",
+    "https://picsum.photos/200/300?image=1050",
+    "https://picsum.photos/300/300?image=206",
+]
 
 const Gallery = () => {
     return (
-        <MasonryGridGallery>
-            <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-                <div className="grid gap-4">
-                    <div>
+        <div className="max-w-7xl mx-auto">
+            <ResponsiveMasonry
+                columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+                className="shadow-2xl"
+            >
+                <h1 className='text-3xl text-center font-bold pt-16 mb-6'>Gallery</h1>
+                <Masonry className="">
+                    {images.map((image, i) => (
                         <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center"
-                            src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-                            alt="gallery-photo"
+                            key={i}
+                            src={image}
+                            style={{ width: "100%", display: "block" }}
+                            alt=""
+                            className="p-4"
                         />
-                    </div>
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center "
-                            src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center"
-                            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                </div>
-                <div className="grid gap-4">
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center"
-                            src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center"
-                            src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center "
-                            src="https://docs.material-tailwind.com/img/team-3.jpg"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                </div>
-                <div className="grid gap-4">
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center"
-                            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center "
-                            src="https://docs.material-tailwind.com/img/team-3.jpg"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center"
-                            src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                </div>
-                <div className="grid gap-4">
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center"
-                            src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className="h-auto max-w-full rounded-lg object-cover object-center"
-                            src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
-                            alt="gallery-photo"
-                        />
-                    </div>
-                </div>
-            </div>
-        </MasonryGridGallery>
-
+                    ))}
+                </Masonry>
+            </ResponsiveMasonry>
+        </div>
     );
 };
 

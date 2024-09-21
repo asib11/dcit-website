@@ -25,7 +25,7 @@ const Navbar = () => {
                 </ul>
             </details> */}
             Courses
-            <div className="absolute left-1/2 top-full hidden bg-white group-hover:block p-2 space-y-2 bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white rounded">
+            <ul className="absolute left-1/2 top-full hidden bg-white group-hover:block p-2 space-y-2 bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white rounded">
                 <li><Link to='/python' className="block px-4 py-2 ">
                     Python Development
                 </Link></li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <li><Link to='/python' className="block px-4 py-2">
                     Networking
                 </Link></li>
-            </div>
+            </ul>
         </li>
         <li className=" rounded px-2 relative group flex justify-center bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white">
             {/* <details>
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </ul>
             </details> */}
             Success Stories
-            <div className="rounded absolute left-1/2 top-full hidden group-hover:block bg-white p-2 space-y-2 bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white ">
+            <ul className="rounded absolute left-1/2 top-full hidden group-hover:block bg-white p-2 space-y-2 bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white ">
                 <li >
                 <Link to='/job' className="block px-4 py-2 ">
                     Student's Success
@@ -73,7 +73,7 @@ const Navbar = () => {
                 <li><Link to='/job' className="block px-4 py-2">
                 Job Placement Organization
                 </Link></li>
-            </div>
+            </ul>
         </li>
         <li className='rounded bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white'><Link to={'/event'}>Events</Link></li>
         {/* <li className="relative group">
