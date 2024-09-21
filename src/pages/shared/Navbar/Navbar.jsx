@@ -14,9 +14,9 @@ const Navbar = () => {
     // )
 
     const navbarItem = <>
-        <li><Link to={'/'}>Home</Link></li>
-        <li><Link to={'/about'}>About Us</Link></li>
-        <li className="relative group flex justify-center mr-4">
+        <li className='bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white rounded'><Link to={'/'}>Home</Link></li>
+        <li className='bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white rounded'><Link to={'/about'}>About Us</Link></li>
+        <li className="relative group flex px-2 justify-center mr-4 bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white rounded">
             {/* <details>
                 <summary><Link>Courses</Link></summary>
                 <ul className="p-2">
@@ -25,31 +25,31 @@ const Navbar = () => {
                 </ul>
             </details> */}
             Courses
-            <div className="absolute left-3/4 top-full hidden bg-white group-hover:block p-2 space-y-2">
-                <Link to='/python' className="block px-4 py-2">
+            <div className="absolute left-1/2 top-full hidden bg-white group-hover:block p-2 space-y-2 bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white rounded">
+                <li><Link to='/python' className="block px-4 py-2 ">
                     Python Development
-                </Link>
-                <Link to='/python' className="block px-4 py-2">
+                </Link></li>
+                <li><Link to='/python' className="block px-4 py-2">
                     Web Design
-                </Link>
-                <Link to='/python' className="block px-4 py-2">
+                </Link></li>
+                <li><Link to='/python' className="block px-4 py-2">
                     Web Development
-                </Link>
-                <Link to='/python' className="block px-4 py-2">
+                </Link></li>
+                <li><Link to='/python' className="block px-4 py-2">
                     ReactJs
-                </Link>
-                <Link to='/python' className="block px-4 py-2">
+                </Link></li>
+                <li><Link to='/python' className="block px-4 py-2">
                     NextJs
-                </Link>
-                <Link to='/python' className="block px-4 py-2">
+                </Link></li>
+                <li><Link to='/python' className="block px-4 py-2">
                     MERN Stack Dev
-                </Link>
-                <Link to='/python' className="block px-4 py-2">
+                </Link></li>
+                <li><Link to='/python' className="block px-4 py-2">
                     Networking
-                </Link>
+                </Link></li>
             </div>
         </li>
-        <li className="relative group flex justify-center">
+        <li className=" rounded px-2 relative group flex justify-center bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white">
             {/* <details>
                 <summary><Link>Success Stories</Link></summary>
                 <ul className="p-2">
@@ -58,22 +58,24 @@ const Navbar = () => {
                 </ul>
             </details> */}
             Success Stories
-            <div className="absolute left-3/4 top-full hidden group-hover:block bg-white p-2 space-y-2">
-                <Link to='/job' className="block px-4 py-2">
+            <div className="rounded absolute left-1/2 top-full hidden group-hover:block bg-white p-2 space-y-2 bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white ">
+                <li >
+                <Link to='/job' className="block px-4 py-2 ">
                     Student's Success
                 </Link>
-                <Link to='/job' className="block px-4 py-2">
+                </li>
+                <li><Link to='/job' className="block px-4 py-2">
                 Professional Expert Opinion
-                </Link>
-                <Link to='/job' className="block px-4 py-2">
+                </Link></li>
+                <li><Link to='/job' className="block px-4 py-2">
                 Video Feedback
-                </Link>
-                <Link to='/job' className="block px-4 py-2">
+                </Link></li>
+                <li><Link to='/job' className="block px-4 py-2">
                 Job Placement Organization
-                </Link>
+                </Link></li>
             </div>
         </li>
-        <li className=''><Link to={'/event'}>Events</Link></li>
+        <li className='rounded bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white'><Link to={'/event'}>Events</Link></li>
         {/* <li className="relative group">
             <details>
                 <summary><Link>Gallery</Link></summary>
@@ -97,11 +99,11 @@ const Navbar = () => {
                 </Link>
             </div>
         </li> */}
-        <li><Link to={'/gallery'}>Gallery</Link></li>
-        <li><Link to={'/rpl'}>RPL</Link></li>
-        <li><Link to={'/news'}>News</Link></li>
+        <li className='rounded bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white'><Link to={'/gallery'}>Gallery</Link></li>
+        <li className='rounded bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white'><Link to={'/rpl'}>RPL</Link></li>
+        <li className='rounded bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white'><Link to={'/news'}>News</Link></li>
         {/* <li><Link>Reviews</Link></li> */}
-        <li><Link to='/contact'>Contact Us</Link></li>
+        <li className='rounded bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-white'><Link to='/contact'>Contact Us</Link></li>
     </>
     return (
 
@@ -161,7 +163,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a className="btn bg-[#399918] ml-8 text-white">Admisssion Now </a>
+                        <a className="btn bg-[#399918] ml-8 text-white bg-gradient-to-r hover:from-pink-500 hover:to-orange-500">Admisssion Now </a>
                     </div>
                 </div>
             </div>
