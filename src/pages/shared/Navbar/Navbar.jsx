@@ -107,7 +107,7 @@ const Navbar = () => {
     </>
     return (
 
-        <div className='max-w-7xl mx-auto sticky top-0 z-10 bg-white'>
+        <div className='max-w-7xl mx-auto sticky top-0 z-10 bg-white shadow-2xl'>
             <div className='text-[18px] flex justify-between items-center '>
                 <div className='w-20  mt-4 ml-4'><img src={logo} alt="" /></div>
                 <div className='navbar-center hidden lg:flex'>
@@ -131,7 +131,7 @@ const Navbar = () => {
                     <p className='text-[#399918] mt-2 font-bold text-xl'>sitemap</p>
                 </div>
             </div>
-            <div className='shadow-2xl p-4'>
+            <div className='p-4'>
                 <div className="navbar bg-base-100" >
                     <div className="navbar-start">
                         <div className="dropdown">
