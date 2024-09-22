@@ -109,7 +109,7 @@ const Navbar = () => {
 
         <div className='max-w-7xl mx-auto sticky top-0 z-10 bg-white'>
             <div className='text-[18px] flex justify-between items-center '>
-                <div className='w-20'><img src={logo} alt="" /></div>
+                <div className='w-20  mt-4 ml-4'><img src={logo} alt="" /></div>
                 <div className='navbar-center hidden lg:flex'>
                     <div className="p-4 flex items-center font-semibold" >
                         <DevicePhoneMobileIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
@@ -127,11 +127,11 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='w-24'><img src={basisLogo} alt="" /></div>
+                    <div className='w-24 mt-4 mr-4'><img src={basisLogo} alt="" /></div>
                     <p className='text-[#399918] mt-2 font-bold text-xl'>sitemap</p>
                 </div>
             </div>
-            <div className='shadow-2xl p-4 '>
+            <div className='shadow-2xl p-4'>
                 <div className="navbar bg-base-100" >
                     <div className="navbar-start">
                         <div className="dropdown">

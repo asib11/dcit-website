@@ -16,7 +16,7 @@ const Approve = () => {
     )
     return (
         <div className='bg-[#e6e7e7] p-16'>
-            <div className='flex justify-between max-w-7xl mx-auto flex-wrap max-[992px]:gap-6'>
+            <div className='flex justify-center gap-16 max-w-7xl mx-auto flex-wrap max-[992px]:gap-6'>
                 <div className='w-96 animate-border inline-block rounded-md bg-white bg-gradient-to-r from-red-500 via-green-500 to-yellow-500 bg-[length:400%_400%] p-1' data-aos="flip-left">
                     <div className=' rounded-md bg-white px-5 py-3 font-bold h-full'>
                         <h3 className='text-3xl font-bold mb-6 text-center'>Collaboration with</h3>
