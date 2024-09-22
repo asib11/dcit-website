@@ -3,7 +3,7 @@ import React from 'react';
 const Rpl = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10'>
-            <h1 className='text-3xl text-center font-bold pt-16 mb-6'>RPL Certification</h1>
+            <h1 className='text-5xl text-center font-bold pt-16 mb-6'>RPL Certification</h1>
             <div className='flex flex-col gap-8'>
                 <div className=' text-justify'>
                     <h4 className='text-3xl my-6 font-semibold'>Government Certification for IT Skills</h4>

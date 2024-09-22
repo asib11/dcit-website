@@ -7,6 +7,7 @@ import Forth from '../Forth/Forth';
 import Regular from '../Regular/Regular';
 import Facilities from '../Facilities/Facilities';
 import Team from '../Team/Team';
+import Partner from '../Partner/Partner';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Regular></Regular>
             <Facilities></Facilities>
             <Team></Team>
+            <Partner></Partner>
         </div>
     );
 };

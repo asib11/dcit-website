@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 const Team = () => {
     return (
         <div className='max-w-7xl mx-auto py-20'>
-            <h2 className=' text-5xl text-center font-extrabold  pt-6 pb-20'>Our Support Team</h2>
+            <h2 className=' text-5xl text-center font-extrabold pt-6 pb-20'>Our Support Team</h2>
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}

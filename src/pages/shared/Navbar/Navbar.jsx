@@ -60,7 +60,7 @@ const Navbar = () => {
             Success Stories
             <ul className="rounded absolute left-1/2 top-full hidden group-hover:block bg-white p-2 space-y-2 bg-gradient-to-r hover:from-red-500 hover:to-green-500 hover:text-white ">
                 <li >
-                <Link to='/job' className="block px-4 py-2 ">
+                <Link to='/student' className="block px-4 py-2 ">
                     Student's Success
                 </Link>
                 </li>
@@ -163,7 +163,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a className="btn bg-[#399918] ml-8 text-white bg-gradient-to-r hover:from-red-500 hover:to-green-500">Admisssion Now </a>
+                        <Link to={'/contact'} className="btn bg-[#399918] ml-8 text-white bg-gradient-to-r hover:from-red-500 hover:to-green-500">Admisssion Now </Link>
                     </div>
                 </div>
             </div>

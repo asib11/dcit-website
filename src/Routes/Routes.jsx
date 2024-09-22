@@ -12,6 +12,7 @@ import Event from "../pages/Event/Event";
 import Rpl from "../pages/Rpl/Rpl";
 import News from "../pages/News/News";
 import Jobplace from "../pages/Success/Jobplace/Jobplace";
+import Student from "../pages/Success/Student/Student";
 
 const router = createBrowserRouter([
   {
@@ -55,7 +56,10 @@ const router = createBrowserRouter([
         path: '/job',
         element: <Jobplace></Jobplace>
       },
-      
+      {
+        path: '/student',
+        element: <Student></Student>
+      },
       
     ]
   },

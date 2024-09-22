@@ -3,7 +3,7 @@ import React from 'react';
 const Jobplace = () => {
     return (
         <div className='max-w-7xl mx-auto'>
-            <h3 className='text-3xl text-center font-bold pt-16 mb-6'>Job Placement Organization</h3>
+            <h3 className='text-5xl text-center font-bold pt-16 mb-6'>Job Placement Organization</h3>
             <div className="overflow-x-auto my-16 ">
                 <table className="table border-collapse border border-green-400">
                     {/* head */}
