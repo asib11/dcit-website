@@ -1,27 +1,27 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
-import img1 from '../../../assets/partner/adb-logo.png.webp'
-import img2 from '../../../assets/partner/amar-porikha.webp'
-import img3 from '../../../assets/partner/basis-logo.png.webp'
-import img4 from '../../../assets/partner/bing-logo.webp'
-import img5 from '../../../assets/partner/Euitsols.webp'
-import img6 from '../../../assets/partner/gov-logo.png.webp'
-import img7 from '../../../assets/partner/KPI.png.webp'
-import img8 from '../../../assets/partner/microsoft-logo.webp'
-import img9 from '../../../assets/partner/midas-logo.webp'
-import img10 from '../../../assets/partner/pamt-logo.webp'
-import img11 from '../../../assets/partner/sunshine-logo.webp'
-import img12 from '../../../assets/partner/tech-pro-logo.webp'
+
+import img2 from '../../../assets/client/1513163978c3.png'
+import img3 from '../../../assets/client/1513163988c4.png'
+import img4 from '../../../assets/client/1513163997c5.png'
+import img5 from '../../../assets/client/1513164007c10.png'
+import img6 from '../../../assets/client/1513164016c12.png'
+import img7 from '../../../assets/client/1513164025c14.png'
+import img8 from '../../../assets/client/1513164041c15.png'
+import img9 from '../../../assets/client/1513164053c21.png'
+import img10 from '../../../assets/client/1513164160c28.png'
+import img11 from '../../../assets/client/1513164180c6.gif'
+import img12 from '../../../assets/client/1513164196c8.png'
 
 
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
-const Partner = () => {
+const OurClient = () => {
     return (
         <div className='max-w-7xl mx-auto py-20'>
-            <h2 className=' text-5xl text-center font-extrabold pt-6 pb-20' data-aos="zoom-in-down">Our Partner </h2>
+            <h2 className=' text-5xl text-center font-extrabold pt-6 pb-20' data-aos="zoom-in-down">Our Collaboration With</h2>
             <Swiper
                 slidesPerView={6}
                 spaceBetween={30}
@@ -36,10 +36,6 @@ const Partner = () => {
                 modules={[Autoplay, FreeMode, Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide>
-                    <img className='mb-4' src={img1} alt="" />
-
-                </SwiperSlide>
                 <SwiperSlide>
                     <img className='mb-4' src={img2} alt="" />
                 </SwiperSlide>
@@ -78,4 +74,4 @@ const Partner = () => {
     );
 };
 
-export default Partner;
+export default OurClient;

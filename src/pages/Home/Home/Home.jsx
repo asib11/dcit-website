@@ -8,6 +8,8 @@ import Regular from '../Regular/Regular';
 import Facilities from '../Facilities/Facilities';
 import Team from '../Team/Team';
 import Partner from '../Partner/Partner';
+import OurClient from '../OurClient/OurClient';
+
 
 const Home = () => {
     return (
@@ -18,6 +20,7 @@ const Home = () => {
             <Recommed></Recommed>
             <Forth></Forth>
             <Regular></Regular>
+            <OurClient></OurClient>
             <Facilities></Facilities>
             <Team></Team>
             <Partner></Partner>

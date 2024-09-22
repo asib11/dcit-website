@@ -49,12 +49,30 @@ const Team = () => {
                         <p>Junior Software Engineer</p>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                <SwiperSlide>
+
+                    <div className=' flex flex-col justify-center items-center p-6'>
+                        <img className='mb-4 rounded-full' src={img2} alt="" />
+                        <h3 className='text-3xl font-bold uppercase'>Raizul Islam Khan</h3>
+                        <p>Managing Director</p>
+                    </div>
+
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className=' flex flex-col justify-center items-center p-6'>
+                        <img className='mb-4 rounded-full' src={img3} alt="" />
+                        <h3 className='text-3xl font-bold'>MD ANWAR HOSSAIN</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className=' flex flex-col justify-center items-center p-6 '>
+                        <img className='rounded-full mb-4' src={img1} alt="" />
+                        <h3 className='text-3xl font-bold'>ASIB AHMED</h3>
+                        <p>Junior Software Engineer</p>
+                    </div>
+                </SwiperSlide>
+                
             </Swiper>
         </div>
     );
