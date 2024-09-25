@@ -14,7 +14,7 @@ const Navbar = () => {
     const navbarItem = <>
         <li className='hover:bg-green-500 hover:text-white rounded'><Link to={'/'}>Home</Link></li>
         <li className='hover:bg-green-500 hover:text-white rounded'><Link to={'/about'}>About Us</Link></li>
-        <li className="relative group flex px-2 justify-center mr-4 hover:bg-green-500 hover:text-white rounded">
+        <li className="relative group flex px-2 justify-center mr-4 hover:bg-green-500 hover:text-white">
             {/* <details>
                 <summary><Link>Courses</Link></summary>
                 <ul className="p-2">
@@ -23,29 +23,108 @@ const Navbar = () => {
                 </ul>
             </details> */}
             Courses
-            <ul className="absolute left-1/2 top-full hidden bg-white group-hover:block p-2 space-y-2 text-black rounded w-64">
-                <li><Link to='/python' className="block px-4 py-2  hover:bg-green-500 hover:text-white">
-                    Python Development
-                </Link></li>
-                <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                    Web Design
-                </Link></li>
-                <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                    Web Development
-                </Link></li>
-                <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                    ReactJs
-                </Link></li>
-                <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                    NextJs
-                </Link></li>
-                <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                    MERN Stack Dev
-                </Link></li>
-                <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                    Networking
-                </Link></li>
-            </ul>
+            <div className='absolute -left-96 top-full hidden group-hover:block bg-white text-black min-w-7xl '>
+                <div className='flex bg-white p-10 gap-8 border-t-4 border-green-400'>
+                    <ul className="flex flex-col w-64 bg-white">
+                        <p>4 <sup>th</sup> Industrial Revolution</p>
+                        <li><Link to='/python' className=" p-2 border-2 hover:bg-green-500 hover:text-white">
+                            Python Development
+                        </Link></li>
+                        <li><Link to='/python' className="p-2 hover:bg-green-500 hover:text-white">
+                            Web Design
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Web Development
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            ReactJs
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            NextJs
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            MERN Stack Dev
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Networking
+                        </Link></li>
+                    </ul>
+                    <ul className="flex flex-col w-64">
+                    <p>Development</p>
+                        <li><Link to='/python' className="p-2 border-2 hover:bg-green-500 hover:text-white">
+                            Python Development
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Web Design
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Web Development
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            ReactJs
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            NextJs
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            MERN Stack Dev
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Networking
+                        </Link></li>
+                    </ul>
+                    <ul className="flex flex-col w-64">
+                    <p>Design</p>
+                        <li><Link to='/python' className="block px-4 py-2  hover:bg-green-500 hover:text-white">
+                            Python Development
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Web Design
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Web Development
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            ReactJs
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            NextJs
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            MERN Stack Dev
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Networking
+                        </Link></li>
+                    </ul>
+                    <ul className="flex flex-col w-64">
+                        <p>Marketing & Others</p>
+                        <li><Link to='/python' className="w-full px-4 py-2  hover:bg-green-500 hover:text-white">
+                            Python Development
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Web Design
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Web Development
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            ReactJs
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            NextJs
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            MERN Stack Dev
+                        </Link></li>
+                        <li><Link to='/python' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                            Networking
+                        </Link></li>
+                    </ul>
+
+                </div>
+            </div>
+
         </li>
         <li className=" rounded px-2 relative group flex justify-center hover:bg-green-500 hover:text-white">
             {/* <details>
@@ -56,22 +135,23 @@ const Navbar = () => {
                 </ul>
             </details> */}
             Success Stories
-            <ul className="rounded absolute left-1/2 top-full hidden group-hover:block bg-white p-2 space-y-2  text-black  ">
+            <ul className="rounded absolute left-1/2 top-full hidden group-hover:block bg-white p-2 space-y-2  text-black  w-96">
                 <li >
-                <Link to='/student' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                    Student's Success
-                </Link>
+                    <Link to='/student' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
+                        Student's Success
+                    </Link>
                 </li>
                 <li><Link to='/job' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                Professional Expert Opinion
+                    Professional Expert Opinion
                 </Link></li>
                 <li><Link to='/job' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                Video Feedback
+                    Video Feedback
                 </Link></li>
                 <li><Link to='/job' className="block px-4 py-2 hover:bg-green-500 hover:text-white">
-                Job Placement Organization
+                    Job Placement Organization
                 </Link></li>
             </ul>
+
         </li>
         <li className='rounded hover:bg-green-500 hover:text-white'><Link to={'/event'}>Events</Link></li>
         {/* <li className="relative group">
@@ -106,7 +186,7 @@ const Navbar = () => {
     return (
 
         <div className='sticky inset-x-0 top-0 z-10 '>
-            
+
             <div className='bg-white p-2 max-w-7xl mx-auto rounded-md shadow-2xl' >
                 <div className="navbar bg-base-100" >
                     <div className="navbar-start">
@@ -123,7 +203,7 @@ const Navbar = () => {
 
                     </div>
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 text-lg font-bold">
+                        <ul className="menu menu-horizontal  text-lg font-bold">
                             {/* <li><a>Item 1</a></li>
                     <li>
                         <details>

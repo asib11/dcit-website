@@ -10,7 +10,7 @@ const Recommed = () => {
         }, []
     )
     return (
-        <div className='bg-[#e6e7e7]'>
+        <div className=''>
             <h3 className='text-3xl text-center font-bold pt-16 ' data-aos="zoom-in-down">RECOMMENDED</h3>
             <h2 className=' text-5xl text-center font-extrabold my-6' data-aos="zoom-in-up">Course Programs</h2>
             <div className='grid grid-cols-1 justify-items-center gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >

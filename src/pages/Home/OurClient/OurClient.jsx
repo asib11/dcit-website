@@ -20,56 +20,58 @@ import 'swiper/css/pagination';
 
 const OurClient = () => {
     return (
-        <div className='max-w-7xl mx-auto py-20'>
-            <h2 className=' text-5xl text-center font-extrabold pt-6 pb-20' data-aos="zoom-in-down">Our Collaboration With</h2>
-            <Swiper
-                slidesPerView={6}
-                spaceBetween={30}
-                freeMode={true}
-                autoplay={{
-                    delay: 4500,
-                    disableOnInteraction: false,
-                }}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Autoplay, FreeMode, Pagination]}
-                className="mySwiper"
-            >
-                <SwiperSlide>
-                    <img className='mb-4' src={img2} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img3} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img4} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img10} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img5} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img6} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img7} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img8} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img9} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img11} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className='mb-4' src={img12} alt="" />
-                </SwiperSlide>
-            </Swiper>
+        <div className='bg-[#e6e7e7]'>
+            <div className='max-w-7xl mx-auto py-20 ' >
+                <h2 className=' text-5xl text-center font-extrabold pt-6 pb-20' data-aos="zoom-in-down">Our Collaboration With</h2>
+                <Swiper
+                    slidesPerView={6}
+                    spaceBetween={30}
+                    freeMode={true}
+                    autoplay={{
+                        delay: 4500,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    modules={[Autoplay, FreeMode, Pagination]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        <img className='mb-4' src={img2} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img3} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img4} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img10} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img5} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img6} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img7} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img8} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img9} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img11} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='mb-4' src={img12} alt="" />
+                    </SwiperSlide>
+                </Swiper>
+            </div>
         </div>
     );
 };
