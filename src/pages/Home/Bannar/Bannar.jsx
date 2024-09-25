@@ -31,7 +31,7 @@ const Bannar = () => {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
+                className="mySwiper absolute -top-8"
             >
                 <SwiperSlide ><img className='w-full h-full' src={img6} /></SwiperSlide>
                 <SwiperSlide><img className='w-full h-full' src={img2} /></SwiperSlide>
