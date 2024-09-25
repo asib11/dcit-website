@@ -187,8 +187,8 @@ const Navbar = () => {
 
         <div className='sticky inset-x-0 top-0 z-10 '>
 
-            <div className='bg-white p-2 max-w-7xl mx-auto rounded-md shadow-2xl' >
-                <div className="navbar bg-base-100" >
+            <div className='bg-white max-w-7xl mx-auto rounded-md shadow-2xl' >
+                <div className="navbar " >
                     <div className="navbar-start">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -196,7 +196,7 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                                className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow ">
                                 {navbarItem}
                             </ul>
                         </div>

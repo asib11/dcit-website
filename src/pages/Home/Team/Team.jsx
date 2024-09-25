@@ -21,54 +21,54 @@ const Team = () => {
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
-                    pagination={{
-                        clickable: true,
-                    }}
+                    // pagination={{
+                    //     clickable: true,
+                    // }}
                     modules={[Autoplay, FreeMode, Pagination]}
-                    className="mySwiper"
+                    className="mySwipe "
                 >
-                    <SwiperSlide>
+                    <SwiperSlide className='card border-4 border-[#8b9b87]'>
 
-                        <div className=' flex flex-col justify-center items-center p-6'>
-                            <img className='mb-4 rounded-full border-4 border-green-700' src={img2} alt="" />
+                        <div className='flex flex-col justify-center items-center p-6'>
+                            <img className='mb-4 rounded-full border-4 border-[#8b9b87]' src={img2} alt="" />
                             <h3 className='text-xl font-bold uppercase'>Raizul Islam Khan</h3>
                             <p>Managing Director</p>
                         </div>
 
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className=' flex flex-col justify-center items-center p-6'>
-                            <img className='mb-4 rounded-full' src={img3} alt="" />
+                    <SwiperSlide className='card  border-4 border-[#8b9b87]'>
+                        <div className='flex flex-col justify-center items-center p-6'>
+                            <img className='mb-4 rounded-full border-4 border-[#8b9b87]' src={img3} alt="" />
                             <h3 className='text-xl font-bold'>MD ANWAR HOSSAIN</h3>
                             <p>Software Engineer</p>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='card  border-4 border-[#8b9b87]'>
                         <div className=' flex flex-col justify-center items-center p-6 '>
-                            <img className='rounded-full mb-4' src={img1} alt="" />
+                            <img className='rounded-full mb-4 border-4 border-[#8b9b87]' src={img1} alt="" />
                             <h3 className='text-xl font-bold'>ASIB AHMED</h3>
                             <p>Junior Software Engineer</p>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='card  border-4 border-[#8b9b87] '>
 
                         <div className=' flex flex-col justify-center items-center p-6'>
-                            <img className='mb-4 rounded-full' src={img2} alt="" />
+                            <img className='mb-4 rounded-full border-4 border-[#8b9b87]' src={img2} alt="" />
                             <h3 className='text-xl font-bold uppercase'>Raizul Islam Khan</h3>
                             <p>Managing Director</p>
                         </div>
 
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='card  border-4 border-[#8b9b87] '>
                         <div className=' flex flex-col justify-center items-center p-6'>
-                            <img className='mb-4 rounded-full' src={img3} alt="" />
+                            <img className='mb-4 rounded-full border-4 border-[#8b9b87]' src={img3} alt="" />
                             <h3 className='text-xl font-bold'>MD ANWAR HOSSAIN</h3>
                             <p>Software Engineer</p>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='card  border-4 border-[#8b9b87] '>
                         <div className=' flex flex-col justify-center items-center p-6 '>
-                            <img className='rounded-full mb-4' src={img1} alt="" />
+                            <img className='rounded-full mb-4 border-4 border-[#8b9b87]' src={img1} alt="" />
                             <h3 className='text-xl font-bold'>ASIB AHMED</h3>
                             <p>Junior Software Engineer</p>
                         </div>
