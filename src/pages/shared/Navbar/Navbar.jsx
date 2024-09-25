@@ -187,7 +187,7 @@ const Navbar = () => {
 
         <div className='sticky inset-x-0 top-0 z-10 '>
 
-            <div className='bg-white max-w-7xl mx-auto rounded-md shadow-2xl' >
+            <div className='bg-white max-w-7xl mx-auto rounded-md sha shadow-2xl shadow-slate-600' >
                 <div className="navbar " >
                     <div className="navbar-start">
                         <div className="dropdown">
