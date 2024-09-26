@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-[#f4f4f4] h-screen'>
-            <div className=' px-[20px] py-[60px] '>
-                <div className=' flex justify-between max-w-7xl mx-auto flex-wrap'>
+            <div className=' px-[20px] py-[60px] max-w-7xl mx-auto'>
+                <div className=' flex justify-between flex-wrap'>
                     <div>
                         <MapPinIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                         <h3 className='font-extrabold text-3xl my-2'>Address</h3>
@@ -91,7 +91,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex px-8 py-5 text-lg font-semibold bg-[#b8dfb8]'>
+            <div className='flex px-8 py-5 text-lg font-semibold bg-[#b8dfb8] '>
                 <div className='w-1/2'>
                     <p> Copyright ©2024 European IT Solutions Institute. All Rights Reserve</p>
                 </div>
