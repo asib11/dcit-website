@@ -1,7 +1,8 @@
 import React from 'react';
-import img from '../../../assets/logo.png'
 import { Link } from 'react-router-dom';
 import graphics1 from '../../../assets/approved-by/graphics.jpeg'
+import { FaRegChartBar, FaCalendarDay, FaTag, FaCertificate, FaVideo, FaLanguage } from "react-icons/fa";
+import { TbTimeDuration10 } from "react-icons/tb";
 
 const Courses = () => {
     return (
@@ -86,9 +87,9 @@ const Courses = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-1/3'>
+                <div className='w-1/3 flex flex-col gap-6'>
                     {/* <img src={img} alt="" /> */}
-                    <div  className="card  w-full shadow-xl">
+                    <div className="card w-full shadow-2xl">
                         <figure>
                             <img
                                 src={graphics1}
@@ -118,10 +119,66 @@ const Courses = () => {
                             </div>
                         </div>
                         <div>
-                            <form action="">
-                                
+                            <form action="" className='px-4 py-3'>
+                                <label className='mr-2 text-xl font-semibold'>Course Type</label>
+                                <select className="select select-accent w-sm rounded-none text-xl">
+                                    <option disabled selected className=''>Choose an option</option>
+                                    <option>Offline</option>
+                                    <option>Online</option>
+                                </select>
+                                <div className="form-control mt-6">
+                                    <input className='btn bg-[#399918]  hover:bg-green-600 text-white font-bold text-xl' type="submit" value="Add to Card" />
+                                </div>
                             </form>
                         </div>
+                        <div>
+                            <ul className='px-4 py-3 text-xl mt-6 flex flex-col gap-4'>
+                                <li className='flex items-center '>
+                                    <span className='mr-2'><FaRegChartBar /></span>
+                                    <span> Skill Level: Beginners</span>
+                                </li>
+                                <li className='flex items-center'>
+                                    <span className='mr-2'><TbTimeDuration10 /></span>
+                                    <span> Duration: 4 Months</span>
+                                </li>
+                                <li className='flex items-center'>
+                                    <span className='mr-2'><FaCalendarDay /></span>
+                                    <span> Class Per Week: 2 Day</span>
+                                </li>
+                                <li className='flex items-center'>
+                                    <span className='mr-2'><FaTag /></span>
+                                    <span> Total: 32 Classes</span>
+                                </li>
+                                <li className='flex items-center'>
+                                    <span className='mr-2'><FaCertificate /></span>
+                                    <span>Certificate: Yes</span>
+                                </li>
+                                <li className='flex items-center'>
+                                    <span className='mr-2'><FaVideo /></span>
+                                    <span> Provide Class Video</span>
+                                </li>
+                                <li className='flex items-center'>
+                                    <span className='mr-2'><FaLanguage /></span>
+                                    <span> Language: Bangla & English</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className='bt-card w-full shadow-2xl  py-16 flex flex-col justify-center items-center'>
+                        <h3 className='text-3xl text-center font-bold mb-6'>Working Hours</h3>
+                        <table className='text-xl border-none'>
+                            <tbody className='table border-none flex gap-4 text-xl'>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td class="box"> 10:00 am – 9.00 pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td class="box"> 10:00 am – 9.00 pm</td>
+                                </tr>
+                                <tr><td>Wednesday</td><td class="box"> 10:00 am – 9.00 pm</td></tr><tr><td>Thursday</td><td class="box"> 10:00 am – 9.00 pm</td></tr><tr><td>Friday</td><td class="box"> 10:00 am – 9.00pm</td></tr><tr><td>Saturday</td><td class="box"> 10:00 am – 9.00 pm</td></tr><tr><td class="box2">Sunday</td><td class="box box2"> 10:00 am – 9.00 pm</td></tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
