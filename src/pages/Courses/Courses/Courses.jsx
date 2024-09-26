@@ -164,7 +164,7 @@ const Courses = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='bt-card w-full shadow-2xl  py-16 flex flex-col justify-center items-center'>
+                    <div className='bt-card w-full shadow-2xl rounded-xl py-16 flex flex-col justify-center items-center'>
                         <h3 className='text-3xl text-center font-bold mb-6'>Working Hours</h3>
                         <table className='text-xl border-none'>
                             <tbody className='table border-none flex gap-4 text-xl'>
