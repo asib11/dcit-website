@@ -5,7 +5,7 @@ import { DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon, ClockIcon } from '@her
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
-        <div className='bg-[#f4f4f4]'>
+        <div className='bg-[#f4f4f4] h-screen'>
             <div className=' px-[20px] py-[60px] '>
                 <div className=' flex justify-between max-w-7xl mx-auto flex-wrap'>
                     <div>
