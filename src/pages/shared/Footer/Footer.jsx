@@ -91,7 +91,17 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
+            <div className='flex px-8 py-5 text-lg font-semibold bg-[#b8dfb8]'>
+                <div className='w-1/2'>
+                    <p> Copyright ©2024 European IT Solutions Institute. All Rights Reserve</p>
+                </div>
+                <div className='w-1/2 flex justify-around '>
+                    <Link className='hover:text-[#399918]' to={''}>Terms & Conditions</Link>
+                    <Link className='hover:text-[#399918]'>Refund and Returns Policy</Link>
+                    <Link className='hover:text-[#399918]' to={'/about'}>About Us</Link>
+                    <Link className='hover:text-[#399918]'>TIN: 000000</Link>
+                </div>
+            </div>
         </div>
     );
 };
