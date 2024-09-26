@@ -12,10 +12,7 @@ import { ThemeProvider } from "@material-tailwind/react";
 createRoot(document.getElementById('root')).render(
   <div className=''>
     <StrictMode>
-      
-      <ThemeProvider>
       <RouterProvider router={router} />
-    </ThemeProvider>
     </StrictMode>,
   </div>
 )
