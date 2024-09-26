@@ -1,11 +1,14 @@
 import React from 'react';
 import img from '../../../assets/logo.png'
+import { Link } from 'react-router-dom';
+import graphics1 from '../../../assets/approved-by/graphics.jpeg'
+
 const Courses = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10'>
             <h3 className='text-3xl text-center font-bold pt-16 mb-6'>Python Development with Django</h3>
-            <div className='flex justify-between gap-8'>
-                <div className='w-3/4 text-justify'>
+            <div className='flex justify-between gap-6'>
+                <div className='w-2/3 text-justify'>
                     <h4 className='text-2xl my-6 font-semibold'>Overview:</h4>
                     <p className='text-xl'>
                         Python has become very popular because it’s easy to understand, has easy syntax, and portability, and is easy to learn. Python is used for multiple purposes ranging from web development to data science to DevOps. Python can be used for data analysis, Machine Learning. Web Development, Automation, Scripting, Software Testing, and everyday tasks. Companies like Instagram, Youtube, and Spotify are built with Python.
@@ -83,8 +86,43 @@ const Courses = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-1/4'>
-                    <img src={img} alt="" />
+                <div className='w-1/3'>
+                    {/* <img src={img} alt="" /> */}
+                    <div  className="card  w-full shadow-xl">
+                        <figure>
+                            <img
+                                src={graphics1}
+                                alt="Shoes" />
+                        </figure>
+                        {/* <div className="flex mt-6 p-4 justify-between items-center">
+                            <div>
+                                <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                                <p className='font-bold text-xl'>Graphics Design</p>
+                            </div>
+                            <div className="">
+                                <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-green-500">View Details</Link>
+                            </div>
+                        </div> */}
+                        <div className='px-4 py-3'>
+                            <h2 className='border-[2px] shadow-sm shadow-green-600 border-green-600 text-2xl px-2 py-3 mb-2 text-green-600 rounded-md font-bold'>Offline Course Fee</h2>
+                            <div className='text-xl font-semibold  text-green-600'>
+                                <p>Regular Fee   : BDT 30,000</p>
+                                <p>Discount Fee : BDT 20,000</p>
+                            </div>
+                        </div>
+                        <div className='px-4 py-3'>
+                            <h2 className='border-[2px] shadow-sm shadow-green-600 border-green-600 text-2xl px-2 py-3 mb-2 text-green-600 rounded-md font-bold'>Online Course Fee</h2>
+                            <div className='text-xl font-semibold  text-green-600'>
+                                <p>Regular Fee   : BDT 30,000</p>
+                                <p>Discount Fee : BDT 20,000</p>
+                            </div>
+                        </div>
+                        <div>
+                            <form action="">
+                                
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
