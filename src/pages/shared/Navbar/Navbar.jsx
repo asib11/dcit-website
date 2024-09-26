@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import AOS from 'aos';
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Navbar = () => {
-    useEffect(
-        () => {
-            AOS.init({ delay: 300, duration: 1000 });
-        }, []
-    )
+    // useEffect(
+    //     () => {
+    //         AOS.init({ delay: 300, duration: 1000 });
+    //     }, []
+    // )
 
     const navbarItem = <>
         <li className='hover:bg-green-500 hover:text-white rounded p-2'><Link to={'/'}>Home</Link></li>
@@ -178,7 +178,7 @@ const Navbar = () => {
     </>
     return (
 
-        <div className='sticky inset-x-0 top-0 z-10 ' data-aos="zoom-in-up">
+        <div className='sticky inset-x-0 top-0 z-10 '>
 
             <div className='bg-white max-w-7xl mx-auto rounded-md sha shadow-2xl shadow-slate-600' >
                 <div className="navbar flex justify-between p-4" >
