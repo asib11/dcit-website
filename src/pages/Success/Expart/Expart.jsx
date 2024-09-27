@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../../assets/partner/adb-logo.png.webp'
+import { Link } from 'react-router-dom';
 
 const Expart = () => {
     return (
@@ -15,7 +16,7 @@ const Expart = () => {
                                 <p className='text-2xl pb-6'>
                                     <strong>CEO:</strong>Esposto
                                 </p>
-                                <button className='btn bg-[#399918] rounded-md text-white'>View on Facebook</button>
+                                <Link><button className='btn bg-[#399918] hover:bg-lime-500 rounded-md text-white'>View on Facebook</button></Link>
                             </div>
                             <div className='w-1/2 p-16 bg-[#baf2ac]'>
                                 <div className='flex justify-center'>
@@ -24,14 +25,14 @@ const Expart = () => {
                                 <p className='text-lg font-medium text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, animi adipisci! Asperiores animi ipsa commodi ducimus? Ea nam placeat vero veritatis. Vitae et aut repellendus. Assumenda ipsum itaque ipsa in.</p>
                             </div>
                         </div>
-                        
+
                         <div className='flex shadow-2xl odd:flex-row even:flex-row-reverse'>
                             <div className='text-center w-1/2 bg-white py-10 flex flex-col items-center justify-center'>
                                 <h3 className='text-5xl font-bold pb-6'>Fazley Rabby</h3>
                                 <p className='text-2xl pb-6'>
                                     <strong>CEO:</strong>Esposto
                                 </p>
-                                <button className='btn bg-[#399918] rounded-md text-white'>View on Facebook</button>
+                                <Link><button className='btn bg-[#399918] hover:bg-lime-500 rounded-md text-white'>View on Facebook</button></Link>
                             </div>
                             <div className='w-1/2 p-16 bg-[#baf2ac]'>
                                 <div className='flex justify-center'>
