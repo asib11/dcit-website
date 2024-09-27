@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../../assets/logo.png'
 import basisLogo from '../../../assets/basis-logo.svg'
 import { DevicePhoneMobileIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const Logo = () => {
     return (
@@ -12,14 +13,15 @@ const Logo = () => {
                     <div className="p-4 flex items-center font-semibold" >
                         <DevicePhoneMobileIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                         <div >
-                            <p className='hover:text-[#399918]'>+8801710-822207</p>
-                            <p className='hover:text-[#399918]'>+8801872-884988</p>
+                            <Link to={'tel:+8801710822207'}><p className='hover:text-[#399918]'>+8801710-822207</p></Link>
+                            <Link to={'tel:+8801872884988'}><p className='hover:text-[#399918]'>+8801872-884988</p></Link>
+                            
                         </div>
                     </div>
                     <div className="p-4 flex items-center font-semibold" >
                         <EnvelopeIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                         <div >
-                            <p className='hover:text-[#399918]'>dcitltd2022@gmail.com</p>
+                            <Link to='mailto:dcitltd2022@gmail.com'><p className='hover:text-[#399918]'>dcitltd2022@gmail.com</p></Link>
                             {/* <p className='hover:text-[#399918]'>asib.bubt@gmail.com</p> */}
                         </div>
                     </div>

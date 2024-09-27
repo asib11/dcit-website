@@ -20,13 +20,13 @@ const Footer = () => {
                     <div>
                         <DevicePhoneMobileIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                         <h3 className='font-extrabold text-3xl my-2' >Call Us</h3>
-                        <p className='hover:text-[#399918] text-lg'>+8801710-822207</p>
-                        <p className='hover:text-[#399918] text-lg'>+8801872-884988</p>
+                        <Link to={'tel:+8801710822207'}><p className='hover:text-[#399918] text-lg'>+8801710-822207</p></Link>
+                        <Link to={'tel:+8801872884988'}><p className='hover:text-[#399918] text-lg'>+8801872-884988</p></Link>
                     </div>
                     <div>
                         <EnvelopeIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
                         <h3 className='font-extrabold text-3xl my-2'>Email</h3>
-                        <p className='hover:text-[#399918] text-lg'>dcitltd2022@gmail.com</p>
+                        <Link to='mailto:dcitltd2022@gmail.com'><p className='hover:text-[#399918] text-lg'>dcitltd2022@gmail.com</p></Link>
                     </div>
                     <div>
                         <ClockIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />

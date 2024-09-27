@@ -1,6 +1,7 @@
 import React from 'react';
 import { DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon, ClockIcon } from '@heroicons/react/24/solid'
 import Swal from 'sweetalert2';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
 
@@ -107,8 +108,8 @@ const Contact = () => {
                             <DevicePhoneMobileIcon className='size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
                                 <h3 className='font-bold text-xl mb-2' >Call Us</h3>
-                                <p className='hover:text-[#399918] text-sm'>+8801710-822207</p>
-                                <p className='hover:text-[#399918] text-sm'>+8801872-884988</p>
+                                <Link to={'tel:+8801710822207'}><p className='hover:text-[#399918] text-sm'>+8801710-822207</p></Link>
+                                <Link to={'tel:+8801872884988'}><p className='hover:text-[#399918] text-sm'>+8801872-884988</p></Link>
                             </div>
 
                         </div>
@@ -116,7 +117,7 @@ const Contact = () => {
                             <EnvelopeIcon className='size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
                                 <h3 className='font-bold text-xl mb-2'>Email</h3>
-                                <p className='hover:text-[#399918] text-sm'>dcitltd2022@gmail.com</p>
+                                <Link to='mailto:dcitltd2022@gmail.com'><p className='hover:text-[#399918] text-sm'>dcitltd2022@gmail.com</p></Link>
                             </div>
                         </div>
                         <div className='flex'>
