@@ -28,7 +28,7 @@ const Forth = () => {
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
-                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-green-500">View Details</Link>
+                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Forth = () => {
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
-                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-green-500">View Details</Link>
+                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const Forth = () => {
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
-                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-green-500">View Details</Link>
+                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const Forth = () => {
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
-                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-green-500">View Details</Link>
+                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const Forth = () => {
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
-                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-green-500">View Details</Link>
+                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ const Forth = () => {
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
-                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-green-500">View Details</Link>
+                            <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                         </div>
                     </div>
                 </div>
