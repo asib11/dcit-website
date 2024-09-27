@@ -31,9 +31,9 @@ const OurClient = () => {
                         delay: 4500,
                         disableOnInteraction: false,
                     }}
-                    pagination={{
-                        clickable: true,
-                    }}
+                    // pagination={{
+                    //     clickable: true,
+                    // }}
                     modules={[Autoplay, FreeMode, Pagination]}
                     className="mySwiper"
                 >

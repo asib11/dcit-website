@@ -13,6 +13,7 @@ import Rpl from "../pages/Rpl/Rpl";
 import News from "../pages/News/News";
 import Jobplace from "../pages/Success/Jobplace/Jobplace";
 import Student from "../pages/Success/Student/Student";
+import NewsDetails from "../pages/News/NewsDetails";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact></Contact>
       },
-      
+
       {
         path: '/gallery',
         element: <Gallery></Gallery>
@@ -50,7 +51,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/news',
-        element: <News></News>
+        element: <News></News>,
+      },
+      {
+        path: '/newsDetails',
+        element: <NewsDetails></NewsDetails>,
       },
       {
         path: '/job',
@@ -60,24 +65,24 @@ const router = createBrowserRouter([
         path: '/student',
         element: <Student></Student>
       },
-      
+
     ]
   },
   {
     path: '/admin',
     element: <Admin></Admin>,
-    children:[
+    children: [
       {
-        path:'/admin',
-        element:<AdminPage></AdminPage>
+        path: '/admin',
+        element: <AdminPage></AdminPage>
       },
       {
-        path:'dashboard',
-        element:<AdminPage></AdminPage>
+        path: 'dashboard',
+        element: <AdminPage></AdminPage>
       },
       {
-        path:'contact',
-        element:<AdminContact></AdminContact>,
+        path: 'contact',
+        element: <AdminContact></AdminContact>,
         loader: () => fetch('https://dcit-server.vercel.app/users')
       },
     ]
