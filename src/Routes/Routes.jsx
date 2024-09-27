@@ -16,6 +16,7 @@ import Student from "../pages/Success/Student/Student";
 import NewsDetails from "../pages/News/NewsDetails";
 import EventDetails from "../pages/Event/EventDetails";
 import Expart from "../pages/Success/Expart/Expart";
+import VideoAdd from "../pages/Success/VideoAdd/VideoAdd";
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: '/expart',
         element: <Expart></Expart>,
+      },
+      {
+        path: '/videoadd',
+        element: <VideoAdd></VideoAdd>,
       },
       {
         path: '/job',
