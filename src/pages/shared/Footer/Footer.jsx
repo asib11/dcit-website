@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex mt-6 justify-center'>
-                    <Link to={'/contact'} className="btn bg-[#399918]  px-10 text-white bg-gradient-to-r hover:from-red-500 hover:to-green-500">Contact Us </Link>
+                    <Link to={'/contact'} className="btn bg-[#399918]  px-10 text-white hover:bg-green-500">Contact Us </Link>
                 </div>
             </div>
             <div className='bg-[#d3e9d3] py-16 px-12'>

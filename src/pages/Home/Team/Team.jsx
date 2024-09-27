@@ -27,7 +27,7 @@ const Team = () => {
                     modules={[Autoplay, FreeMode, Pagination]}
                     className="mySwipe "
                 >
-                    <SwiperSlide className='card border-4 border-[#8b9b87]  bg-white p-1 '>
+                    <SwiperSlide className='card bg-white p-1 '>
 
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img2} alt="" />
@@ -38,7 +38,7 @@ const Team = () => {
                         </div>
 
                     </SwiperSlide>
-                    <SwiperSlide className='card  border-4 border-[#8b9b87]  bg-white p-1'>
+                    <SwiperSlide className='card  bg-white p-1'>
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img3} alt="" />
                             <div className='p-2 text-center'>
@@ -47,7 +47,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='card  border-4 border-[#8b9b87] p-1 bg-white'>
+                    <SwiperSlide className='card p-1 bg-white'>
                         <div className=' flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img1} alt="" />
                             <div className='p-2 text-center'>
@@ -56,7 +56,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='card border-4 border-[#8b9b87]  bg-white p-1 '>
+                    <SwiperSlide className='card bg-white p-1 '>
 
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img2} alt="" />
@@ -67,7 +67,7 @@ const Team = () => {
                         </div>
 
                     </SwiperSlide>
-                    <SwiperSlide className='card  border-4 border-[#8b9b87]  bg-white p-1'>
+                    <SwiperSlide className='card bg-white p-1'>
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img3} alt="" />
                             <div className='p-2 text-center'>
@@ -76,7 +76,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='card  border-4 border-[#8b9b87] p-1 bg-white'>
+                    <SwiperSlide className='card p-1 bg-white'>
                         <div className=' flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img1} alt="" />
                             <div className='p-2 text-center'>

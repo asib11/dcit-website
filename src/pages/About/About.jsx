@@ -32,108 +32,188 @@ const About = () => {
                 <h1 className='text-3xl mb-4 text-center font-bold'>Dhaka CentreNIC IT Limited</h1>
                 <p>We, DCIT , have the pleasure to express ourselves as an absolute Software Development company in Dhaka Bangladesh that is specialized for Web development and solution. It is situated in Bangladesh for more than 8 years. We have already achieved our reputation by the completion of numerous successful web projects worldwide. Moreover, we are very prominent by our professional approach to work with and meanwhile we have got certified & for our support and service. The organization is managed and operated by a great Management Board consist of highly professional executives under a operational guidelines. DCIT has grown with time and is being updating itself with the ever changing scenario of the technology enhancement and always keeps a focus on updated technology and tools. The growth of the organization followed the path of getting used to rising Web development needs and solution services in any arena of domestic corporate and International conglomerate which is the integral part of our development planning. DCIT, one of the first generation Web solution service house of Bangladesh, thus survived the test of time and earned experience, institutional strength and a management system which is perfect to understand and interact with any kind of client including government, bilateral even multilateral and also non-governmental bodies and agencies to understand the specific IT needs specially Web functionality and Management Information System (MIS) and contribute to development approaches, implementation and priorities through associating ourselves once and for all with the stages and method of need-driven spheres of IT innovation activities.</p>
             </div>
-            <div className='max-w-7xl mx-auto text-center'>
-                <h1 className='text-3xl mb-6 font-bold'>Our Team Members</h1>
-                <div className='grid grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 gap-10 items-start'>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img1} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Raizul Islam Khan</h3>
-                        <p>Managing Director</p>
+            <div className=' text-center bg-[#e6e7e7] pb-10'>
+                <h1 className='text-3xl py-10 font-bold'>Our Team Members</h1>
+                <div className='max-w-7xl mx-auto grid grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 gap-10 items-start'>
+                    <div className='card  bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img1} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Raizul Islam Khan</h3>
+                                <p>Managing Director</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img2} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Shanta Khan</h3>
-                        <p>Business Consultant</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img2} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Shanta Khan</h3>
+                                <p>Business Consultant</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img3} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Showrav Barua</h3>
-                        <p>Assistant Director & Android Developer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img3} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Showrav Barua</h3>
+                                <p>Assistant Director & Android Developer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img4} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Easteak Nayeem</h3>
-                        <p>Assistant HR</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img4} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Easteak Nayeem</h3>
+                                <p>Assistant HR</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img5} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Mahmudul Hasan</h3>
-                        <p>Software Engineer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img5} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Mahmudul Hasan</h3>
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img6} alt="" />
-                        <h3 className='text-xl font-bold uppercase'>Md. Aktaruzzaman (Ashiqe)</h3>
-                        <p>Head of Software Department</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img6} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-md font-bold uppercase'>Md. Aktaruzzaman(Ashiqe)</h3>
+                                <p>Head of Software Department</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img7} alt="" />
-                        <h3 className='text-xl font-bold'>MD ANWAR HOSSAIN</h3>
-                        <p>Software Engineer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img7} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold'>MD ANWAR HOSSAIN</h3>
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img8} alt="" />
-                        <h3 className='text-2xl font-bold'>ASIB AHMED</h3>
-                        <p>Junior Software Engineer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img8} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold'>ASIB AHMED</h3>
+                                <p>Junior Software Engineer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img20} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Mamun Sabuj</h3>
-                        <p>Junior Software Engineer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img20} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Mamun Sabuj</h3>
+                                <p>Junior Software Engineer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img9} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Jaber Al Nahian</h3>
-                        <p>Junior Software Engineer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img9} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Jaber Al Nahian</h3>
+                                <p>Junior Software Engineer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img10} alt="" />
-                        <h3 className='text-lg font-bold uppercase'>Md. Habibour Siddique</h3>
-                        <p>Junior Software Engineer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img10} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-lg font-bold uppercase'>Md. Habibour Siddique</h3>
+                                <p>Junior Software Engineer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img11} alt="" />
-                        <h3 className='text-lg font-bold uppercase'>Sahinur Rahman Khan</h3>
-                        <p>Junior Programmer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img11} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-lg font-bold uppercase'>Sahinur Rahman Khan</h3>
+                                <p>Junior Programmer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img12} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Sharif Ahmed</h3>
-                        <p>Software Engineer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img12} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Sharif Ahmed</h3>
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img13} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Parvez Ahmed</h3>
-                        <p>Software Engineer (Team Leader)</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img13} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Parvez Ahmed</h3>
+                                <p>Software Engineer (Team Leader)</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img14} alt="" />
-                        <h3 className='text-xl font-bold uppercase'>Md. Rabbir Al-Amin</h3>
-                        <p>Software Engineer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img14} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Md. Rabbir Al-Amin</h3>
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img15} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Md. Kamrul Hasan</h3>
-                        <p>Junior Programmer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img15} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Md. Kamrul Hasan</h3>
+                                <p>Junior Programmer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img16} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Romina Afroze</h3>
-                        <p>Communication Officer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img16} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Romina Afroze</h3>
+                                <p>Communication Officer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img17} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Dipok Kumar Shill</h3>
-                        <p>Marketing Executive Officer</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img17} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Dipok Kumar Shill</h3>
+                                <p>Marketing Executive Officer</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img18} alt="" />
-                        <h3 className='text-2xl font-bold uppercase'>Sajal Mahmud</h3>
-                        <p>Senior Executive</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img18} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Sajal Mahmud</h3>
+                                <p>Senior Executive</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img19} alt="" />
-                        <h3 className='text-xl font-bold uppercase'>Arifunnahar Rumy</h3>
-                        <p>Communication Executive</p>
+                    <div className='card bg-white p-1 '>
+                        <div className='flex flex-col justify-center items-center'>
+                            <img className='mb-2 rounded-lg' src={img19} alt="" />
+                            <div className='p-2 text-center'>
+                                <h3 className='text-xl font-bold uppercase'>Arifunnahar Rumy</h3>
+                                <p>Communication Executive</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
