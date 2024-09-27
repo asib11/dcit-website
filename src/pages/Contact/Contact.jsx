@@ -85,7 +85,7 @@ const Contact = () => {
                             <textarea className="textarea textarea-bordered border-[#399918] w-full h-48" placeholder="Write Here..." name='textArea' required></textarea>
                         </div>
                         <div className="form-control mt-6">
-                            <input className='btn text-xl bg-[#399918] hover:bg-green-600 text-white' type="submit" value="Send" />
+                            <input className='btn text-xl bg-[#399918] hover:bg-lime-600 text-white' type="submit" value="Send" />
                         </div>
                     </form>
 

@@ -7,7 +7,7 @@ import { TbTimeDuration10 } from "react-icons/tb";
 const Courses = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10'>
-            <h3 className='text-5xl text-center font-bold pt-16 mb-6'>Python Development with Django</h3>
+            <h3 className='text-5xl text-center font-bold py-16'>Python Development with Django</h3>
             <div className='flex justify-between gap-6'>
                 <div className='w-2/3 text-justify'>
                     <h4 className='text-2xl my-6 font-semibold'>Overview:</h4>
@@ -101,19 +101,19 @@ const Courses = () => {
                                 <p className='font-bold text-xl'>Graphics Design</p>
                             </div>
                             <div className="">
-                                <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-green-500">View Details</Link>
+                                <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                             </div>
                         </div> */}
                         <div className='px-4 py-3'>
-                            <h2 className='border-[2px] shadow-sm shadow-green-600 border-green-600 text-2xl px-2 py-3 mb-2 text-green-600 rounded-md font-bold'>Offline Course Fee</h2>
-                            <div className='text-xl font-semibold  text-green-600'>
+                            <h2 className='border-[2px] shadow-sm shadow-lime-600 border-lime-600 text-2xl px-2 py-3 mb-2 text-lime-600 rounded-md font-bold'>Offline Course Fee</h2>
+                            <div className='text-xl font-semibold  text-lime-600'>
                                 <p>Regular Fee   : BDT 30,000</p>
                                 <p>Discount Fee : BDT 20,000</p>
                             </div>
                         </div>
                         <div className='px-4 py-3'>
-                            <h2 className='border-[2px] shadow-sm shadow-green-600 border-green-600 text-2xl px-2 py-3 mb-2 text-green-600 rounded-md font-bold'>Online Course Fee</h2>
-                            <div className='text-xl font-semibold  text-green-600'>
+                            <h2 className='border-[2px] shadow-sm shadow-lime-600 border-lime-600 text-2xl px-2 py-3 mb-2 text-lime-600 rounded-md font-bold'>Online Course Fee</h2>
+                            <div className='text-xl font-semibold  text-lime-600'>
                                 <p>Regular Fee   : BDT 30,000</p>
                                 <p>Discount Fee : BDT 20,000</p>
                             </div>
@@ -121,44 +121,44 @@ const Courses = () => {
                         <div>
                             <form action="" className='px-4 py-3'>
                                 <label className='mr-2 text-xl font-semibold'>Course Type</label>
-                                <select className="select select-accent w-sm rounded-none text-xl">
+                                <select className="border-2 border-lime-500 px-3 py-4 w-sm rounded-none text-xl">
                                     <option disabled selected className=''>Choose an option</option>
                                     <option>Offline</option>
                                     <option>Online</option>
                                 </select>
                                 <div className="form-control mt-6">
-                                    <input className='btn bg-[#399918]  hover:bg-green-600 text-white font-bold text-xl' type="submit" value="Add to Card" />
+                                    <input className='btn bg-[#399918]  hover:bg-lime-600 text-white font-bold text-xl' type="submit" value="Add to Card" />
                                 </div>
                             </form>
                         </div>
                         <div>
                             <ul className='px-6 pt-3 pb-10 text-xl mt-6 flex flex-col gap-4'>
                                 <li className='flex items-center '>
-                                    <span className='mr-2'><FaRegChartBar /></span>
+                                    <span className='mr-2'><FaRegChartBar className='text-[#399918]'/></span>
                                     <span> Skill Level: Beginners</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><TbTimeDuration10 /></span>
+                                    <span className='mr-2'><TbTimeDuration10 className='text-[#399918]' /></span>
                                     <span> Duration: 4 Months</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaCalendarDay /></span>
+                                    <span className='mr-2'><FaCalendarDay className='text-[#399918]'/></span>
                                     <span> Class Per Week: 2 Day</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaTag /></span>
+                                    <span className='mr-2'><FaTag className='text-[#399918]' /></span>
                                     <span> Total: 32 Classes</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaCertificate /></span>
+                                    <span className='mr-2'><FaCertificate className='text-[#399918]'/></span>
                                     <span>Certificate: Yes</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaVideo /></span>
+                                    <span className='mr-2'><FaVideo className='text-[#399918]'/></span>
                                     <span> Provide Class Video</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaLanguage /></span>
+                                    <span className='mr-2'><FaLanguage className='text-[#399918]'/></span>
                                     <span> Language: Bangla & English</span>
                                 </li>
                             </ul>
