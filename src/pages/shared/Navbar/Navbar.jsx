@@ -14,7 +14,7 @@ const Navbar = () => {
     const navbarItem = <>
         <li className='hover:bg-green-500 hover:text-white rounded p-2'><Link to={'/'}>Home</Link></li>
         <li className='hover:bg-green-500 hover:text-white rounded p-2'><Link to={'/about'}>About Us</Link></li>
-        <li className="relative group hover:bg-green-500 hover:text-white rounded p-2">
+        <li className="relative group hover:bg-green-500 hover:text-white rounded p-2 ">
             Courses
             <div className='absolute left-0 top-full hidden group-hover:block bg-white text-black min-w-7xl '>
                 <div className='flex bg-white p-10 gap-8 border-t-4 border-green-400'>
@@ -196,7 +196,7 @@ const Navbar = () => {
 
                     </div>
                     <div className="hidden lg:flex w-[90%]">
-                        <ul className="flex gap-10 text-lg font-bold">
+                        <ul className="flex gap-10 text-lg font-bold cursor-pointer">
                             {/* <li><a>Item 1</a></li>
                     <li>
                         <details>

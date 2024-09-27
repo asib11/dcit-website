@@ -89,7 +89,7 @@ const Courses = () => {
                 </div>
                 <div className='w-1/3 flex flex-col gap-6'>
                     {/* <img src={img} alt="" /> */}
-                    <div className="card w-full shadow-2xl">
+                    <div className="card w-full shadow-xl">
                         <figure>
                             <img
                                 src={graphics1}

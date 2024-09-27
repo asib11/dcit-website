@@ -58,7 +58,7 @@ const About = () => {
                             <img className='mb-2 rounded-lg' src={img3} alt="" />
                             <div className='p-2 text-center'>
                                 <h3 className='text-xl font-bold uppercase'>Showrav Barua</h3>
-                                <p>Assistant Director & Android Developer</p>
+                                <p className='text-sm'>Assistant Director & Android Developer</p>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ const About = () => {
                     </div>
                     <div className='card bg-white p-1 '>
                         <div className='flex flex-col justify-center items-center'>
-                            <img className='mb-2 rounded-lg' src={img20} alt="" />
+                            <img className='mb-2 rounded-lg w-full' src={img20} alt="" />
                             <div className='p-2 text-center'>
                                 <h3 className='text-xl font-bold uppercase'>Mamun Sabuj</h3>
                                 <p>Junior Software Engineer</p>
@@ -146,7 +146,7 @@ const About = () => {
                     <div className='card bg-white p-1 '>
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img12} alt="" />
-                            <div className='p-2 text-center'>
+                            <div className='p-2 text-center '>
                                 <h3 className='text-xl font-bold uppercase'>Sharif Ahmed</h3>
                                 <p>Software Engineer</p>
                             </div>
