@@ -134,7 +134,7 @@ const Navbar = () => {
                         Student's Success
                     </Link>
                 </li>
-                <li><Link to='/job' className="block px-4 py-2 hover:bg-lime-500 border-2 hover:text-white">
+                <li><Link to='/expart' className="block px-4 py-2 hover:bg-lime-500 border-2 hover:text-white">
                     Professional Expert Opinion
                 </Link></li>
                 <li><Link to='/job' className="block px-4 py-2 hover:bg-lime-500 border-2 hover:text-white">

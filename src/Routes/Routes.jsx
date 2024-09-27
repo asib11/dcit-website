@@ -15,6 +15,7 @@ import Jobplace from "../pages/Success/Jobplace/Jobplace";
 import Student from "../pages/Success/Student/Student";
 import NewsDetails from "../pages/News/NewsDetails";
 import EventDetails from "../pages/Event/EventDetails";
+import Expart from "../pages/Success/Expart/Expart";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
       {
         path: '/eventdetails',
         element: <EventDetails></EventDetails>,
+      },
+      {
+        path: '/expart',
+        element: <Expart></Expart>,
       },
       {
         path: '/job',

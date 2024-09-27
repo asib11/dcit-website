@@ -89,7 +89,7 @@ const Courses = () => {
                 </div>
                 <div className='w-1/3 flex flex-col gap-6'>
                     {/* <img src={img} alt="" /> */}
-                    <div className="card w-full shadow-xl">
+                    <div className="card w-full shadow-xl rounded-sm">
                         <figure>
                             <img
                                 src={graphics1}
@@ -104,7 +104,7 @@ const Courses = () => {
                                 <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                             </div>
                         </div> */}
-                        <div className='px-4 py-3'>
+                        <div className='px-4 py-3 '>
                             <h2 className='border-[2px] shadow-sm shadow-lime-600 border-lime-600 text-2xl px-2 py-3 mb-2 text-lime-600 rounded-md font-bold'>Offline Course Fee</h2>
                             <div className='text-xl font-semibold  text-lime-600'>
                                 <p>Regular Fee   : BDT 30,000</p>
@@ -132,7 +132,7 @@ const Courses = () => {
                             </form>
                         </div>
                         <div>
-                            <ul className='px-6 pt-3 pb-10 text-xl mt-6 flex flex-col gap-4'>
+                            <ul className='px-6 pt-3 pb-10 text-xl mt-6 flex flex-col gap-4 '>
                                 <li className='flex items-center '>
                                     <span className='mr-2'><FaRegChartBar className='text-[#399918]'/></span>
                                     <span> Skill Level: Beginners</span>
@@ -164,7 +164,7 @@ const Courses = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='bt-card w-full shadow-2xl rounded-xl py-16 flex flex-col justify-center items-center'>
+                    <div className='bt-card w-full shadow-2xl rounded-md py-16 flex flex-col justify-center items-center'>
                         <h3 className='text-3xl text-center font-bold mb-6'>Working Hours</h3>
                         <table className='text-xl border-none'>
                             <tbody className='table border-none flex gap-4 text-xl'>
