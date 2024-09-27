@@ -15,7 +15,7 @@ const News = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <Link to={'/news/newsDetails'} className='text-lime-500 font-semibold'>Read more...</Link>
+                        <Link to={'/newsDetails'} className='text-lime-500 font-semibold'>Read more...</Link>
                         <p className='text-[#f58d5d] font-bold text-lg'>🚨সতর্কতামূলক পোস্ট :</p>
                         {/* <p className='font-bold text-xl'>Graphics Design</p> */}
 
@@ -30,7 +30,7 @@ const News = () => {
                             alt="Shoes" />
                     </figure>
                     <div className="card-body">
-                        <Link to={'/news/newsDetails'} className='text-lime-500 font-semibold'>Read more...</Link>
+                        <Link to={'/newsDetails'} className='text-lime-500 font-semibold'>Read more...</Link>
                         <p className='text-[#f58d5d] font-bold text-lg'>🚨সতর্কতামূলক পোস্ট :</p>
                         {/* <p className='font-bold text-xl'>Graphics Design</p> */}
 
