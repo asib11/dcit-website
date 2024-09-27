@@ -7,7 +7,7 @@ import { TbTimeDuration10 } from "react-icons/tb";
 const Courses = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10'>
-            <h3 className='text-3xl text-center font-bold pt-16 mb-6'>Python Development with Django</h3>
+            <h3 className='text-5xl text-center font-bold pt-16 mb-6'>Python Development with Django</h3>
             <div className='flex justify-between gap-6'>
                 <div className='w-2/3 text-justify'>
                     <h4 className='text-2xl my-6 font-semibold'>Overview:</h4>
