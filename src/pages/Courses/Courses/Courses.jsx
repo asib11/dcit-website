@@ -132,7 +132,7 @@ const Courses = () => {
                             </form>
                         </div>
                         <div>
-                            <ul className='px-4 py-3 text-xl mt-6 flex flex-col gap-4'>
+                            <ul className='px-6 pt-3 pb-10 text-xl mt-6 flex flex-col gap-4'>
                                 <li className='flex items-center '>
                                     <span className='mr-2'><FaRegChartBar /></span>
                                     <span> Skill Level: Beginners</span>
