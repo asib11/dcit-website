@@ -13,11 +13,11 @@ const Event = () => {
                     <strong className='text-2xl'>11</strong>
                     <span>2024</span>
                 </time>
-                <div className='flex w-5/6 border-l-[6px] border-lime-500 pl-4'>
+                <div className='flex w-5/6 border-l-[6px] border-lime-400 pl-4'>
                     <div className='w-2/3'>
                         <div className='flex items-center'>
                             <span className='mr-2 text-lime-500'><FaBookmark  /></span>
-                            <span className='mr-4 font-semibold text-lime-700 '>Featured</span>
+                            <span className='mr-4 font-semibold text-lime-800 '>Featured</span>
                             <time datetime="">
                                 <span>July 11/10:00 AM - 5:00 PM</span>
                             </time>
