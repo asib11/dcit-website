@@ -6,7 +6,7 @@ import {  FaArrowLeft} from "react-icons/fa";
 const EventDetails = () => {
     return (
         <div className='max-w-7xl mx-auto pt-16'>
-            <p className='flex items-center gap-2 text-3xl font-bold mb-6'> <FaArrowLeft/> All Event</p>
+            <Link to={'/event'}><p className='flex items-center gap-2 text-3xl font-bold mb-6 hover:text-red-500'> <FaArrowLeft/> All Event</p></Link>
             <p className='text-2xl mb-4'>This event has passed.</p>
             <hr className='divide-y divide-gray-400 border-2' />
             <div>

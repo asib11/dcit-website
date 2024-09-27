@@ -1,10 +1,13 @@
 import React from 'react';
 import img from '../../assets/logo.png'
+import { Link } from 'react-router-dom';
+import {  FaArrowLeft} from "react-icons/fa";
 
 const NewsDetails = () => {
     return (
         <div className='max-w-7xl mx-auto pb-10'>
-            <h1 className='text-5xl font-bold pt-16 mb-6 '>🚨সতর্কতামূলক পোস্ট :</h1>
+            <Link to={'/news'}><p className='flex items-center gap-2 text-3xl font-bold mb-6 py-16 hover:text-red-500'> <FaArrowLeft/> All News</p></Link>
+            <h1 className='text-5xl font-bold mb-6 '>🚨সতর্কতামূলক পোস্ট :</h1>
             <div className='flex gap-8'>
                 <div className='w-1/2 text-justify'>
                     <ul className='list-disc pt-6'>
