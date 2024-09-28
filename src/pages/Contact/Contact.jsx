@@ -91,7 +91,7 @@ const Contact = () => {
 
                 </div>
                 <div className='lg:w-1/4'>
-                    <div className='p-6 lg:pl-12 grid lg:grid-cols-4 max-lg:grid-cols-2 max-lg:gap-4 lg:gap-8'>
+                    <div className='p-6 lg:pl-12 grid lg:grid-cols-1 max-lg:grid-cols-2 max-lg:gap-4 lg:gap-8'>
                         <div className='flex '>
                             <MapPinIcon className='max-lg:size-6 lg:size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
@@ -114,7 +114,7 @@ const Contact = () => {
 
                         </div>
                         <div className='flex'>
-                            <EnvelopeIcon className='max-lg:size-4 lg:size-8 rounded-full border-2 p-3 text-[#399918] border-[#399918] mr-6' />
+                            <EnvelopeIcon className='max-lg:size-4 lg:size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
                                 <h3 className='font-bold max-lg:text-[14px] lg:text-xl mb-2'>Email</h3>
                                 <Link to='mailto:dcitltd2022@gmail.com'><p className='hover:text-[#399918] text-sm'>dcitltd2022@gmail.com</p></Link>
