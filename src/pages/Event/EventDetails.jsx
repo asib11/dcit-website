@@ -5,21 +5,21 @@ import {  FaArrowLeft} from "react-icons/fa";
 
 const EventDetails = () => {
     return (
-        <div className='max-w-7xl mx-auto pt-16'>
-            <Link to={'/event'}><p className='flex items-center gap-2 text-3xl font-bold mb-6 hover:text-red-500'> <FaArrowLeft/> All Event</p></Link>
-            <p className='text-2xl mb-4'>This event has passed.</p>
+        <div className='max-w-7xl mx-auto pt-16 max-xl:p-4'>
+            <Link to={'/event'}><p className='flex max-xl:p-4 items-center gap-2 max-lg:text-xl lg:text-3xl font-bold mb-6 hover:text-red-500'> <FaArrowLeft/> All Event</p></Link>
+            <p className='max-lg:text-lg lg:text-2xl max-xl:p-4 mb-4'>This event has passed.</p>
             <hr className='divide-y divide-gray-400 border-2' />
-            <div>
-                <h2 className='text-5xl font-bold  my-10'>Orientation Programme 2024</h2>
+            <div className='max-xl:p-4'>
+                <h2 className='max-lg:text-3xl lg:text-5xl font-bold  my-10'>Orientation Programme 2024</h2>
                 <p className='mb-10 text-lg text-gray-500'>June 23/10:00 AM - 5:00 PM</p>
                 <div className=''>
-                    <img src={img} className='w-full ' alt="" />
+                    <img src={img} className='w-full' alt="" />
                 </div>
-                <p className='my-12 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptas totam itaque dolorem explicabo reiciendis quod facilis enim, at et natus adipisci omnis quia repudiandae consequuntur amet maiores laborum alias?</p>
+                <p className='my-12 text-xl text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptas totam itaque dolorem explicabo reiciendis quod facilis enim, at et natus adipisci omnis quia repudiandae consequuntur amet maiores laborum alias?</p>
             </div>
             <hr className='divide-y divide-gray-400 border-2' />
-            <div className='flex py-12'>
-                <div className='flex flex-col gap-6 mr-10'>
+            <div className='flex py-12 max-xl:p-4'>
+                <div className='flex flex-col max-lg:gap-3 lg:gap-6'>
                     <h4 className='text-xl uppercase'><strong>Organizer</strong></h4>
                     <div>
                         <p> <strong>Date:</strong> </p>

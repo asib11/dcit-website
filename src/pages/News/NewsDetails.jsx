@@ -5,12 +5,12 @@ import {  FaArrowLeft} from "react-icons/fa";
 
 const NewsDetails = () => {
     return (
-        <div className='max-w-7xl mx-auto pb-10'>
+        <div className='max-w-7xl mx-auto pb-10 max-xl:p-4'>
             <Link to={'/news'}><p className='flex items-center gap-2 text-3xl font-bold mb-6 py-16 hover:text-red-500'> <FaArrowLeft/> All News</p></Link>
-            <h1 className='text-5xl font-bold mb-6 '>🚨সতর্কতামূলক পোস্ট :</h1>
-            <div className='flex gap-8'>
-                <div className='w-1/2 text-justify'>
-                    <ul className='list-disc pt-6'>
+            <h1 className='max-lg:text-3xl lg:text-5xl font-bold mb-6 '>🚨সতর্কতামূলক পোস্ট :</h1>
+            <div className='flex max-lg:flex-col-reverse gap-8'>
+                <div className='lg:w-1/2 text-justify'>
+                    <ul className='list-disc pt-6 pl-6'>
                         <li>
                             <p>
                                 সমসাময়িক সময়ে পরিবেশে তাপমাত্রা অত্যধিক বৃদ্ধির কারণে আপনার ব্যবহৃত গাড়িতে সর্বোচ্চ সীমা পর্যন্ত জ্বালানি তেল ভরবেন না। অনুগ্রহপূর্বক আপনার জ্বালানি ট্যাংকের অর্ধেক পূর্ণ করুন এবং বাতাসের জন্য কিছু জায়গা রেখে দেন। দিনে একবার করে জ্বালানি ট্যাংক খুলুন এবং ভিতরে উৎপন্ন গ্যাস বের হয়ে আসতে সাহায্য করুন।
@@ -26,7 +26,7 @@ const NewsDetails = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='w-1/2'>
+                <div className='lg:w-1/2'>
                     <img
                         className='w-full p-1 rounded-sm'
                         src={img}

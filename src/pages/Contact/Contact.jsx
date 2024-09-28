@@ -43,8 +43,8 @@ const Contact = () => {
 
     return (
         <div className=' mt-16'>
-            <h2 className=' text-5xl text-center font-extrabold my-16' data-aos="zoom-in-up">Contact Us</h2>
-            <div className='max-w-7xl mx-auto flex flex-col-reverse lg:flex lg:flex-row justify-center items-center'>
+            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-16' data-aos="zoom-in-up">Contact Us</h2>
+            <div className='max-w-7xl mx-auto flex flex-col lg:flex lg:flex-row justify-center items-center'>
                 <div className='lg:w-3/4 flex flex-col p-6 lg:p-0' >
                     <form onSubmit={contactInfo}>
                         <div className='flex gap-4'>
@@ -91,11 +91,11 @@ const Contact = () => {
 
                 </div>
                 <div className='lg:w-1/4'>
-                    <div className='p-6 lg:pl-12 flex flex-row lg:flex-col flex-wrap gap-8'>
+                    <div className='p-6 lg:pl-12 grid lg:grid-cols-4 max-lg:grid-cols-2 max-lg:gap-4 lg:gap-8'>
                         <div className='flex '>
-                            <MapPinIcon className='size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
+                            <MapPinIcon className='max-lg:size-6 lg:size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
-                                <h3 className='font-bold text-xl mb-2'>Address</h3>
+                                <h3 className='font-bold max-lg:text-[14px] lg:text-xl mb-2'>Address</h3>
                                 <p className='text-sm'>
                                     Doyel S.A. Tower 220/A/1, <br />
                                     South Pirerbag, Amtola, 60 feet,<br />
@@ -105,25 +105,25 @@ const Contact = () => {
                         </div>
                         <div className='flex'>
 
-                            <DevicePhoneMobileIcon className='size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
+                            <DevicePhoneMobileIcon className='max-lg:size-6 lg:size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
-                                <h3 className='font-bold text-xl mb-2' >Call Us</h3>
+                                <h3 className='font-bold max-lg:text-[14px] lg:text-xl mb-2' >Call Us</h3>
                                 <Link to={'tel:+8801710822207'}><p className='hover:text-[#399918] text-sm'>+8801710-822207</p></Link>
                                 <Link to={'tel:+8801872884988'}><p className='hover:text-[#399918] text-sm'>+8801872-884988</p></Link>
                             </div>
 
                         </div>
                         <div className='flex'>
-                            <EnvelopeIcon className='size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
+                            <EnvelopeIcon className='max-lg:size-4 lg:size-8 rounded-full border-2 p-3 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
-                                <h3 className='font-bold text-xl mb-2'>Email</h3>
+                                <h3 className='font-bold max-lg:text-[14px] lg:text-xl mb-2'>Email</h3>
                                 <Link to='mailto:dcitltd2022@gmail.com'><p className='hover:text-[#399918] text-sm'>dcitltd2022@gmail.com</p></Link>
                             </div>
                         </div>
                         <div className='flex'>
-                            <ClockIcon className='size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
+                            <ClockIcon className='max-lg:size-6 lg:size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
-                                <h3 className='font-bold text-xl mb-2'>Work Hours</h3>
+                                <h3 className='font-bold max-lg:text-[14px] lg:text-xl mb-2'>Work Hours</h3>
                                 <p className='text-sm'>
                                     Monday - Sunday <br />
                                     10AM - 09PM

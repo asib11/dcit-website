@@ -7,7 +7,7 @@ const News = () => {
         <div className='bg-[#e6e7e7]'>
             <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold pt-16 mb-6 '>News</h1>
             <div className='grid grid-cols-1 justify-items-center gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20'>
-                <div onClick={''} className="card w-96 shadow-xl rounded-sm bg-white">
+                <div onClick={''} className="card w-[90%] shadow-xl rounded-sm bg-white">
                     <figure>
                         <img
                             className='w-full p-1 rounded-sm'
@@ -22,7 +22,7 @@ const News = () => {
                     </div>
                     <p className='border-t-2 px-8 py-4'>11<sup>th</sup> July 2024</p>
                 </div>
-                <div onClick={''} className="card w-96 shadow-xl rounded-sm bg-white">
+                <div onClick={''} className="card w-[90%] shadow-xl rounded-sm bg-white">
                     <figure>
                         <img
                             className='w-full p-1 rounded-sm'
@@ -37,7 +37,7 @@ const News = () => {
                     </div>
                     <p className='border-t-2 px-8 py-4'>11<sup>th</sup> July 2024</p>
                 </div>
-                <div onClick={''} className="card w-96 shadow-xl rounded-sm bg-white">
+                <div onClick={''} className="card w-[90%] shadow-xl rounded-sm bg-white">
                     <figure>
                         <img
                             className='w-full p-1 rounded-sm'

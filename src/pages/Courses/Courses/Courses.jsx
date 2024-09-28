@@ -87,7 +87,7 @@ const Courses = () => {
                         </div>
                     </div>
                 </div>
-                <div className='lg:w-1/3 flex flex-col  gap-6'>
+                <div className='lg:w-1/3 flex flex-col gap-6'>
                     {/* <img src={img} alt="" /> */}
                     <div className="card w-full shadow-xl rounded-sm">
                         <figure>
@@ -166,7 +166,7 @@ const Courses = () => {
                     </div>
                     <div className='bt-card w-full shadow-2xl rounded-md max-lg:py-10 lg:py-16 flex flex-col justify-center items-center'>
                         <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold max-lg:mb-3 lg:mb-6'>Working Hours</h3>
-                        <table className='lg:text-xl border-none'>
+                        <table className='max-lg:text-[10px] lg:text-xl border-none'>
                             <tbody className='table border-none flex max-lg:gap-2 lg:gap-4 max-lg:text-[10px] lg:text-xl'>
                                 <tr>
                                     <td>Monday</td>
