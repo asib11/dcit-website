@@ -1,39 +1,47 @@
 import React from 'react';
-import logo from '../../../assets/logo.png'
-import footImage from '../../../assets/SSLCOMMERZ-Pay-With-logo-All-Size_Aug-21-02-2048x240.png.webp'
+// import logo from '../../../assets/logo.png'
+// import footImage from '../../../assets/SSLCOMMERZ-Pay-With-logo-All-Size_Aug-21-02-2048x240.png.webp'
 import { DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon, ClockIcon } from '@heroicons/react/24/solid'
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
-        <div className='bg-[#f4f4f4] h-screen'>
+        <div className='bg-[#f4f4f4]'>
             <div className=' px-[20px] py-[60px] max-w-7xl mx-auto'>
-                <div className=' flex justify-between flex-wrap'>
+                <div className='grid max-lg:grid-cols-2 lg:grid-flow-col justify-items-center max-lg:gap-6'>
                     <div>
-                        <MapPinIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
-                        <h3 className='font-extrabold text-3xl my-2'>Address</h3>
-                        <p className='text-lg'>
+                        <div className='max-lg:flex max-lg:mb-3 max-lg:items-center'>
+                            <MapPinIcon className='max-lg:size-8 lg:size-12 rounded-full max-lg:border-2 lg:border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                            <h3 className='font-extrabold max-md:text-[16px] max-lg:text-xl lg:text-3xl my-2'>Address</h3>
+                        </div>
+                        <p className='max-md:text-[12px] max-lg:text-sm lg:text-lg'>
                             Doyel S.A. Tower 220/A/1, <br />
                             South Pirerbag, Amtola, 60 feet,<br />
                             Mirpur - 2, Dhaka-1216
                         </p>
                     </div>
                     <div>
-                        <DevicePhoneMobileIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
-                        <h3 className='font-extrabold text-3xl my-2' >Call Us</h3>
-                        <Link to={'tel:+8801710822207'}><p className='hover:text-[#399918] text-lg'>+8801710-822207</p></Link>
-                        <Link to={'tel:+8801872884988'}><p className='hover:text-[#399918] text-lg'>+8801872-884988</p></Link>
+                        <div className='max-lg:flex max-lg:mb-3 max-lg:items-center'>
+                            <DevicePhoneMobileIcon className='max-lg:size-8 lg:size-12 rounded-full max-lg:border-2 lg:border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                            <h3 className='font-extrabold max-md:text-[16px] max-lg:text-xl lg:text-3xl my-2'>Call Us</h3>
+                        </div>
+                        <Link to={'tel:+8801710822207'}><p className='hover:text-[#399918] max-md:text-[12px] max-lg:text-sm lg:text-lg'>+8801710-822207</p></Link>
+                        <Link to={'tel:+8801872884988'}><p className='hover:text-[#399918] max-md:text-[12px] max-lg:text-sm lg:text-lg'>+8801872-884988</p></Link>
                     </div>
                     <div>
-                        <EnvelopeIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
-                        <h3 className='font-extrabold text-3xl my-2'>Email</h3>
-                        <Link to='mailto:dcitltd2022@gmail.com'><p className='hover:text-[#399918] text-lg'>dcitltd2022@gmail.com</p></Link>
+                        <div className='max-lg:flex max-lg:mb-3 max-lg:items-center'>
+                            <EnvelopeIcon className='max-lg:size-8 lg:size-12 rounded-full max-lg:border-2 lg:border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                            <h3 className='font-extrabold max-md:text-[16px] max-lg:text-xl lg:text-3xl my-2'>Email</h3>
+                        </div>
+                        <Link to='mailto:dcitltd2022@gmail.com'><p className='hover:text-[#399918] max-md:text-[12px] max-lg:text-sm lg:text-lg'>dcitltd2022@gmail.com</p></Link>
                     </div>
                     <div>
-                        <ClockIcon className='size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6' />
-                        <h3 className='font-extrabold text-3xl my-2'>Work Hours</h3>
-                        <p className='text-lg'>
+                    <div className='max-lg:flex max-lg:mb-3 max-lg:items-center'>
+                            <ClockIcon className='max-lg:size-8 lg:size-12 rounded-full max-lg:border-2 lg:border-4 p-1 text-[#399918] border-[#399918] mr-6' />
+                            <h3 className='font-extrabold max-md:text-[16px] max-lg:text-xl lg:text-3xl my-2'>Work Hours</h3>
+                        </div>
+                        <p className='max-md:text-[12px] max-lg:text-sm lg:text-lg'>
                             Monday - Sunday <br />
                             10AM - 09PM
                         </p>

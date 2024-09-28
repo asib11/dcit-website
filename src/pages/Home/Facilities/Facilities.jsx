@@ -12,7 +12,7 @@ const Facilities = () => {
     )
     return (
         <div className=' py-20'>
-            <h2 className=' text-5xl text-center font-extrabold  pt-6 pb-20' data-aos="zoom-in-down">Our Facilities</h2>
+            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold  pt-6 pb-20' data-aos="zoom-in-down">Our Facilities</h2>
             <div className='grid grid-cols-1 md:gird md:grid-cols-2 lg:gird lg:grid-cols-3  gap-8 max-w-7xl mx-auto text-justify ' data-aos="fade-up">
                 <div className='md:p-10 sm:p-6 p-10 shadow-xl rounded-md' >
                     <ClockIcon className='size-12 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />

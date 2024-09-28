@@ -12,10 +12,10 @@ const Recommed = () => {
     )
     return (
         <div className=''>
-            <h3 className='text-3xl text-center font-bold pt-16 ' data-aos="zoom-in-down">RECOMMENDED</h3>
-            <h2 className=' text-5xl text-center font-extrabold my-6' data-aos="zoom-in-up">Course Programs</h2>
-            <div className='grid grid-cols-1 justify-items-center gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md" >
+            <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16 ' data-aos="zoom-in-down">RECOMMENDED</h3>
+            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6' data-aos="zoom-in-up">Course Programs</h2>
+            <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
                     <figure>
                         <img
                             src={graphics1}
@@ -23,7 +23,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -31,7 +31,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -39,7 +39,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -47,7 +47,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -55,7 +55,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -63,7 +63,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -71,7 +71,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -79,7 +79,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -87,7 +87,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -95,7 +95,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -103,7 +103,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -111,7 +111,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -119,7 +119,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -127,7 +127,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -135,7 +135,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -143,7 +143,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -151,7 +151,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -159,7 +159,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -167,7 +167,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -175,7 +175,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -183,7 +183,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">
@@ -191,7 +191,7 @@ const Recommed = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" className="card bg-base-100 w-96 shadow-xl rounded-md">
+                <div data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md">
                     <figure>
                         <img
                             src={graphics1}
@@ -199,7 +199,7 @@ const Recommed = () => {
                     </figure>
                     <div className="flex mt-6 p-4 justify-between items-center">
                         <div>
-                            <p className='text-[#f58d5d] font-bold text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
+                            <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>৳ 10,000.00 – ৳ 12,500.00</p>
                             <p className='font-bold text-xl'>Graphics Design</p>
                         </div>
                         <div className="">

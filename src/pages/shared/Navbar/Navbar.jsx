@@ -196,7 +196,7 @@ const Navbar = () => {
 
                     </div>
                     <div className="hidden lg:flex w-[90%]">
-                        <ul className="flex gap-10 text-lg font-bold cursor-pointer">
+                        <ul className="flex lg:gap-4 max-lg:text-sm lg:text-lg font-bold cursor-pointer">
                             {/* <li><a>Item 1</a></li>
                     <li>
                         <details>

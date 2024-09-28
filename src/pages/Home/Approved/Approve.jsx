@@ -15,11 +15,11 @@ const Approve = () => {
         }, []
     )
     return (
-        <div className='bg-[#e6e7e7] p-16'>
-            <div className='flex justify-center gap-16 max-w-7xl mx-auto flex-wrap max-[992px]:gap-6'>
-                <div className='w-96 rounded-md bg-white p-1' data-aos="flip-left">
-                    <div className=' rounded-md bg-white px-5 py-3 font-bold h-full'>
-                        <h3 className='text-3xl font-bold mb-6 text-center'>Collaboration with</h3>
+        <div className='bg-[#e6e7e7] px-4 py-16'>
+            <div className='flex max-md:flex-col justify-center max-lg:gap-8 lg:gap-16 max-w-7xl mx-auto'>
+                <div className='md:w-1/3 rounded-md bg-white p-1' data-aos="flip-left">
+                    <div className='w-full rounded-md bg-white px-5 py-3 font-bold h-full'>
+                        <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Collaboration with</h3>
                         <div className='flex flex-col justify-center items-center'><img src={collaboration2} alt="" />
                             <img src={collaboration1} alt="" />
                         </div>
@@ -32,9 +32,9 @@ const Approve = () => {
                         <img src={approve1} alt="" />
                     </div>
                 </div> */}
-                <div className='w-96 rounded-md bg-white p-1' data-aos="flip-left">
-                    <div className=' rounded-md bg-white px-5 py-3 font-bold h-full '>
-                        <h3 className='text-3xl font-bold mb-6 text-center'>Approved by</h3>
+                <div className='md:w-1/3 rounded-md bg-white p-1' data-aos="flip-left">
+                    <div className='w-full rounded-md bg-white px-5 py-3 font-bold'>
+                        <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Approved by</h3>
                         <div className='flex justify-center items-center'>
                             <img  src={approve1} alt="" />
                             {/* <img src={collaboration1} alt="" /> */}
@@ -49,12 +49,12 @@ const Approve = () => {
                         <img src={member3} alt="" />
                     </div>
                 </div> */}
-                <div className='w-96 rounded-md bg-white p-1' data-aos="flip-left">
-                    <div className=' rounded-md bg-white px-5 py-3 font-bold'>
-                        <h3 className='text-3xl font-bold mb-6 text-center'>Member of</h3>
+                <div className='md:w-1/3 rounded-md bg-white p-1' data-aos="flip-left">
+                    <div className='w-full rounded-md bg-white px-5 py-3 font-bold'>
+                        <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Member of</h3>
                         <div className='flex flex-col justify-center items-center'>
                             <img src={member1} alt="" />
-                            <div className='w-80'><img src={member2} alt="" /></div>
+                            <div className=''><img src={member2} alt="" /></div>
                             <img src={member3} alt="" />
                         </div>
                     </div>

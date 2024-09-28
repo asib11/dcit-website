@@ -8,7 +8,7 @@ const Courses = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10'>
             <h3 className='text-5xl text-center font-bold py-16'>Python Development with Django</h3>
-            <div className='flex flex-col lg:justify-between gap-6 lg:p-14 m-6 lg:m-0'>
+            <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row lg:justify-between gap-6 lg:p-14 m-6 lg:m-0'>
                 <div className='lg:w-2/3 text-justify '>
                     <h4 className='text-2xl my-6 font-semibold'>Overview:</h4>
                     <p className='text-xl'>
@@ -30,7 +30,7 @@ const Courses = () => {
                     <h4 className='text-2xl my-6 font-semibold'>
                         Modules
                     </h4>
-                    <ul className='text-xl list-disc'>
+                    <ul className='text-xl list-disc pl-4'>
                         <li>Python Basic</li>
                         <li>Python Data Structure</li>
                         <li>Online Task</li>
@@ -62,7 +62,7 @@ const Courses = () => {
                         <li>Final Project &amp; Viva</li>
                     </ul>
                     <h4 className='text-2xl my-6 font-semibold'>Highlight</h4>
-                    <ul className='text-xl list-disc'>
+                    <ul className='text-xl list-disc pl-4'>
                         <li>Dynamic Website Development</li>
                         <li>Web Application Development</li>
                         <li>Web Security</li>
@@ -73,21 +73,21 @@ const Courses = () => {
                         <li>Project</li>
                         <li>Online Market Place Strategy</li>
                     </ul>
-                    <div className='flex gap-8'>
+                    <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row gap-8'>
                         <div>
                             <h4 className='text-2xl my-6 font-semibold'>Software Taught</h4>
-                            <ul className='text-xl list-disc'>
+                            <ul className='text-xl list-disc pl-4'>
                                 <li>Notepad/ Notepad++/ NetBeans/ Sublime/ VS Code/ Brackets</li><li>Firebug ( Browser Inspect Element)</li><li>Web Browsers ( Chrome, Firefox, Safari, Edge)</li><li>Web Server (Apache, Xampp, Wamp)</li><li>Pycharm</li><li>Sublime</li>
                             </ul>
                         </div>
                         <div>
                             <h4 className='text-2xl my-6 font-semibold'>Career Opportunity:</h4>
                             <p className='text-xl'>After course completion, students can get jobs as:</p>
-                            <ul className='text-xl list-disc'><li>Python Developer</li><li>Django Web Developer</li><li>Web Scraper</li><li>Machine Learning Developer</li><li>Research Assistant</li><li>Data Analyst</li></ul>
+                            <ul className='text-xl list-disc pl-4'><li>Python Developer</li><li>Django Web Developer</li><li>Web Scraper</li><li>Machine Learning Developer</li><li>Research Assistant</li><li>Data Analyst</li></ul>
                         </div>
                     </div>
                 </div>
-                <div className='lg:w-1/3 flex flex-col gap-6'>
+                <div className='lg:w-1/3 flex flex-col  gap-6'>
                     {/* <img src={img} alt="" /> */}
                     <div className="card w-full shadow-xl rounded-sm">
                         <figure>
