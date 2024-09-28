@@ -12,9 +12,9 @@ const Team = () => {
     return (
         <div className='bg-[#e6e7e7]'>
             <div className='max-w-7xl mx-auto py-20 '>
-                <h2 className=' text-5xl text-center font-extrabold pt-6 pb-20'>Our Support Team</h2>
+                <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20'>Our Support Team</h2>
                 <Swiper
-                    slidesPerView={4}
+                    slidesPerView={3}
                     spaceBetween={30}
                     freeMode={true}
                     autoplay={{
@@ -32,7 +32,7 @@ const Team = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img2} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Raizul Islam Khan</h3>
+                                <h3 className='max-lg:text-[16px] lg:text-xl font-bold uppercase'>Raizul Islam Khan</h3>
                                 <p>Managing Director</p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Team = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img3} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>MD ANWAR HOSSAIN</h3>
+                                <h3 className='max-lg:text-[16px] lg:text-xl font-bold uppercase'>MD ANWAR HOSSAIN</h3>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const Team = () => {
                         <div className=' flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img1} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>ASIB AHMED</h3>
+                                <h3 className='max-lg:text-[16px] lg:text-xl font-bold uppercase'>ASIB AHMED</h3>
                                 <p>Junior Software Engineer</p>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const Team = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img2} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Raizul Islam Khan</h3>
+                                <h3 className='max-lg:text-[16px] lg:text-xl font-bold uppercase'>Raizul Islam Khan</h3>
                                 <p>Managing Director</p>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const Team = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img3} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>MD ANWAR HOSSAIN</h3>
+                                <h3 className='max-lg:text-[16px] lg:text-xl font-bold uppercase'>MD ANWAR HOSSAIN</h3>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ const Team = () => {
                         <div className=' flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img1} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>ASIB AHMED</h3>
+                                <h3 className='max-lg:text-[16px] lg:text-xl font-bold uppercase'>ASIB AHMED</h3>
                                 <p>Junior Software Engineer</p>
                             </div>
                         </div>
