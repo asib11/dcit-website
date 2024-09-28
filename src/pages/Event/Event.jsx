@@ -7,13 +7,13 @@ const Event = () => {
     return (
         <div className='max-w-7xl mx-auto'>
             <h1 className='text-3xl font-bold mt-10 mb-6'>Latest Past Events</h1>
-            <div className='flex py-16 '>
+            <div className='flex flex-col lg:flex-row justify-center items-center py-16 '>
                 <time datetime="" className='flex flex-col w-1/6  text-center'>
                     <span>July</span>
                     <strong className='text-2xl'>11</strong>
                     <span>2024</span>
                 </time>
-                <div className='flex w-5/6 border-l-[6px] border-lime-400 pl-4'>
+                <div className='flex w-5/6 border-t-[6px] lg:border-t-0 mt-4 pt-4 lg:mt-0 lg:pt-0 lg:border-l-[6px] border-lime-400 pl-4'>
                     <div className='w-2/3'>
                         <div className='flex items-center'>
                             <span className='mr-2 text-lime-500'><FaBookmark /></span>

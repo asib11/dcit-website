@@ -7,7 +7,7 @@ const VideoAdd = () => {
             <div className=' bg-gray-200'>
                 <div className='max-w-7xl mx-auto pb-16'>
                     <h3 className='text-5xl text-center font-bold py-16'>Our Student's Video Feedback</h3>
-                    <div className='grid grid-cols-2 justify-items-center gap-y-16'>
+                    <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 justify-items-center gap-y-16'>
                         <div className=''>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/kjx_8jE6jJc?si=_p20n-CHoITtoxzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>

@@ -8,8 +8,8 @@ const Courses = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10'>
             <h3 className='text-5xl text-center font-bold py-16'>Python Development with Django</h3>
-            <div className='flex justify-between gap-6'>
-                <div className='w-2/3 text-justify'>
+            <div className='flex flex-col lg:justify-between gap-6 lg:p-14 m-6 lg:m-0'>
+                <div className='lg:w-2/3 text-justify '>
                     <h4 className='text-2xl my-6 font-semibold'>Overview:</h4>
                     <p className='text-xl'>
                         Python has become very popular because it’s easy to understand, has easy syntax, and portability, and is easy to learn. Python is used for multiple purposes ranging from web development to data science to DevOps. Python can be used for data analysis, Machine Learning. Web Development, Automation, Scripting, Software Testing, and everyday tasks. Companies like Instagram, Youtube, and Spotify are built with Python.
@@ -87,7 +87,7 @@ const Courses = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-1/3 flex flex-col gap-6'>
+                <div className='lg:w-1/3 flex flex-col gap-6'>
                     {/* <img src={img} alt="" /> */}
                     <div className="card w-full shadow-xl rounded-sm">
                         <figure>

@@ -44,8 +44,8 @@ const Contact = () => {
     return (
         <div className=' mt-16'>
             <h2 className=' text-5xl text-center font-extrabold my-16' data-aos="zoom-in-up">Contact Us</h2>
-            <div className='max-w-7xl mx-auto flex'>
-                <div className='w-3/4 flex flex-col' >
+            <div className='max-w-7xl mx-auto flex flex-col-reverse lg:flex lg:flex-row justify-center items-center'>
+                <div className='lg:w-3/4 flex flex-col p-6 lg:p-0' >
                     <form onSubmit={contactInfo}>
                         <div className='flex gap-4'>
                             <div className=''>
@@ -90,9 +90,9 @@ const Contact = () => {
                     </form>
 
                 </div>
-                <div className='w-1/4'>
-                    <div className='pl-12 flex flex-col gap-8'>
-                        <div className='flex'>
+                <div className='lg:w-1/4'>
+                    <div className='p-6 lg:pl-12 flex flex-row lg:flex-col flex-wrap gap-8'>
+                        <div className='flex '>
                             <MapPinIcon className='size-8 rounded-full border-2 p-1 text-[#399918] border-[#399918] mr-6' />
                             <div className='flex flex-col'>
                                 <h3 className='font-bold text-xl mb-2'>Address</h3>
