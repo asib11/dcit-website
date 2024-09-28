@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const News = () => {
     return (
         <div className='bg-[#e6e7e7]'>
-            <h1 className='text-5xl text-center font-bold pt-16 mb-6 '>News</h1>
+            <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold pt-16 mb-6 '>News</h1>
             <div className='grid grid-cols-1 justify-items-center gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20'>
                 <div onClick={''} className="card w-96 shadow-xl rounded-sm bg-white">
                     <figure>

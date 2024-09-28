@@ -7,10 +7,10 @@ import { TbTimeDuration10 } from "react-icons/tb";
 const Courses = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10'>
-            <h3 className='text-5xl text-center font-bold py-16'>Python Development with Django</h3>
+            <h3 className='max-lg:text-3xl lg:text-5xl text-center font-bold max-lg:py-8 lg:py-16'>Python Development with Django</h3>
             <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row lg:justify-between gap-6 lg:p-14 m-6 lg:m-0'>
                 <div className='lg:w-2/3 text-justify '>
-                    <h4 className='text-2xl my-6 font-semibold'>Overview:</h4>
+                    <h4 className='text-2xl lg:my-6 font-semibold'>Overview:</h4>
                     <p className='text-xl'>
                         Python has become very popular because it’s easy to understand, has easy syntax, and portability, and is easy to learn. Python is used for multiple purposes ranging from web development to data science to DevOps. Python can be used for data analysis, Machine Learning. Web Development, Automation, Scripting, Software Testing, and everyday tasks. Companies like Instagram, Youtube, and Spotify are built with Python.
                     </p>
@@ -105,34 +105,34 @@ const Courses = () => {
                             </div>
                         </div> */}
                         <div className='px-4 py-3 '>
-                            <h2 className='border-[2px] shadow-sm shadow-lime-600 border-lime-600 text-2xl px-2 py-3 mb-2 text-lime-600 rounded-md font-bold'>Offline Course Fee</h2>
-                            <div className='text-xl font-semibold  text-lime-600'>
-                                <p>Regular Fee   : BDT 30,000</p>
-                                <p>Discount Fee : BDT 20,000</p>
+                            <h2 className='border-[2px] shadow-sm shadow-lime-600 border-lime-600 lg:text-2xl px-2 py-3 mb-2 text-lime-600 rounded-md font-bold'>Offline Course Fee</h2>
+                            <div className='max-lg:text-sm lg:text-xl font-semibold  text-lime-600'>
+                                <p>Regular Fee : BDT 30,000</p>
+                                <p>Discount Fee: BDT 20,000</p>
                             </div>
                         </div>
                         <div className='px-4 py-3'>
-                            <h2 className='border-[2px] shadow-sm shadow-lime-600 border-lime-600 text-2xl px-2 py-3 mb-2 text-lime-600 rounded-md font-bold'>Online Course Fee</h2>
-                            <div className='text-xl font-semibold  text-lime-600'>
-                                <p>Regular Fee   : BDT 30,000</p>
-                                <p>Discount Fee : BDT 20,000</p>
+                            <h2 className='border-[2px] shadow-sm shadow-lime-600 border-lime-600 lg:text-2xl px-2 py-3 mb-2 text-lime-600 rounded-md font-bold'>Online Course Fee</h2>
+                            <div className='max-lg:text-sm lg:text-xl font-semibold  text-lime-600'>
+                                <p>Regular Fee : BDT 30,000</p>
+                                <p>Discount Fee: BDT 20,000</p>
                             </div>
                         </div>
                         <div>
                             <form action="" className='px-4 py-3'>
-                                <label className='mr-2 text-xl font-semibold'>Course Type</label>
-                                <select className="border-2 border-lime-500 px-3 py-4 w-sm rounded-none text-xl">
+                                <label className='mr-2 lg:text-xl font-semibold'>Course Type</label>
+                                <select className="border-2 border-lime-500 px-3 py-4 w-sm rounded-none max-lg:text-sm lg:text-xl">
                                     <option disabled selected className=''>Choose an option</option>
                                     <option>Offline</option>
                                     <option>Online</option>
                                 </select>
                                 <div className="form-control mt-6">
-                                    <input className='btn bg-[#399918]  hover:bg-lime-600 text-white font-bold text-xl' type="submit" value="Add to Card" />
+                                    <input className='btn bg-[#399918]  hover:bg-lime-600 text-white font-bold lg:text-xl' type="submit" value="Add to Card" />
                                 </div>
                             </form>
                         </div>
                         <div>
-                            <ul className='px-6 pt-3 pb-10 text-xl mt-6 flex flex-col gap-4 '>
+                            <ul className='px-6 pt-3 pb-10 max-lg:text-[10px] lg:text-xl mt-6 flex flex-col gap-4 '>
                                 <li className='flex items-center '>
                                     <span className='mr-2'><FaRegChartBar className='text-[#399918]'/></span>
                                     <span> Skill Level: Beginners</span>
@@ -164,10 +164,10 @@ const Courses = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='bt-card w-full shadow-2xl rounded-md py-16 flex flex-col justify-center items-center'>
-                        <h3 className='text-3xl text-center font-bold mb-6'>Working Hours</h3>
-                        <table className='text-xl border-none'>
-                            <tbody className='table border-none flex gap-4 text-xl'>
+                    <div className='bt-card w-full shadow-2xl rounded-md max-lg:py-10 lg:py-16 flex flex-col justify-center items-center'>
+                        <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold max-lg:mb-3 lg:mb-6'>Working Hours</h3>
+                        <table className='lg:text-xl border-none'>
+                            <tbody className='table border-none flex max-lg:gap-2 lg:gap-4 max-lg:text-[10px] lg:text-xl'>
                                 <tr>
                                     <td>Monday</td>
                                     <td class="box"> 10:00 am – 9.00 pm</td>

@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className='bg-[#f4f4f4]'>
             <div className=' px-[20px] py-[60px] max-w-7xl mx-auto'>
-                <div className='grid max-lg:grid-cols-2 lg:grid-flow-col justify-items-center max-lg:gap-6'>
+                <div className='grid max-lg:grid-cols-2 lg:grid-flow-col md:justify-items-center max-lg:gap-6'>
                     <div>
                         <div className='max-lg:flex max-lg:mb-3 max-lg:items-center'>
                             <MapPinIcon className='max-lg:size-8 lg:size-12 rounded-full max-lg:border-2 lg:border-4 p-1 text-[#399918] border-[#399918] mr-6' />
