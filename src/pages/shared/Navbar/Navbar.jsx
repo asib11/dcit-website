@@ -55,7 +55,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div className="md:block hidden">
-                        <Button />
+                        <Link to={'/contact'}><Button /></Link>
                     </div>
                     {/* Mobile nav */}
                     <ul
@@ -101,7 +101,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <div className="py-5">
-                            <Button />
+                            <Link to={'/contact'}><Button /></Link>
                         </div>
                     </ul>
                 </div>
