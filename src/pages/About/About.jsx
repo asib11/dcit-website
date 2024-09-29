@@ -25,7 +25,7 @@ import img20 from '../../assets/team/1510997899mamun.jpg'
 const About = () => {
     return (
         <div>
-            <div className=' max-w-7xl mx-auto text-justify mb-16'>
+            <div className=' max-w-7xl mx-auto text-justify mb-16 max-lg:p-4'>
                 <div className='flex justify-center my-16' >
                     <img src={logo} alt="" />
                 </div>
@@ -34,7 +34,7 @@ const About = () => {
             </div>
             <div className=' text-center bg-[#e6e7e7] pb-10'>
                 <h1 className='text-3xl py-10 font-bold'>Our Team Members</h1>
-                <div className='max-w-7xl mx-auto grid grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 gap-10 items-start'>
+                <div className='max-w-7xl mx-auto grid grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 gap-10 items-start w-[88%]'>
                     <div className='card  bg-white p-1 '>
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img1} alt="" />
