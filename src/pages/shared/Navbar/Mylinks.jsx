@@ -1,173 +1,190 @@
 export const links = [
     {
-      name: "Men",
+      name: "Courses",
       submenu: true,
       sublinks: [
         {
-          Head: "Topwear",
+          Head: "4th Industrial Revolution",
           sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+            { name: "Python Development", link: "/python" },
+            { name: "Web Design", link: '/python' },
+            { name: "Web Development", link: '/python' },
+            { name: "ReactJs", link: '/python' },
+            { name: "NextJs", link: '/python' },
+            { name: "MERN Stack Dev", link: '/python' },
+            { name: "Networking", link: '/python' },
           ],
         },
         {
-          Head: "Bottomwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+          Head: "Development",
+         sublink: [
+            { name: "Python Development", link: "/python" },
+            { name: "Web Design", link: '/python' },
+            { name: "Web Development", link: '/python' },
+            { name: "ReactJs", link: '/python' },
+            { name: "NextJs", link: '/python' },
+            { name: "MERN Stack Dev", link: '/python' },
+            { name: "Networking", link: '/python' },
           ],
         },
         {
-          Head: "innerwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+          Head: "Design",
+         sublink: [
+            { name: "Python Development", link: "/python" },
+            { name: "Web Design", link: '/python' },
+            { name: "Web Development", link: '/python' },
+            { name: "ReactJs", link: '/python' },
+            { name: "NextJs", link: '/python' },
+            { name: "MERN Stack Dev", link: '/python' },
+            { name: "Networking", link: '/python' },
           ],
         },
   
         {
-          Head: "sleepwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "footwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+          Head: "Marketing & Others",
+         sublink: [
+            { name: "Python Development", link: "/python" },
+            { name: "Web Design", link: '/python' },
+            { name: "Web Development", link: '/python' },
+            { name: "ReactJs", link: '/python' },
+            { name: "NextJs", link: '/python' },
+            { name: "MERN Stack Dev", link: '/python' },
+            { name: "Networking", link: '/python' },
           ],
         },
       ],
     },
     {
-      name: "Women",
-      submenu: true,
-      sublinks: [
-        {
-          Head: "Topwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "Bottomwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "innerwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
+        name: "Success Stories",
+        submenu: true,
+        sublinks: [
+          {
+            Head: "Success Stories",
+            sublink: [
+              { name: "Student's Success", link: "/student" },
+              { name: "Professional Expert Opinion", link: '/expart' },
+              { name: "Video Feedback", link: '/videoadd' },
+              { name: "Job Placement Organization", link: '/job' },
+            //   { name: "NextJs", link: '/python' },
+            //   { name: "MERN Stack Dev", link: '/python' },
+            //   { name: "Networking", link: '/python' },
+            ],
+          },
+        ],
+      },
+    // {
+    //   name: "Success Stories",
+    //   submenu: true,
+    //   sublinks: [
+    //     {
+    //       Head: "Topwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
+    //     {
+    //       Head: "Bottomwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
+    //     {
+    //       Head: "innerwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
   
-        {
-          Head: "sleepwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "footwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-      ],
-    },
-    {
-      name: "Kid's",
-      submenu: true,
-      sublinks: [
-        {
-          Head: "Topwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "Bottomwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "innerwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
+    //     {
+    //       Head: "sleepwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
+    //     {
+    //       Head: "footwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
+    //   ],
+    // },
+
+    // {
+    //   name: "Kid's",
+    //   submenu: true,
+    //   sublinks: [
+    //     {
+    //       Head: "Topwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
+    //     {
+    //       Head: "Bottomwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
+    //     {
+    //       Head: "innerwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
   
-        {
-          Head: "sleepwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "footwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-      ],
-    },
+    //     {
+    //       Head: "sleepwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
+    //     {
+    //       Head: "footwear",
+    //       sublink: [
+    //         { name: "T-shirt", link: '/python' },
+    //         { name: "Casual shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //         { name: "formal shirts", link: '/python' },
+    //       ],
+    //     },
+    //   ],
+    // },
   ];
