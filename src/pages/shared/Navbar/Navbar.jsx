@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../../assets/logo.png";
+// import Logo from "../../../assets/logo.png";
 import Button from "./Button";
 import NavLinks from "./NavLinks";
 
@@ -9,21 +9,21 @@ const Navbar = () => {
     return (
         <div className="sticky inset-x-0 top-0 z-10">
             <nav className="bg-white max-w-7xl mx-auto">
-                <div className="flex items-center font-medium justify-around">
-                    <div className="z-50 max-lg:p-5 md:w-auto w-full flex justify-end">
+                <div className="flex items-center justify-around">
+                    <div className="z-50 max-lg:py-2 lg:p-5 md:w-auto w-[90%] flex justify-end">
                         {/* <img src={Logo} alt="logo" className="md:cursor-pointer h-9" /> */}
                         <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
                             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
                         </div>
                     </div>
-                    <ul className="md:flex hidden uppercase items-center gap-4">
+                    <ul className="md:flex hidden font-semibold items-center lg:gap-4">
                         <li>
                             <Link to="/" className="py-7 px-3 inline-block">
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about" className="py-7 px-3 inline-block">
+                            <Link to="/about" className="py-2 px-3 inline-block">
                                 About Us
                             </Link>
                         </li>
