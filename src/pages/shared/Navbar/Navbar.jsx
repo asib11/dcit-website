@@ -7,8 +7,8 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
-        <div className="sticky inset-x-0 top-0 z-10">
-            <nav className="bg-white max-w-7xl mx-auto">
+        <div className="sticky inset-x-0 top-0 z-10 ">
+            <nav className="bg-white max-w-7xl mx-auto shadow-xl shadow-gray-700">
                 <div className="flex items-center justify-around">
                     <div className="z-50 max-lg:py-2 lg:p-5 md:w-auto w-[90%] flex justify-end">
                         {/* <img src={Logo} alt="logo" className="md:cursor-pointer h-9" /> */}
