@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/logo.png";
 import Button from "./Button";
 import NavLinks from "./NavLinks";
 
@@ -11,8 +11,8 @@ const Navbar = () => {
             <nav className="bg-white max-w-7xl mx-auto shadow-xl shadow-gray-700">
                 <div className="lg:flex lg:items-center lg:justify-between max-lg:px-3 lg:px-5">
                     <div className="flex items-center max-lg:justify-between lg:justify-around">
-                        <div className="z-50 max-lg:py-2 lg:py-5 md:w-auto w-full flex justify-end">
-                            {/* <img src={Logo} alt="logo" className="md:cursor-pointer h-9" /> */}
+                        <div className="z-50 max-lg:py-2 lg:py-5 md:w-auto w-full flex justify-between">
+                            <img src={Logo} alt="logo" className="md:cursor-pointer h-9 max-md:block hidden" />
                             <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
                                 <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
                             </div>
