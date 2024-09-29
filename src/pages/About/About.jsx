@@ -39,7 +39,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img1} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Raizul Islam Khan</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Raizul Islam Khan</h3>
                                 <p>Managing Director</p>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img2} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Shanta Khan</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Shanta Khan</h3>
                                 <p>Business Consultant</p>
                             </div>
                         </div>
@@ -56,9 +56,9 @@ const About = () => {
                     <div className='card bg-white p-1 '>
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img3} alt="" />
-                            <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Showrav Barua</h3>
-                                <p className='text-sm'>Assistant Director & Android Developer</p>
+                            <div className='p-1 text-center'>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Showrav Barua</h3>
+                                <p className='max-lg:text-[12px] lg:text-sm'>Assistant Director & Android Developer</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img4} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Easteak Nayeem</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Easteak Nayeem</h3>
                                 <p>Assistant HR</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img5} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Mahmudul Hasan</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Mahmudul Hasan</h3>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
@@ -84,8 +84,8 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img6} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-md font-bold uppercase'>Md. Aktaruzzaman(Ashiqe)</h3>
-                                <p>Head of Software Department</p>
+                                <h3 className='max-lg:text-[12px] lg:text-md font-bold uppercase'>Md. Aktaruzzaman(Ashiqe)</h3>
+                                <p className='max-lg:text-[12px] pb-4'>Head of Software Department</p>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img7} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold'>MD ANWAR HOSSAIN</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold'>MD ANWAR HOSSAIN</h3>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img8} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold'>ASIB AHMED</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold'>ASIB AHMED</h3>
                                 <p>Junior Software Engineer</p>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg w-full' src={img20} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Mamun Sabuj</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Mamun Sabuj</h3>
                                 <p>Junior Software Engineer</p>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img9} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Jaber Al Nahian</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Jaber Al Nahian</h3>
                                 <p>Junior Software Engineer</p>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img12} alt="" />
                             <div className='p-2 text-center '>
-                                <h3 className='text-xl font-bold uppercase'>Sharif Ahmed</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Sharif Ahmed</h3>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
@@ -156,8 +156,8 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img13} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Parvez Ahmed</h3>
-                                <p>Software Engineer (Team Leader)</p>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Parvez Ahmed</h3>
+                                <p className='max-lg:text-[13px] pb-1'>Software Engineer (Team Leader)</p>
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img14} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Md. Rabbir Al-Amin</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Md. Rabbir Al-Amin</h3>
                                 <p>Software Engineer</p>
                             </div>
                         </div>
@@ -174,7 +174,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img15} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Md. Kamrul Hasan</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Md. Kamrul Hasan</h3>
                                 <p>Junior Programmer</p>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img16} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Romina Afroze</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Romina Afroze</h3>
                                 <p>Communication Officer</p>
                             </div>
                         </div>
@@ -192,7 +192,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img17} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Dipok Kumar Shill</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Dipok Kumar Shill</h3>
                                 <p>Marketing Executive Officer</p>
                             </div>
                         </div>
@@ -201,7 +201,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img18} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Sajal Mahmud</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Sajal Mahmud</h3>
                                 <p>Senior Executive</p>
                             </div>
                         </div>
@@ -210,7 +210,7 @@ const About = () => {
                         <div className='flex flex-col justify-center items-center'>
                             <img className='mb-2 rounded-lg' src={img19} alt="" />
                             <div className='p-2 text-center'>
-                                <h3 className='text-xl font-bold uppercase'>Arifunnahar Rumy</h3>
+                                <h3 className='max-lg:text-lg lg:text-xl font-bold uppercase'>Arifunnahar Rumy</h3>
                                 <p>Communication Executive</p>
                             </div>
                         </div>
