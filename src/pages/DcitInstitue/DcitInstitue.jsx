@@ -6,9 +6,8 @@ import Forth from './Forth/Forth';
 const DcitInstitue = () => {
     return (
         <div>
-            <Recommed></Recommed>
-            <Forth></Forth>
-            <Regular></Regular>
+            <Recommed />
+            
         </div>
     );
 };

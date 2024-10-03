@@ -1,0 +1,208 @@
+{
+    "title":"Python Development with Django",
+    "overview": "Python has become very popular because it’s easy to understand, has easy syntax, and portability, and is easy to learn. Python is used for multiple purposes ranging from web development to data science to DevOps. Python can be used for data analysis, Machine Learning. Web Development, Automation, Scripting, Software Testing, and everyday tasks. Companies like Instagram, Youtube, and Spotify are built with Python.",
+    "courseDetails":"In this course, you will learn Python Development from zero to hero. Master the basics, intermediate and advanced topics, and programming skills. You will also learn how to build applications.\nSo, join our Python Development course and build yourself as a Python developer by taking a professional course from European IT, One of the best international quality computer training institutes. Our expert trainers will teach our students the most modern and up-to-date techniques here.",
+    "certification":"After completing this course you will get your certificate and you can call yourself a certified Python developer.",
+    "Modules":[
+        {
+            "id": "0",
+            "name": "Python Basic"
+        },
+        {
+            "id": "1",
+            "name": "Python Data Structure"
+        },
+        {
+            "id": "2",
+            "name": "Online Task"
+        },
+        {
+            "id": "3",
+            "name": "Python Conditional Statements"
+        },
+        {
+            "id": "4",
+            "name": "Python loops"
+        },
+        {
+            "id": "5",
+            "name": "Python String"
+        },
+        {
+            "id": "6",
+            "name": "Python function"
+        },
+        {
+            "id": "7",
+            "name": "Python OOP"
+        },
+        {
+            "id": "8",
+            "name": "Introduction to Software Development"
+        },
+        {
+            "id": "9",
+            "name": "Types Of SDLC Method"
+        },
+        {
+            "id": "10",
+            "name": "Introduction to Database Design"
+        },
+        {
+            "id": "11",
+            "name": "Online Task"
+        },
+        {
+            "id": "12",
+            "name": "Database normalization"
+        },
+        {
+            "id": "13",
+            "name": "Introduction to SQL"
+        },
+        {
+            "id": "14",
+            "name": "SQL Advance"
+        },
+        {
+            "id": "15",
+            "name": "Online Task"
+        },
+        {
+            "id": "16",
+            "name": "Introduction to E-commerce"
+        },
+        {
+            "id": "17",
+            "name": "Project"
+        },
+        {
+            "id": "18",
+            "name": "ERD design of E-commerce Project"
+        },
+        {
+            "id": "19",
+            "name": "ERD design of E-commerce"
+        },
+        {
+            "id": "20",
+            "name": "Introduction to Django"
+        },
+        {
+            "id": "21",
+            "name": "Django continues"
+        },
+        {
+            "id": "22",
+            "name": "Django with MySQL"
+        },
+        {
+            "id": "23",
+            "name": "Final Exam-1"
+        },
+        {
+            "id": "24",
+            "name": "Final Exam-2"
+        },
+        {
+            "id": "25",
+            "name": "Final Exam-3"
+        },
+        {
+            "id": "26",
+            "name": "Final Project & Viva"
+        }
+    ],
+    "Highlight":[
+        {
+            "id": "0",
+            "name": "Dynamic Website Development"
+        },
+        {
+            "id": "1",
+            "name": "Web Application Development"
+        },
+        {
+            "id": "2",
+            "name": "Web Security"
+        },
+        {
+            "id": "3",
+            "name": "Hands-on training using the latest tools & techniques"
+        },
+        {
+            "id": "4",
+            "name": "Specialization & creating a portfolio in the area of interest"
+        },
+        {
+            "id": "5",
+            "name": "Industry-relevant curriculum"
+        },
+        {
+            "id": "6",
+            "name": "E-commerce solution"
+        },
+        {
+            "id": "7",
+            "name": "Project"
+        },
+        {
+            "id": "8",
+            "name": "Online Market Place Strategy"
+        }
+    ],
+    "softwareTaught":[
+        {
+            "id": "0",
+            "name": "Notepad/ Notepad++/ NetBeans/ Sublime/ VS Code/ Brackets"
+        },
+        {
+            "id": "1",
+            "name": "Firebug ( Browser Inspect Element)"
+        },
+        {
+            "id": "2",
+            "name": "Web Browsers ( Chrome, Firefox, Safari, Edge)"
+        },
+        {
+            "id": "3",
+            "name": "Web Server (Apache, Xampp, Wamp)"
+        },
+        {
+            "id": "4",
+            "name": "Pycharm"
+        },
+        {
+            "id": "5",
+            "name": "Sublime"
+        }
+    
+    ],
+    "careerOpportunity":[
+        {
+            "id": "0",
+            "name": "Python Developer"
+        },
+        {
+            "id": "1",
+            "name": "Django Web Developer"
+        },
+        {
+            "id": "2",
+            "name": "Web Scraper"
+        },
+        {
+            "id": "3",
+            "name": "Machine Learning Developer"
+        },
+        {
+            "id": "4",
+            "name": "Research Assistant"
+        },
+        {
+            "id": "5",
+            "name": "Data Analyst"
+        }
+    
+    ]
+}

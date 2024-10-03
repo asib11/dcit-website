@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Python",
+        "price": "৳ 10,000.00 – ৳ 12,500.00",
+        "img": "../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "python.json"
+            }
+        },
+        "type": "recommand"
+    },
+    {
+        "name": "graphics",
+        "price": "৳ 10,000.00 – ৳ 12,500.00",
+        "img": "../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "graphics.json"
+                }
+            ]
+        },
+        "type": "recommand"
+    },
+    {
+        "name": "Python",
+        "price": "৳ 10,000.00 – ৳ 12,500.00",
+        "img": "../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "python.json"
+            }
+        },
+        "type": "fourth"
+    },
+    {
+        "name": "graphics",
+        "price": "৳ 10,000.00 – ৳ 12,500.00",
+        "img": "../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "graphics.json"
+                }
+            ]
+        },
+        "type": "fourth"
+    },
+    {
+        "name": "Python",
+        "price": "৳ 10,000.00 – ৳ 12,500.00",
+        "img": "../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "python.json"
+            }
+        },
+        "type": "regular"
+    },
+    {
+        "name": "graphics",
+        "price": "৳ 10,000.00 – ৳ 12,500.00",
+        "img": "../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "graphics.json"
+                }
+            ]
+        },
+        "type": "regular"
+    }
+]

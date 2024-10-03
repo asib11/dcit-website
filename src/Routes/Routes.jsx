@@ -22,87 +22,87 @@ import DcitInstitue from "../pages/DcitInstitue/DcitInstitue";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
+    element: <Main />,
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home />
       },
       {
         path: '/dcitinstitue',
-        element: <DcitInstitue></DcitInstitue>
+        element: <DcitInstitue/>
       },
       {
         path: '/about',
-        element: <About></About>
+        element: <About />
       },
       {
         path: '/contact',
-        element: <Contact></Contact>
+        element: <Contact />
       },
 
       {
         path: '/gallery',
-        element: <Gallery></Gallery>
+        element: <Gallery />
       },
       {
         path: '/python',
-        element: <Courses></Courses>
+        element: <Courses />
       },
       {
         path: '/event',
-        element: <Event></Event>
+        element: <Event />
       },
       {
         path: '/rpl',
-        element: <Rpl></Rpl>
+        element: <Rpl />
       },
       {
         path: '/news',
-        element: <News></News>,
+        element: <News />,
       },
       {
         path: '/newsDetails',
-        element: <NewsDetails></NewsDetails>,
+        element: <NewsDetails />,
       },
       {
         path: '/eventdetails',
-        element: <EventDetails></EventDetails>,
+        element: <EventDetails />,
       },
       {
         path: '/expart',
-        element: <Expart></Expart>,
+        element: <Expart />,
       },
       {
         path: '/videoadd',
-        element: <VideoAdd></VideoAdd>,
+        element: <VideoAdd />,
       },
       {
         path: '/job',
-        element: <Jobplace></Jobplace>
+        element: <Jobplace />
       },
       {
         path: '/student',
-        element: <Student></Student>
+        element: <Student />
       },
 
     ]
   },
   {
     path: '/admin',
-    element: <Admin></Admin>,
+    element: <Admin />,
     children: [
       {
         path: '/admin',
-        element: <AdminPage></AdminPage>
+        element: <AdminPage />
       },
       {
         path: 'dashboard',
-        element: <AdminPage></AdminPage>
+        element: <AdminPage />
       },
       {
         path: 'contact',
-        element: <AdminContact></AdminContact>,
+        element: <AdminContact />,
         loader: () => fetch('https://dcit-server.vercel.app/users')
       },
     ]
