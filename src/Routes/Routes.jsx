@@ -17,6 +17,7 @@ import NewsDetails from "../pages/News/NewsDetails";
 import EventDetails from "../pages/Event/EventDetails";
 import Expart from "../pages/Success/Expart/Expart";
 import VideoAdd from "../pages/Success/VideoAdd/VideoAdd";
+import DcitInstitue from "../pages/DcitInstitue/DcitInstitue";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: '/dcitinstitue',
+        element: <DcitInstitue></DcitInstitue>
       },
       {
         path: '/about',
