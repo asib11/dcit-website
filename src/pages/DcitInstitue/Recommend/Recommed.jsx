@@ -20,9 +20,9 @@ const Recommed = () => {
     }
         , [])
 
-    const recommand = courses.filter(item => item.type === 'recommand')
-    const fourth = courses.filter(item => item.type === 'fourth')
-    const regular = courses.filter(item => item.type === 'regular')
+    const recommand = courses.filter(item => item.type.includes('recommand') === true)
+    const fourth = courses.filter(item => item.type.includes('fourth') === true)
+    const regular = courses.filter(item => item.type.includes('regular') === true)
 
     return (
         <div className=''>

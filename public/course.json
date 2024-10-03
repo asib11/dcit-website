@@ -56,7 +56,7 @@
                 "fileName": "python.json"
             }
         },
-        "type": "regular"
+        "type": ["regular","fourth"]
     },
     {
         "name": "graphics",
