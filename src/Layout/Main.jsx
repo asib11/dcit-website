@@ -7,7 +7,7 @@ import ScrollToTop from '../pages/shared/ScrollToTop';
 
 const Main = () => {
     return (
-        <div>
+        <div >
             <Logo></Logo>
             <Navbar></Navbar>
             <ScrollToTop></ScrollToTop>

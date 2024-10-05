@@ -97,7 +97,7 @@ const Recommed = () => {
                                     <p className='font-bold text-xl'>{course.name}</p>
                                 </div>
                                 <div className="">
-                                    <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
+                                    <Link to={'/python'} onClick={course.details} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                                 </div>
                             </div>
                         </div>

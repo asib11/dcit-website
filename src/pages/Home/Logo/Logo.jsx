@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Logo = () => {
     return (
-        <div>
+        <div className=''>
             <div className='max-w-7xl mx-auto text-[18px] flex justify-between items-center mb-6'>
                 <div className='w-20  mt-4 ml-4'><img src={logo} alt="" /></div>
                 <div className='navbar-center hidden lg:flex'>

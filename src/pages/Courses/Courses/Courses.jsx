@@ -7,14 +7,14 @@ import { TbTimeDuration10 } from "react-icons/tb";
 const Courses = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10'>
-            <h3 className='max-lg:text-3xl lg:text-5xl text-center font-bold max-lg:py-8 lg:py-16'>Python Development with Django</h3>
+            <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold max-lg:py-8 lg:py-16'>Python Development with Django</h1>
             <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row lg:justify-between gap-6 lg:p-14 m-6 lg:m-0'>
                 <div className='lg:w-2/3 text-justify '>
-                    <h4 className='text-2xl lg:my-6 font-semibold'>Overview:</h4>
+                    <h3 className='text-2xl lg:my-6 font-semibold'>Overview:</h3>
                     <p className='text-xl'>
                         Python has become very popular because it’s easy to understand, has easy syntax, and portability, and is easy to learn. Python is used for multiple purposes ranging from web development to data science to DevOps. Python can be used for data analysis, Machine Learning. Web Development, Automation, Scripting, Software Testing, and everyday tasks. Companies like Instagram, Youtube, and Spotify are built with Python.
                     </p>
-                    <h4 className='text-2xl my-6 font-semibold'>What you will learn from this course?</h4>
+                    <h3 className='text-2xl my-6 font-semibold'>What you will learn from this course?</h3>
                     <p className='text-xl'>
                         In this course, you will learn Python Development from zero to hero. Master the basics, intermediate and advanced
                         topics, and programming skills. You will also learn how to build applications. <br />
@@ -23,13 +23,13 @@ const Courses = () => {
                         European IT, One of the best international quality computer training institutes. Our expert trainers will teach our
                         students the most modern and up-to-date techniques here.
                     </p>
-                    <h4 className='text-2xl my-6 font-semibold'>Certification:</h4>
+                    <h3 className='text-2xl my-6 font-semibold'>Certification:</h3>
                     <p className='text-xl'>
                         After completing this course you will get your certificate and you can call yourself a certified Python developer.
                     </p>
-                    <h4 className='text-2xl my-6 font-semibold'>
+                    <h3 className='text-2xl my-6 font-semibold'>
                         Modules
-                    </h4>
+                    </h3>
                     <ul className='text-xl list-disc pl-4'>
                         <li>Python Basic</li>
                         <li>Python Data Structure</li>
@@ -61,7 +61,7 @@ const Courses = () => {
                         <li>Final Exam-3</li>
                         <li>Final Project &amp; Viva</li>
                     </ul>
-                    <h4 className='text-2xl my-6 font-semibold'>Highlight</h4>
+                    <h3 className='text-2xl my-6 font-semibold'>Highlight</h3>
                     <ul className='text-xl list-disc pl-4'>
                         <li>Dynamic Website Development</li>
                         <li>Web Application Development</li>
@@ -75,13 +75,13 @@ const Courses = () => {
                     </ul>
                     <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row gap-8'>
                         <div>
-                            <h4 className='text-2xl my-6 font-semibold'>Software Taught</h4>
+                            <h3 className='text-2xl my-6 font-semibold'>Software Taught</h3>
                             <ul className='text-xl list-disc pl-4'>
                                 <li>Notepad/ Notepad++/ NetBeans/ Sublime/ VS Code/ Brackets</li><li>Firebug ( Browser Inspect Element)</li><li>Web Browsers ( Chrome, Firefox, Safari, Edge)</li><li>Web Server (Apache, Xampp, Wamp)</li><li>Pycharm</li><li>Sublime</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 className='text-2xl my-6 font-semibold'>Career Opportunity:</h4>
+                            <h3 className='text-2xl my-6 font-semibold'>Career Opportunity:</h3>
                             <p className='text-xl'>After course completion, students can get jobs as:</p>
                             <ul className='text-xl list-disc pl-4'><li>Python Developer</li><li>Django Web Developer</li><li>Web Scraper</li><li>Machine Learning Developer</li><li>Research Assistant</li><li>Data Analyst</li></ul>
                         </div>

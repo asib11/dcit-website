@@ -5,7 +5,8 @@ import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 
 const DcitInstitue = () => {
-    const [courses, setCurses] = useState([])
+    const [courses, setCurses] = useState([]);
+
     useEffect(
         () => {
             AOS.init({ delay: 300, duration: 1000 });
@@ -32,7 +33,7 @@ const DcitInstitue = () => {
             <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
                 {
                     recommand.map((course, index) => (
-                        <div key={index} data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
+                        <div key={index} course={course} data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
                             <figure>
                                 <img
                                     src={course.img}
@@ -44,7 +45,7 @@ const DcitInstitue = () => {
                                     <p className='font-bold text-xl'>{course.name}</p>
                                 </div>
                                 <div className="">
-                                    <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
+                                    <Link to={`/${course.name}`}  className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +70,7 @@ const DcitInstitue = () => {
                                         <p className='font-bold text-xl'>{course.name}</p>
                                     </div>
                                     <div className="">
-                                        <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
+                                        <Link to={`/${course.name}`}  className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +98,7 @@ const DcitInstitue = () => {
                                     <p className='font-bold text-xl'>{course.name}</p>
                                 </div>
                                 <div className="">
-                                    <Link to={'/python'} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
+                                    <Link to={`/${course.name}`}  className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                                 </div>
                             </div>
                         </div>

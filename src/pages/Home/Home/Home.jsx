@@ -13,7 +13,7 @@ import OurClient from '../OurClient/OurClient';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             <Bannar></Bannar>
             <Media></Media>
             <Approve></Approve>

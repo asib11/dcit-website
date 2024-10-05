@@ -46,7 +46,7 @@ const router = createBrowserRouter([
         element: <Gallery />
       },
       {
-        path: '/python',
+        path: '/:courseId',
         element: <Courses />
       },
       {
