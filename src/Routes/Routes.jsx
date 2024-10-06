@@ -18,6 +18,8 @@ import EventDetails from "../pages/Event/EventDetails";
 import Expart from "../pages/Success/Expart/Expart";
 import VideoAdd from "../pages/Success/VideoAdd/VideoAdd";
 import DcitInstitue from "../pages/DcitInstitue/DcitInstitue";
+import OurClient from "../pages/Home/OurClient/OurClient";
+import Software from "../pages/Software/Software";
 
 const router = createBrowserRouter([
   {
@@ -50,12 +52,16 @@ const router = createBrowserRouter([
         element: <Courses />
       },
       {
+        path: '/software/:softwareId',
+        element: <Software/>
+      },
+      {
         path: '/event',
         element: <Event />
       },
       {
-        path: '/rpl',
-        element: <Rpl />
+        path: '/ourClient',
+        element: <OurClient />
       },
       {
         path: '/news',

@@ -9,16 +9,12 @@ const Courses = () => {
     const [fileData, setFileData] = useState([]);
 
     useEffect(() => {
-        fetch(`/public/${courseName}.json`)
+        fetch(`/${courseName}.json`)
             .then(res => res.json())
             .then(data => setFileData(data))
             .catch(error => console.log(error))
     }
         , [])
-    {
-        console.log('data find', fileData.Modules)
-        // console.log(fileData.Modules);
-    }
 
     return (
         <div className='max-w-7xl mx-auto mb-10'>
