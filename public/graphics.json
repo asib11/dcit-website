@@ -204,5 +204,9 @@
             "name": "Data Analyst"
         }
     
-    ]
+    ],
+    "skillLevel": "Beginners",
+    "duration": "4 Months",
+    "classPerWeek": "2 Day",
+    "total": "32 Classes"
 }

@@ -1,39 +1,57 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import graphics1 from '../../../assets/approved-by/graphics.jpeg'
 import { FaRegChartBar, FaCalendarDay, FaTag, FaCertificate, FaVideo, FaLanguage } from "react-icons/fa";
 import { TbTimeDuration10 } from "react-icons/tb";
 
 const Courses = () => {
+    const { courseName } = useParams()
+    const [fileData, setFileData] = useState([]);
+
+    useEffect(() => {
+        fetch(`/public/${courseName}.json`)
+            .then(res => res.json())
+            .then(data => setFileData(data))
+            .catch(error => console.log(error))
+    }
+        , [])
+    {
+        console.log('data find', fileData.Modules)
+        // console.log(fileData.Modules);
+    }
+
     return (
         <div className='max-w-7xl mx-auto mb-10'>
-            <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold max-lg:py-8 lg:py-16'>Python Development with Django</h1>
+            <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold max-lg:py-8 lg:py-16'>{fileData.title} </h1>
             <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row lg:justify-between gap-6 lg:p-14 m-6 lg:m-0'>
                 <div className='lg:w-2/3 text-justify '>
                     <h3 className='text-2xl lg:my-6 font-semibold'>Overview:</h3>
                     <p className='text-xl'>
-                        Python has become very popular because it’s easy to understand, has easy syntax, and portability, and is easy to learn. Python is used for multiple purposes ranging from web development to data science to DevOps. Python can be used for data analysis, Machine Learning. Web Development, Automation, Scripting, Software Testing, and everyday tasks. Companies like Instagram, Youtube, and Spotify are built with Python.
+                        {fileData.overview}
                     </p>
                     <h3 className='text-2xl my-6 font-semibold'>What you will learn from this course?</h3>
                     <p className='text-xl'>
-                        In this course, you will learn Python Development from zero to hero. Master the basics, intermediate and advanced
-                        topics, and programming skills. You will also learn how to build applications. <br />
-
-                        So, join our Python Development course and build yourself as a Python developer by taking a professional course from
-                        European IT, One of the best international quality computer training institutes. Our expert trainers will teach our
-                        students the most modern and up-to-date techniques here.
+                        {fileData.courseDetails}
                     </p>
                     <h3 className='text-2xl my-6 font-semibold'>Certification:</h3>
                     <p className='text-xl'>
-                        After completing this course you will get your certificate and you can call yourself a certified Python developer.
+                        {fileData.certification}
                     </p>
                     <h3 className='text-2xl my-6 font-semibold'>
                         Modules
                     </h3>
                     <ul className='text-xl list-disc pl-4'>
-                        <li>Python Basic</li>
-                        <li>Python Data Structure</li>
-                        <li>Online Task</li>
+
+                        {
+
+                            fileData.Modules?.map((item) =>
+                                (<li key={item.id}>{item.name}</li>)
+
+                            )
+                        }
+
+
+                        {/* <li>Online Task</li>
                         <li>Python Conditional Statements</li>
                         <li>Python loops</li>
                         <li>Python String</li>
@@ -59,11 +77,18 @@ const Courses = () => {
                         <li>Final Exam-1</li>
                         <li>Final Exam-2</li>
                         <li>Final Exam-3</li>
-                        <li>Final Project &amp; Viva</li>
+                        <li>Final Project &amp; Viva</li> */}
                     </ul>
                     <h3 className='text-2xl my-6 font-semibold'>Highlight</h3>
                     <ul className='text-xl list-disc pl-4'>
-                        <li>Dynamic Website Development</li>
+                        {
+
+                            fileData.Highlight?.map((item) =>
+                                (<li key={item.id}>{item.name}</li>)
+
+                            )
+                        }
+                        {/* <li>Dynamic Website Development</li>
                         <li>Web Application Development</li>
                         <li>Web Security</li>
                         <li>Hands-on training using the latest tools &amp; techniques</li>
@@ -71,19 +96,35 @@ const Courses = () => {
                         <li>Industry-relevant curriculum</li>
                         <li>E-commerce solution</li>
                         <li>Project</li>
-                        <li>Online Market Place Strategy</li>
+                        <li>Online Market Place Strategy</li> */}
                     </ul>
                     <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row gap-8'>
                         <div>
                             <h3 className='text-2xl my-6 font-semibold'>Software Taught</h3>
                             <ul className='text-xl list-disc pl-4'>
-                                <li>Notepad/ Notepad++/ NetBeans/ Sublime/ VS Code/ Brackets</li><li>Firebug ( Browser Inspect Element)</li><li>Web Browsers ( Chrome, Firefox, Safari, Edge)</li><li>Web Server (Apache, Xampp, Wamp)</li><li>Pycharm</li><li>Sublime</li>
+                                {
+
+                                    fileData.softwareTaught?.map((item) =>
+                                        (<li key={item.id}>{item.name}</li>)
+
+                                    )
+                                }
+                                {/* <li>Notepad/ Notepad++/ NetBeans/ Sublime/ VS Code/ Brackets</li><li>Firebug ( Browser Inspect Element)</li><li>Web Browsers ( Chrome, Firefox, Safari, Edge)</li><li>Web Server (Apache, Xampp, Wamp)</li><li>Pycharm</li><li>Sublime</li> */}
                             </ul>
                         </div>
                         <div>
                             <h3 className='text-2xl my-6 font-semibold'>Career Opportunity:</h3>
                             <p className='text-xl'>After course completion, students can get jobs as:</p>
-                            <ul className='text-xl list-disc pl-4'><li>Python Developer</li><li>Django Web Developer</li><li>Web Scraper</li><li>Machine Learning Developer</li><li>Research Assistant</li><li>Data Analyst</li></ul>
+                            <ul className='text-xl list-disc pl-4'>
+                            {
+                            
+                            fileData.careerOpportunity?.map((item) => 
+                                (<li key={item.id}>{item.name}</li>)
+                            
+                            )
+                        }
+                                {/* <li>Python Developer</li><li>Django Web Developer</li><li>Web Scraper</li><li>Machine Learning Developer</li><li>Research Assistant</li><li>Data Analyst</li> */}
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -134,31 +175,31 @@ const Courses = () => {
                         <div>
                             <ul className='px-6 pt-3 pb-10 max-lg:text-[10px] lg:text-xl mt-6 flex flex-col gap-4 '>
                                 <li className='flex items-center '>
-                                    <span className='mr-2'><FaRegChartBar className='text-[#399918]'/></span>
-                                    <span> Skill Level: Beginners</span>
+                                    <span className='mr-2'><FaRegChartBar className='text-[#399918]' /></span>
+                                    <span> Skill Level: {fileData.skillLevel}</span>
                                 </li>
                                 <li className='flex items-center'>
                                     <span className='mr-2'><TbTimeDuration10 className='text-[#399918]' /></span>
-                                    <span> Duration: 4 Months</span>
+                                    <span> Duration: {fileData.duration}</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaCalendarDay className='text-[#399918]'/></span>
-                                    <span> Class Per Week: 2 Day</span>
+                                    <span className='mr-2'><FaCalendarDay className='text-[#399918]' /></span>
+                                    <span> Class Per Week: {fileData.classPerWeek}</span>
                                 </li>
                                 <li className='flex items-center'>
                                     <span className='mr-2'><FaTag className='text-[#399918]' /></span>
-                                    <span> Total: 32 Classes</span>
+                                    <span> Total: {fileData.total}</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaCertificate className='text-[#399918]'/></span>
+                                    <span className='mr-2'><FaCertificate className='text-[#399918]' /></span>
                                     <span>Certificate: Yes</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaVideo className='text-[#399918]'/></span>
+                                    <span className='mr-2'><FaVideo className='text-[#399918]' /></span>
                                     <span> Provide Class Video</span>
                                 </li>
                                 <li className='flex items-center'>
-                                    <span className='mr-2'><FaLanguage className='text-[#399918]'/></span>
+                                    <span className='mr-2'><FaLanguage className='text-[#399918]' /></span>
                                     <span> Language: Bangla & English</span>
                                 </li>
                             </ul>

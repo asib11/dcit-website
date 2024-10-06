@@ -46,7 +46,7 @@ const router = createBrowserRouter([
         element: <Gallery />
       },
       {
-        path: '/:courseId',
+        path: '/dcitinstitue/:courseName',
         element: <Courses />
       },
       {

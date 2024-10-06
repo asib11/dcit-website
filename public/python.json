@@ -1,9 +1,9 @@
 {
-    "title":"Python Development with Django",
+    "title": "Python Development with Django",
     "overview": "Python has become very popular because it’s easy to understand, has easy syntax, and portability, and is easy to learn. Python is used for multiple purposes ranging from web development to data science to DevOps. Python can be used for data analysis, Machine Learning. Web Development, Automation, Scripting, Software Testing, and everyday tasks. Companies like Instagram, Youtube, and Spotify are built with Python.",
-    "courseDetails":"In this course, you will learn Python Development from zero to hero. Master the basics, intermediate and advanced topics, and programming skills. You will also learn how to build applications.\nSo, join our Python Development course and build yourself as a Python developer by taking a professional course from European IT, One of the best international quality computer training institutes. Our expert trainers will teach our students the most modern and up-to-date techniques here.",
-    "certification":"After completing this course you will get your certificate and you can call yourself a certified Python developer.",
-    "Modules":[
+    "courseDetails": "In this course, you will learn Python Development from zero to hero. Master the basics, intermediate and advanced topics, and programming skills. You will also learn how to build applications.\nSo, join our Python Development course and build yourself as a Python developer by taking a professional course from European IT, One of the best international quality computer training institutes. Our expert trainers will teach our students the most modern and up-to-date techniques here.",
+    "certification": "After completing this course you will get your certificate and you can call yourself a certified Python developer.",
+    "Modules": [
         {
             "id": "0",
             "name": "Python Basic"
@@ -113,7 +113,7 @@
             "name": "Final Project & Viva"
         }
     ],
-    "Highlight":[
+    "Highlight": [
         {
             "id": "0",
             "name": "Dynamic Website Development"
@@ -151,7 +151,7 @@
             "name": "Online Market Place Strategy"
         }
     ],
-    "softwareTaught":[
+    "softwareTaught": [
         {
             "id": "0",
             "name": "Notepad/ Notepad++/ NetBeans/ Sublime/ VS Code/ Brackets"
@@ -176,9 +176,8 @@
             "id": "5",
             "name": "Sublime"
         }
-    
     ],
-    "careerOpportunity":[
+    "careerOpportunity": [
         {
             "id": "0",
             "name": "Python Developer"
@@ -203,6 +202,9 @@
             "id": "5",
             "name": "Data Analyst"
         }
-    
-    ]
+    ],
+    "skillLevel": "Beginners",
+    "duration": "4 Months",
+    "classPerWeek": "2 Day",
+    "total": "32 Classes"
 }
