@@ -8,7 +8,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className="sticky inset-x-0 top-0 z-10 ">
-            <nav className="bg-white max-w-7xl mx-auto shadow-xl shadow-gray-700">
+            <nav className="bg-white max-w-7xl mx-auto shadow-lg">
                 <div className="lg:flex lg:items-center lg:justify-between max-lg:px-3 lg:px-5">
                     <div className="flex items-center max-lg:justify-between lg:justify-around">
                         <div className={`z-50 max-lg:py-2 lg:py-5 md:w-auto w-full flex ${open ? 'justify-end' : 'justify-between'}`}>
