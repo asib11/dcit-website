@@ -42,6 +42,16 @@
         "description": "ebsite should reflect your business or brand, colors and image. Our development team can create a unique custom designed website to suit your requirements, leaving your web visitors with a professional impression of your business. DCIT ltd provides the best website development service in Bangladesh. \n Our Website Designs/Development come with smart features, Search Engine SEO and Site Editor which is an exclusive product of DCIT ltd and allows you to update your website on the fly.Contact us to know more details or to place order.Get delivery on time,enjoy our service. \n Your website is the most important component of your company’s marketing plan. It’s the central hub for your messaging and content marketing efforts. All other marketing materials should support and drive traffic to your website. As website design and development technology has progressed over the years, you now have more digital marketing tools than ever before. \n Social media, blogs and mobile allow businesses and nonprofits to easily target and convert users by driving them to a well-designed website with a positive user experience or UX. \n We work with you to develop a user experience which delivers value to your audience. Value means repeat visits and referrals via social media and other channels. Using our years of experience and research, Wood Street’s web design and development solutions are customized to help you achieve your digital marketing goals."
     },
     {
+        "link":"logoDesignService",
+        "name": "Logo Design Service",
+        "description": "Make a great impression with a professionally designed logo to reflect your brand and image. Our graphics designers will do a unique custom logo design to suit you in less then 48 hours.\n Your custom logo comes complete with all the files and fonts you need for all media formats including web and print. Get a high impact logo for your website or brand today. Three best value plans to choose from.Choose one as your need.We guarantee your satisfaction."
+    },
+    {
+        "link":"emailMarketingService",
+        "name": "Email Marketing Service",
+        "description": "Get a big deal with our email Marketing system, good inboxing rate, faster delivery at lightest cost.Do email marketing ,expand your business and reach your business goal.Lets people know about your products and services faster than ever via this strategy.\nEmail marketing is one of the most cost-effective marketing tool. It is easy to manage, gives you full control and allows you to establish direct contact with your customers. For more on this topic, see our guide on why you should start building your email list right away.\nWhile you can use OptinMonster to easily get more email subscribers, the actual email delivery part comes down to your email marketing service provider.\nIf you aren’t careful, then you might end up paying a lot more money for fewer features and terrible deliverability (which causes you to lose even more money).\nA good email marketing service enables you to create highly engaging emails. It also allows you to manage your contacts, segment users into groups, and track the performance of your email campaigns."
+    },
+    {
         "link":"ses",
         "name": "Search Engine Submission",
         "title1":"Search Engine Submission on a Monthly Basis",
@@ -50,5 +60,15 @@
         "p2":"Search Engine Booster uses real-time search engine data and analysis tools to report on your web site’s performance. Compare the search results with your  competitors.",
         "title4":"FREE Automatic Updates",
         "p3":"Receive live updates includes new Search Engines and Directories and also updated tools for the best Search Engine Optimisation procedures."  
+    },
+    {
+        "link":"professionalTraining",
+        "name": "Professional Training",
+        "description":"We believe in staying ahead of competition and teach our students to become market ready with latest technical knowledge that help them to grow their career. We fell that there is a big gap between requirements and the courses offered by colleges and training institutes. Besides most of the education is spoon fed and there has been literally no innovation in knowledge delivery over last ten years.",
+        "title1":"SFreelancing and Web Development",
+        "p1":"A normal web user doesn’t understand how much effort is put behind a web application to make it work so smooth the first thing they come across is the visual representation that is created by a website designer. We help you to understand the latest design trend in the market and to slice them up to modern coding standard…Tables are history now follow the modern trend with experts in Web 2.0 technology",
+        "title3":"SWordPress Development",
+        "p2":"With the increasing trend of open source technology the demand for technical skill set is rising every day. PHP is growing trend in today’s modern technology world and has become very popular in a very short span of time. With PHP / MySQL one can create efficient internet based applications like Ecommerce, Social Networking, Content Management System, Web Application and much more using custom PHP"
+          
     }
 ]
