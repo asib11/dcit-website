@@ -31,8 +31,8 @@ const CourseDepartment = () => {
             >
                 <SwiperSlide >
 
-                    <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[18px] lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
+                    <div className='card bg-white p-4 w-full shadow-md h-[90%]'>
+                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
                             <p><GrPaint className='size-8 text-green-600' /></p>
                             <p>Graphic and Multimedia</p>
                         </div>
@@ -42,7 +42,7 @@ const CourseDepartment = () => {
                 <SwiperSlide >
 
                     <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[18px] lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
+                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
                             <p><GrCloudSoftware className='size-8 text-green-600' /></p>
                             <p>Web and Software</p>
                         </div>
@@ -52,7 +52,7 @@ const CourseDepartment = () => {
                 <SwiperSlide >
 
                     <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[18px] lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
+                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
                             <p><ImVideoCamera className='size-8 text-green-600' /></p>
                             <p>Video Editing</p>
                         </div>
@@ -62,7 +62,7 @@ const CourseDepartment = () => {
                 <SwiperSlide >
 
                     <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[18px] lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
+                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
                             <p><TbSeo className='size-8 text-green-600' /></p>
                             <p>Digital marketing (SEO)</p>
                         </div>
@@ -72,7 +72,7 @@ const CourseDepartment = () => {
                 <SwiperSlide >
 
                     <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[18px] lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
+                        <div className=' font-bold max-lg:text-[90%] lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
                             <p><LuNetwork className='size-8 text-green-600' /></p>
                             <p>Networking</p>
                         </div>
@@ -82,7 +82,7 @@ const CourseDepartment = () => {
                 <SwiperSlide >
 
                     <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[18px] lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
+                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
                             <p><IoLogoPython className='size-8 text-green-600' /></p>
                             <p>Python Developemnt</p>
                         </div>
