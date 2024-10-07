@@ -17,10 +17,10 @@ const Header = () => {
                         <h1 className='text-5xl font-bold'>Become an IT Pro & Rule the <span className='text-green-600'>Digital World</span></h1>
                         <p className='font-semibold text-lg text-justify'>With a vision to turn manpower into assets, DCIT Ltd Institute is ready to enhance your learning experience with skilled mentors and updated curriculum. Pick your desired course from more than 30 trendy options.</p>
                         <div className='flex gap-5'>
-                            <Link>
+                            <Link to={'/dcitinstitue'}>
                                 <button className='bg-green-500 hover:bg-green-700 text-white px-3 py-4 text-xl text-bold rounded-lg flex items-center gap-2'> <IoIosBook />Browse Course</button>
                             </Link>
-                            <Link>
+                            <Link to={'/dcitinstitue'}>
                                 <button className='bg-green-500 hover:bg-green-700 text-white px-3 py-4 text-xl text-bold mr-6 rounded-lg flex items-center gap-2'><IoIosBook />Join Free Seminar</button>
                             </Link>
                         </div>
