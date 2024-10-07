@@ -48,7 +48,7 @@ const NavLinks = () => {
                         {mysublinks.sublink.map((slink) => (
                           <li className="text-sm text-gray-600 my-2.5">
                             <Link
-                              to={`/software${slink.link}`}
+                              to={`${slink.link}`}
                               className="hover:text-primary"
                             >
                               {slink.name}
@@ -73,7 +73,7 @@ const NavLinks = () => {
               <div>
                 {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">
-                        <Link to={`/software${slink.link}`}>{slink.name}</Link>
+                        <Link to={`${slink.link}`}>{slink.name}</Link>
                       </li>
                     ))}
                 {/* <div>

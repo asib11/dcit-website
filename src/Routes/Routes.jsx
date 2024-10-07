@@ -56,6 +56,14 @@ const router = createBrowserRouter([
         element: <Software/>
       },
       {
+        path: '/hosting/:hostingId',
+        element: <Software/>
+      },
+      {
+        path: '/services/:serviceId',
+        element: <Software/>
+      },
+      {
         path: '/event',
         element: <Event />
       },
