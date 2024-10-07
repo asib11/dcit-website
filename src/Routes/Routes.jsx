@@ -20,6 +20,7 @@ import VideoAdd from "../pages/Success/VideoAdd/VideoAdd";
 import DcitInstitue from "../pages/DcitInstitue/DcitInstitue";
 import OurClient from "../pages/Home/OurClient/OurClient";
 import Software from "../pages/Software/Software";
+import Services from "../pages/Services/Services";
 
 const router = createBrowserRouter([
   {
@@ -61,7 +62,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/services/:serviceId',
-        element: <Software/>
+        element: <Services/>
       },
       {
         path: '/event',
