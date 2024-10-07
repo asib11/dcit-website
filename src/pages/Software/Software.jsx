@@ -13,9 +13,6 @@ const Software = () => {
     }
         , [])
 
-    {
-        console.log(softwareData)
-    }
 
     const data = softwareData.find(item => item.link === softwareId)
 

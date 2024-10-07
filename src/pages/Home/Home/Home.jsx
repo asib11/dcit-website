@@ -9,21 +9,25 @@ import Facilities from '../Facilities/Facilities';
 import Team from '../Team/Team';
 import Partner from '../Partner/Partner';
 import OurClient from '../OurClient/OurClient';
+import Header from '../Header/Header';
+import CourseDepartment from '../CourseDepartment/CourseDepartment';
 
 
 const Home = () => {
     return (
         <div className=''>
-            <Bannar></Bannar>
-            <Media></Media>
-            <Approve></Approve>
+            <Header/>
+            <CourseDepartment/>
+            {/* <Bannar></Bannar> */}
+            {/* <Media></Media> */}
+            <Approve/>
             {/* <Recommed></Recommed>
             <Forth></Forth>
             <Regular></Regular> */}
-            <OurClient></OurClient>
-            <Facilities></Facilities>
-            <Team></Team>
-            <Partner></Partner>
+            <OurClient/>
+            <Facilities/>
+            <Team/>
+            <Partner/>
         </div>
     );
 };
