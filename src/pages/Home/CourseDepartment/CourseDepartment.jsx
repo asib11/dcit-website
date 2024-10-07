@@ -4,7 +4,7 @@ import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import img2 from '../../../assets/team/img1.jpg'
+
 import { GrPaint } from "react-icons/gr";
 import { GrCloudSoftware } from "react-icons/gr";
 import { ImVideoCamera } from "react-icons/im";

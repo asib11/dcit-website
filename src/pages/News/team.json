@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Md. Anwar Hossain Eshfar",
+        "position": "Software Engineer",
+        "image": "img/team/AnwarHossainEshfar.jpg",
+        "socialLinks": {
+            "facebook": "https://facebook.com/profile.php?id=100010339204395",
+            "twitter": "#",
+            "linkedin": "https://linkedin.com/in/anwarhossain9"
+        }
+    },
+    {
+        "name": "Raju Bepary",
+        "position": "Software Engineer",
+        "image": "img/team/RajuBepary.jpg",
+        "socialLinks": {
+            "facebook": "https://facebook.com/rajubeparybd",
+            "twitter": "https://twitter.com/rajubeparybd",
+            "linkedin": "https://linkedin.com/in/rajubepary"
+        }
+    },
+    {
+        "name": "Cyinthia Afrine",
+        "position": "IT Exective",
+        "image": "img/team/CyinthiaAfrine.jpg",
+        "socialLinks": {
+            "facebook": "https://facebook.com/profile.php?id=100078060660992",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Fahima",
+        "position": "HR Admin",
+        "image": "img/team/Fahima.jpg",
+        "socialLinks": {
+            "facebook": "https://facebook.com/sheikh.shayana",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Easteak Nayeem",
+        "position": "Assistant HR",
+        "image": "img/team/EasteakNayeem.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Md. Aktaruzzaman (Ashiqe)",
+        "position": "Head of Software Department",
+        "image": "img/team/AktaruzzamanAshiqe.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Shanta Khan",
+        "position": "Business Consultant",
+        "image": "img/team/ShantaKhan.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Mahmudul Hasan",
+        "position": "Software Engineer",
+        "image": "img/team/MahmudulHasan.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Sahinur Rahman Khan",
+        "position": "Junior Programmer",
+        "image": "img/team/SahinurRahmanKhan.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Md. Habibour Siddique",
+        "position": "Junior Software Engineer",
+        "image": "img/team/HabiburSiddique.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Parvez Ahmed",
+        "position": "Software Engineer (Team Leader)",
+        "image": "img/team/ParvezAhmed.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Showrav Barua",
+        "position": "Assistant Director & Android Developer",
+        "image": "img/team/ShowravBarua.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Mamun Sabuj",
+        "position": "Jr.Software Engineer",
+        "image": "img/team/MamunSabuj.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Sharif Ahmed",
+        "position": "Software Engineer",
+        "image": "img/team/SharifAhmed.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Jaber Al Nahian",
+        "position": "Junior Software Engineer",
+        "image": "img/team/JaberAlNahian.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Mashraba Tasnim Rodshi",
+        "position": "HR Admin",
+        "image": "img/team/MashrabaTasnimRodshi.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Dipok Kumar Shill",
+        "position": "Marketing Executive Officer",
+        "image": "img/team/DipokKumarShill.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Sajal Mahmud",
+        "position": "Senior Executive",
+        "image": "img/team/SajalMahmud.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Arifunnahar Rumy",
+        "position": "Communication Executive",
+        "image": "img/team/ArifunnaharRumy.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Md. Rabbir Al-Amin",
+        "position": "Software Engineer",
+        "image": "img/team/MdRabbirAlAmin.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Md. Kamrul Hasan",
+        "position": "Junior Programmer",
+        "image": "img/team/MdKamrulHasan.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Romina Afroze",
+        "position": "Communication Officer",
+        "image": "img/team/RominaAfroze.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Md Al-Mamun",
+        "position": "Graphic Designer",
+        "image": "img/team/MdAlMamun.jpg",
+        "socialLinks": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Asib Ahmed ",
+        "position": "Junior Software Engineer",
+        "image": "img/team/AsibAhmed.jpg",
+        "socialLinks": {
+            "facebook": "https://facebook.com/rajubeparybd",
+            "twitter": "https://twitter.com/rajubeparybd",
+            "linkedin": "https://linkedin.com/in/rajubepary"
+        }
+    }
+]
