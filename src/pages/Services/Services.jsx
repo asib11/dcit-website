@@ -18,8 +18,8 @@ const Services = () => {
             console.log(data)
         }
     return (
-        <div className='max-w-7xl mx-auto space-y-6 pb-10'>
-            <h1 className='max-lg:text-2xl lg:text-3xl font-bold max-lg:py-8 lg:pt-16'>Get the Best <span className='text-green-600'>{data?.name}</span> in Dhaka Bangladesh </h1>
+        <div className='max-w-7xl mx-auto space-y-6 pb-10 text-justify'>
+            <h1 className='max-lg:text-2xl lg:text-3xl font-bold max-lg:py-8 lg:pt-16'>Best Custom <span className='text-green-600'>{data?.name}</span> </h1>
             <p className='text-xl'>
                 {data?.description}
             </p>

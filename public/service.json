@@ -30,5 +30,25 @@
             "Full-time hiring – 8 hours a day / 5 days a week.",
             "Hourly based mobile app developer / Android app programmer."
         ]
+    },
+    {
+        "link":"digitalMarketingService",
+        "name": "Digital Marketing Service",
+        "description": "DCIT ltd provides digital marketing service in Dhaka Bangladesh.Digital Marketing means Promoting a product or brand which is very much essential to make a business successful.It increases visibility on web to your potential customers.Its influence can't be described in words.As much as you are visible,you are getting closer to your business goal.Perfect Digital Marketing strategy can reach your business to the apex.Its your most important strategy to expand your business. DCIT ltd is introducing you with Optimistic Digital.Optimistic Digital is a full service digital agency that specializes in creative campaigns, website design,mobile app development,and online marketing.Our clients range from renowned companies to innovative startups.Optimistic Digital is a concern of one of the ever green IT firm DCITltd who has won dozens of industry awards,and has reoccurring features in major organizations such as The Bangladesh Government, U.S Aid Save the Children),Fedex,UK,Stock Exchange.Optimistic Digital has a vision of becoming an industry leader in the digital marketing landscape.for more information visit www.Optimistic.Digital."
+    },
+    {
+        "link":"websitedevelopment",
+        "name": "Built Website for you in 7 days, Start getting request from your targeted clients.Get the best website development service in bd at DCIT ltd.",
+        "description": "ebsite should reflect your business or brand, colors and image. Our development team can create a unique custom designed website to suit your requirements, leaving your web visitors with a professional impression of your business. DCIT ltd provides the best website development service in Bangladesh. \n Our Website Designs/Development come with smart features, Search Engine SEO and Site Editor which is an exclusive product of DCIT ltd and allows you to update your website on the fly.Contact us to know more details or to place order.Get delivery on time,enjoy our service. \n Your website is the most important component of your company’s marketing plan. It’s the central hub for your messaging and content marketing efforts. All other marketing materials should support and drive traffic to your website. As website design and development technology has progressed over the years, you now have more digital marketing tools than ever before. \n Social media, blogs and mobile allow businesses and nonprofits to easily target and convert users by driving them to a well-designed website with a positive user experience or UX. \n We work with you to develop a user experience which delivers value to your audience. Value means repeat visits and referrals via social media and other channels. Using our years of experience and research, Wood Street’s web design and development solutions are customized to help you achieve your digital marketing goals."
+    },
+    {
+        "link":"ses",
+        "name": "Search Engine Submission",
+        "title1":"Search Engine Submission on a Monthly Basis",
+        "p1":"Submit and resubmit your site to 400+ sites and directories. Monthly updates keeps your web site finely tuned in search engines and increase your visibility rapidly.",
+        "title3":"Search Engine Monitoring",
+        "p2":"Search Engine Booster uses real-time search engine data and analysis tools to report on your web site’s performance. Compare the search results with your  competitors.",
+        "title4":"FREE Automatic Updates",
+        "p3":"Receive live updates includes new Search Engines and Directories and also updated tools for the best Search Engine Optimisation procedures."  
     }
 ]
