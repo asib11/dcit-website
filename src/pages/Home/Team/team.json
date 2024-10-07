@@ -4,6 +4,16 @@
     "position": "Managing Director",
     "image": "../../../assets/team/RaizulIslamKhan.jpg",
     "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Anwar Hossain Eshfar",
+    "position": "Software Engineer",
+    "image": "../../../assets/team/AnwarHossainEshfar.jpg",
+    "socialLinks": {
       "facebook": "https://facebook.com/profile.php?id=100010339204395",
       "twitter": "#",
       "linkedin": "https://linkedin.com/in/anwarhossain9"
@@ -35,6 +45,16 @@
     "image": "../../../assets/team/Fahima.jpg",
     "socialLinks": {
       "facebook": "https://facebook.com/sheikh.shayana",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  }, 
+  {
+    "name": "Shadia Hossain",
+    "position": "Director (HR & Admin)",
+    "image": "../../../assets/team/ShadiaHossain.jpg",
+    "socialLinks": {
+      "facebook": "#",
       "twitter": "#",
       "linkedin": "#"
     }
@@ -151,7 +171,7 @@
   },
   {
     "name": "Mashraba Tasnim Rodshi",
-    "position": "HR Admin",
+    "position": "UI/UX Designer",
     "image": "../../../assets/team/MashrabaTasnimRodshi.jpg",
     "socialLinks": {
       "facebook": "#",
@@ -170,9 +190,9 @@
     }
   },
   {
-    "name": "Sajal Mahmud",
-    "position": "Senior Executive",
-    "image": "../../../assets/team/SajalMahmud.jpg",
+    "name": "Mahfuzur Rahman",
+    "position": "Graphic Designer",
+    "image": "../../../assets/team/MahfuzurRahman.jpg",
     "socialLinks": {
       "facebook": "#",
       "twitter": "#",

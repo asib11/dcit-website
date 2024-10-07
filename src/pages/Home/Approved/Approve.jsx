@@ -8,6 +8,7 @@ import member1 from '../../../assets/approved-by/basis-logo.png.webp'
 import member2 from '../../../assets/approved-by/bacco-image.jpg.webp'
 import member3 from '../../../assets/approved-by/BCS-1.png.webp'
 import ecab from '../../../assets/approved-by/ecab.png'
+import bwcci from '../../../assets/approved-by/bwcci-logo.png'
 
 const Approve = () => {
     useEffect(
@@ -57,7 +58,7 @@ const Approve = () => {
                         <div className='flex flex-col justify-center items-center h-full space-y-2'>
                             <img src={member1} alt="BASIS" />
                             <img src={member2} alt="BACCO" />
-                            <img src={member3} alt="BCS" />
+                            <img src={bwcci} alt="BWCCI" className='w-32'/>
                             <img src={ecab} alt="ECAB" />
                         </div>
                     </div>
