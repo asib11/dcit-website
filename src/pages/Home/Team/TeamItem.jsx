@@ -6,6 +6,7 @@ import {
   faFacebookF,
   faTwitter,
   faLinkedinIn,
+  faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 import "swiper/css";
@@ -62,7 +63,7 @@ const TeamItem = () => {
                   href={item.socialLinks.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white size-6 w-10 h-10 flex justify-center items-center rounded-full bg-gray-400 hover:bg-gray-500"
+                  className="text-white size-6 w-10 h-10 flex justify-center items-center rounded-full bg-blue-400 hover:bg-blue-500"
                 >
                   <FontAwesomeIcon icon={faFacebookF} />
                 </a>
@@ -71,15 +72,15 @@ const TeamItem = () => {
                   href={item.socialLinks.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white size-6 w-10 h-10 flex justify-center items-center rounded-full bg-gray-400 hover:bg-gray-500"
+                  className="text-white size-6 w-10 h-10 flex justify-center items-center rounded-full bg-gray-500 hover:bg-black"
                 >
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon icon={faXTwitter} />
                 </a>
                 <a
                   href={item.socialLinks.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white size-6 w-10 h-10 flex justify-center items-center rounded-full bg-gray-400 hover:bg-gray-500"
+                  className="text-white size-6 w-10 h-10 flex justify-center items-center rounded-full bg-[#0077B5] hover:bg-[#255e7d]"
                 >
                   <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>

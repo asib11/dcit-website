@@ -119,6 +119,17 @@
       "linkedin": "#"
     }
   },
+  
+  {
+    "name": "Asib Ahmed ",
+    "position": "Junior Software Engineer",
+    "image": "../../../assets/team/AsibAhmed.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com/asibahmed11",
+      "twitter": "https://twitter.com/asibahmed_11",
+      "linkedin": "https://linkedin.com/in/asib/"
+    }
+  },
   {
     "name": "Parvez Ahmed",
     "position": "Software Engineer (Team Leader)",
@@ -247,16 +258,6 @@
       "facebook": "#",
       "twitter": "#",
       "linkedin": "#"
-    }
-  },
-  {
-    "name": "Asib Ahmed ",
-    "position": "Junior Software Engineer",
-    "image": "../../../assets/team/AsibAhmed.jpg",
-    "socialLinks": {
-      "facebook": "https://facebook.com/rajubeparybd",
-      "twitter": "https://twitter.com/rajubeparybd",
-      "linkedin": "https://linkedin.com/in/rajubepary"
     }
   }
 ]
