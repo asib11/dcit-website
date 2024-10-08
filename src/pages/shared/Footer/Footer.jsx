@@ -75,7 +75,7 @@ const Footer = () => {
             </Link>
           </nav>
           <nav>
-            <h6 className="footer-title text-xl"> Follow us on</h6>
+            <h6 className="footer-title text-xl text-green-700"> Follow us on</h6>
             <div className="flex gap-6">
               <p>
                 <a href={info.social.facebook} className="link link-hover text-3xl text-blue-600" target="_blank">

@@ -31,8 +31,8 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/gallery" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
-                                    Blog
+                                <Link to="/gallery" className="py-7 px-1 inline-block transition-all duration-300 hover:translate-x-1">
+                                    Gallery
                                 </Link>
                             </li>
                             <li>
@@ -77,7 +77,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link to="/gallery" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
-                                Blog
+                                Gallery
                             </Link>
                         </li>
                         <li>

@@ -54,11 +54,11 @@ const TeamItem = () => {
               />
             </div>
             <div className="p-2 text-center flex flex-col justify-evenly items-center">
-              <h3 className="max-lg:text-[16px] lg:text-xl font-bold uppercase">
+              <h3 className="text-xl font-bold uppercase">
                 {item.name}
               </h3>
               <p className="mb-2">{item.position}</p>
-              <div className="flex justify-center space-x-3 mt-4">
+              <div className="flex justify-center space-x-3 mt-auto">
                 <a
                   href={item.socialLinks.facebook}
                   target="_blank"
