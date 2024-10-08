@@ -21,6 +21,7 @@ import DcitInstitue from "../pages/DcitInstitue/DcitInstitue";
 import OurClient from "../pages/Home/OurClient/OurClient";
 import Software from "../pages/Software/Software";
 import Services from "../pages/Services/Services";
+import Hosting from "../pages/Hosting/Hosting";
 
 const router = createBrowserRouter([
   {
@@ -99,6 +100,10 @@ const router = createBrowserRouter([
       {
         path: '/student',
         element: <Student />
+      },
+      {
+        path: '/hosting',
+        element: <Hosting />
       },
 
     ]
