@@ -62,7 +62,7 @@ const Navbar = () => {
                     </div>
                     {/* Mobile nav */}
                     <ul
-                        className={`md:hidden bg-white fixed w-[80%] top-0 overflow-y-auto bottom-0 py-24 pl-4 duration-500 ${open ? "left-0" : "left-[-100%]"}`}
+                        className={`md:hidden bg-green-600 fixed w-[80%] top-0 overflow-y-auto bottom-0 py-24 pl-4 duration-500 ${open ? "left-0" : "left-[-100%]"}`}
                     >
                         <li>
                             <Link to="/" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
