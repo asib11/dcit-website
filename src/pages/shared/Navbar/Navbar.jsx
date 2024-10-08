@@ -27,7 +27,7 @@ const Navbar = () => {
                             <NavLinks />
                             <li>
                                 <Link to="/event" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
-                                    Portfolio
+                                    Event
                                 </Link>
                             </li>
                             <li>
@@ -72,7 +72,7 @@ const Navbar = () => {
                         <NavLinks />
                         <li>
                             <Link to="/event" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
-                                Portfolio
+                                Event
                             </Link>
                         </li>
                         <li>
