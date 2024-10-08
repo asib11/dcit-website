@@ -7,6 +7,8 @@ import approve1 from '../../../assets/approved-by/NSDApng.png.webp'
 import member1 from '../../../assets/approved-by/basis-logo.png.webp'
 import member2 from '../../../assets/approved-by/bacco-image.jpg.webp'
 import member3 from '../../../assets/approved-by/BCS-1.png.webp'
+import ecab from '../../../assets/approved-by/ecab.png'
+import bwcci from '../../../assets/approved-by/bwcci-logo.png'
 
 const Approve = () => {
     useEffect(
@@ -18,10 +20,11 @@ const Approve = () => {
         <div className='bg-[#e6e7e7] px-4 py-16'>
             <div className='flex max-md:flex-col justify-center max-lg:gap-8 lg:gap-16 max-w-7xl mx-auto'>
                 <div className='md:w-1/3 rounded-md bg-white p-1' data-aos="flip-left">
-                    <div className='w-full rounded-md bg-white px-5 py-3 font-bold h-full'>
+                    <div className='w-full rounded-md bg-white p-5 font-bold h-full flex flex-col justify-center items-center'>
                         <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Collaboration with</h3>
-                        <div className='flex flex-col justify-center items-center'><img src={collaboration2} alt="" />
-                            <img src={collaboration1} alt="" />
+                        <div className='flex flex-col justify-center items-center h-full space-y-5'>
+                            <img src={collaboration2} alt="BITM" />
+                            <img src={collaboration1} alt="VICTVS" />
                         </div>
                     </div>
                 </div>
@@ -33,10 +36,10 @@ const Approve = () => {
                     </div>
                 </div> */}
                 <div className='md:w-1/3 rounded-md bg-white p-1' data-aos="flip-left">
-                    <div className='w-full rounded-md bg-white px-5 py-3 font-bold'>
-                        <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Approved by</h3>
-                        <div className='flex justify-center items-center'>
-                            <img  src={approve1} alt="" />
+                    <div className='w-full rounded-md bg-white p-5 font-bold h-full flex flex-col justify-center items-center'>
+                        <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6  text-center'>Approved by</h3>
+                        <div className='flex justify-center items-center h-full'>
+                            <img  src={approve1} alt="BITM" className='w-full' />
                             {/* <img src={collaboration1} alt="" /> */}
                         </div>
                     </div>
@@ -50,12 +53,13 @@ const Approve = () => {
                     </div>
                 </div> */}
                 <div className='md:w-1/3 rounded-md bg-white p-1' data-aos="flip-left">
-                    <div className='w-full rounded-md bg-white px-5 py-3 font-bold'>
+                    <div className='w-full rounded-md bg-white p-5 font-bold h-full flex flex-col justify-center items-center'>
                         <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Member of</h3>
-                        <div className='flex flex-col justify-center items-center'>
-                            <img src={member1} alt="" />
-                            <div className=''><img src={member2} alt="" /></div>
-                            <img src={member3} alt="" />
+                        <div className='flex flex-col justify-center items-center h-full space-y-2'>
+                            <img src={member1} alt="BASIS" />
+                            <img src={member2} alt="BACCO" />
+                            <img src={bwcci} alt="BWCCI" className='w-32'/>
+                            <img src={ecab} alt="ECAB" />
                         </div>
                     </div>
                 </div>
