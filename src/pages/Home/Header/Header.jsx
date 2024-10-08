@@ -12,7 +12,7 @@ const Header = () => {
                     <div className='max-lg:w-full lg:w-2/5 space-y-6 max-lg:p-6'>
                         <div className='flex items-center gap-2 font-semibold text-xl'>
                             <BsFillBookmarkCheckFill className='size-5 text-green-600' />
-                            <h4>Unleash Your Potential</h4>
+                            <h4>Unlock Your True Potential</h4>
                         </div>
                         <h1 className='text-5xl font-bold'>Empowering global web solutions with <span className='text-green-600'>innovation</span></h1>
                         <p className='font-semibold text-lg text-justify'>DCIT LTD is a leading software development company in Dhaka, Bangladesh, specializing in web development and solutions, with over 12 years of experience in delivering successful global projects. The company is renowned for its professional approach and commitment to innovative technology.</p>
