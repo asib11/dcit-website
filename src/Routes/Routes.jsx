@@ -59,7 +59,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/hosting/:hostingId',
-        element: <Software/>
+        element: <Hosting/>
       },
       {
         path: '/services/:serviceId',
@@ -100,10 +100,6 @@ const router = createBrowserRouter([
       {
         path: '/student',
         element: <Student />
-      },
-      {
-        path: '/hosting',
-        element: <Hosting />
       },
 
     ]
