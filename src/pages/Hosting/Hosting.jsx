@@ -4,9 +4,8 @@ import { useParams } from 'react-router-dom';
 
 const Hosting = () => {
     const [hosting, setHosting] = useState([]);
-    const {hostingId} = useParams()
+    const { hostingId } = useParams()
 
-    // Fetch the MDX content from the JSON file
     useEffect(
         () => {
             fetch('/hosting.json')
@@ -16,15 +15,12 @@ const Hosting = () => {
         }
         , []);
 
-        {
-            console.log(hosting)
-        }
 
-        const dataHosting = hosting.find(item => item.link === hostingId)
+    const dataHosting = hosting.find(item => item.link === hostingId)
 
     return (
         <div className='max-w-7xl mx-auto'>
-            <h1>Accounting Software Details</h1>
+            <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold mt-10 text-green-600'>{dataHosting?.name}</h1>
             <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-4 py-20' >
                 {
                     dataHosting?.content?.map((host, index) => (
@@ -32,15 +28,12 @@ const Hosting = () => {
                             <h2 className='font-bold text-2xl text-center bg-red-600 text-white p-10'>{host.name}</h2>
                             <ul className='text-xl p-4 space-y-4'>
                                 {
-
                                     host?.details?.map((item, idx) =>
                                         (<li key={idx}>{item}</li>)
-
                                     )
                                 }
                             </ul>
                         </div>
-
                     ))
                 }
             </div>
