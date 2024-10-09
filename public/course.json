@@ -1,67 +1,99 @@
 [
     {
-        "name": "python",
+        "name": "Machine Learning",
+        "link":"machineLearning",
         "price": "৳ 10,000.00 – ৳ 12,500.00",
-        "img": "../src/assets/approved-by/graphics.jpeg",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
         "details": {
             "files": {
-                "fileName": "python.json"
-            }
-        },
-        "type": "recommand"
-    },
-    {
-        "name": "graphics",
-        "price": "৳ 10,000.00 – ৳ 12,500.00",
-        "img": "../src/assets/approved-by/graphics.jpeg",
-        "details": {
-            "files": [
-                {
-                    "fileName": "graphics.json"
-                }
-            ]
-        },
-        "type": "recommand"
-    },
-    {
-        "name": "Python",
-        "price": "৳ 10,000.00 – ৳ 12,500.00",
-        "img": "../src/assets/approved-by/graphics.jpeg",
-        "details": {
-            "files": {
-                "fileName": "python.json"
-            }
-        },
-        "type": "fourth"
-    },
-    {
-        "name": "graphics",
-        "price": "৳ 10,000.00 – ৳ 12,500.00",
-        "img": "../src/assets/approved-by/graphics.jpeg",
-        "details": {
-            "files": [
-                {
-                    "fileName": "graphics.json"
-                }
-            ]
-        },
-        "type": "fourth"
-    },
-    {
-        "name": "Python",
-        "price": "৳ 10,000.00 – ৳ 12,500.00",
-        "img": "../src/assets/approved-by/graphics.jpeg",
-        "details": {
-            "files": {
-                "fileName": "python.json"
+                "fileName": "machineLearning.json"
             }
         },
         "type": ["regular","fourth"]
     },
     {
-        "name": "graphics",
+        "name": "App Development",
+        "link":"app",
+        "price": "৳ 18,000.00 – ৳ 20,500.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "app.json"
+                }
+            ]
+        },
+        "type": "regular"
+    },
+    {
+        "name": "Networking",
+        "link":"networking",
+        "price": "৳ 18,000.00 – ৳ 20,500.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "networking.json"
+                }
+            ]
+        },
+        "type": "regular"
+    },
+    {
+        "name": "Video Editing",
+        "link":"videoEditing",
+        "price": "৳ 15,000.00 – ৳ 18,500.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "videoEditing.json"
+                }
+            ]
+        },
+        "type": "regular"
+    },
+    {
+        "name": "python with Django",
+        "link":"python",
         "price": "৳ 10,000.00 – ৳ 12,500.00",
-        "img": "../src/assets/approved-by/graphics.jpeg",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "python.json"
+            }
+        },
+        "type": ["recommand","fourth"]
+    },
+    {
+        "name": "Digital Marketing",
+        "link":"digitalMarketing",
+        "price": "৳ 8,000.00 – ৳ 10,000.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "digitalMarketing.json"
+            }
+        },
+        "type": ["recommand","regular"]
+    },
+    {
+        "name": "Responsive Web Design",
+        "link":"responsiveWebDesign",
+        "price": "৳ 9,000.00 – ৳ 12,000.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "responsiveWebDesign.json"
+            }
+        },
+        "type": ["recommand","regular"]
+    },
+    {
+        "name": "graphics",
+        "link":"graphics",
+        "price": "৳ 10,000.00 – ৳ 12,500.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
         "details": {
             "files": [
                 {
@@ -69,6 +101,84 @@
                 }
             ]
         },
-        "type": "regular"
+        "type": ["recommand","regular"]
+    },
+    {
+        "name": "Web Development",
+        "link":"webDesign",
+        "price": "৳ 12,000.00 – ৳ 15,500.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "webDesign.json"
+                }
+            ]
+        },
+        "type": ["recommand","regular"]
+    },
+    {
+        "name": "UI/UX Design",
+        "link":"uiux",
+        "price": "৳ 10,000.00 – ৳ 15,000.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "uiux.json"
+                }
+            ]
+        },
+        "type": ["recommand","regular"]
+    },
+    {
+        "name": "Basic Computer",
+        "link":"basicComputer",
+        "price": "৳ 5,000.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": [
+                {
+                    "fileName": "basicComputer.json"
+                }
+            ]
+        },
+        "type": ["recommand","regular"]
+    },
+    {
+        "name": "IoT – Internet of Things",
+        "link":"iot",
+        "price": "৳ 23,000.00 – ৳ 25,000.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "iot.json"
+            }
+        },
+        "type": "fourth"
+    },
+    {
+        "name": "Cyber Security",
+        "link":"cyberSecurity",
+        "price": "৳ 23,000.00 – ৳ 25,000.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "cyberSecurity.json"
+            }
+        },
+        "type": "fourth"
+    },
+    {
+        "name": "Blockchain Development",
+        "link":"blockchainDevelopment",
+        "price": "৳ 23,000.00 – ৳ 25,000.00",
+        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "details": {
+            "files": {
+                "fileName": "blockchainDevelopment.json"
+            }
+        },
+        "type": "fourth"
     }
 ]

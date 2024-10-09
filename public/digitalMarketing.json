@@ -1,0 +1,52 @@
+{
+    "title": "Digital Marketing Mastery",
+    "overview": "Digital Marketing Mastery provides learners with the skills and knowledge to excel in online marketing strategies. This course covers essential topics such as SEO, content marketing, social media strategies, and data analytics. With practical projects and real-world case studies, students will gain hands-on experience in digital marketing.",
+    "courseDetails": "In this course, you will explore the core areas of digital marketing, from building a strong online presence to optimizing campaigns for higher conversions. You'll learn about search engine optimization, email marketing, pay-per-click advertising, and analytics tools. This course is designed to give you practical skills to drive marketing success in the digital age.",
+    "certification": "Upon completing this course, you will receive a certificate, qualifying you as a certified Digital Marketing Specialist.",
+    "Modules": [
+        {"id": "0", "name": "Introduction to Digital Marketing"},
+        {"id": "1", "name": "SEO Basics and Strategies"},
+        {"id": "2", "name": "Content Marketing and Strategy"},
+        {"id": "3", "name": "Social Media Marketing"},
+        {"id": "4", "name": "Email Marketing Techniques"},
+        {"id": "5", "name": "Pay-Per-Click (PPC) Advertising"},
+        {"id": "6", "name": "Data Analytics for Marketing"},
+        {"id": "7", "name": "Mobile Marketing Strategies"},
+        {"id": "8", "name": "Project: Create a Content Marketing Plan"},
+        {"id": "9", "name": "Project: Social Media Campaign"},
+        {"id": "10", "name": "Project: Data-Driven Marketing Campaign"},
+        {"id": "11", "name": "Final Exam"},
+        {"id": "12", "name": "Final Project Presentation"}
+    ],
+    "Highlight": [
+        {"id": "0", "name": "SEO and PPC Campaigns"},
+        {"id": "1", "name": "Effective Social Media Strategies"},
+        {"id": "2", "name": "Content Creation and Marketing"},
+        {"id": "3", "name": "Hands-on, Project-Based Learning"},
+        {"id": "4", "name": "Real-World Case Studies"},
+        {"id": "5", "name": "Portfolio Development"},
+        {"id": "6", "name": "Collaboration and Networking"},
+        {"id": "7", "name": "Industry Experts and Mentors"},
+        {"id": "8", "name": "Data-Driven Decision Making"}
+    ],
+    "softwareTaught": [
+        {"id": "0", "name": "Google Analytics"},
+        {"id": "1", "name": "Hootsuite"},
+        {"id": "2", "name": "SEMrush"},
+        {"id": "3", "name": "Mailchimp"},
+        {"id": "4", "name": "Google Ads"},
+        {"id": "5", "name": "WordPress"}
+    ],
+    "careerOpportunity": [
+        {"id": "0", "name": "Digital Marketing Specialist"},
+        {"id": "1", "name": "SEO Specialist"},
+        {"id": "2", "name": "Content Strategist"},
+        {"id": "3", "name": "Social Media Manager"},
+        {"id": "4", "name": "PPC Campaign Manager"},
+        {"id": "5", "name": "Digital Analytics Expert"}
+    ],
+    "skillLevel": "Beginners",
+    "duration": "4 Months",
+    "classPerWeek": "5 Days",
+    "total": "36 Classes"
+}

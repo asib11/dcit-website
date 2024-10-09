@@ -1,0 +1,52 @@
+{
+    "title": "Responsive Web Design",
+    "overview": "Responsive Web Design teaches learners how to create websites that look great and function well on all devices. Using HTML, CSS, and JavaScript, participants will learn techniques to build adaptable and user-friendly web interfaces. The course focuses on hands-on projects to help learners apply design principles in real-world scenarios.",
+    "courseDetails": "In this course, you will learn the fundamentals of responsive web design, ensuring that your websites are optimized for various devices, including desktops, tablets, and mobile phones. You’ll work with HTML, CSS, and JavaScript to create modern, flexible layouts. Projects will include building multi-page websites, incorporating interactive elements, and ensuring cross-browser compatibility.",
+    "certification": "Upon completing this course, you will receive a certificate, qualifying you as a certified Responsive Web Designer.",
+    "Modules": [
+        {"id": "0", "name": "Introduction to Responsive Web Design"},
+        {"id": "1", "name": "HTML5 Essentials"},
+        {"id": "2", "name": "CSS3 for Responsive Layouts"},
+        {"id": "3", "name": "Media Queries and Breakpoints"},
+        {"id": "4", "name": "Flexbox and Grid Layout Techniques"},
+        {"id": "5", "name": "Responsive Typography and Images"},
+        {"id": "6", "name": "JavaScript for Interactive Design"},
+        {"id": "7", "name": "Cross-Browser Compatibility"},
+        {"id": "8", "name": "Project: Build a Multi-Page Responsive Website"},
+        {"id": "9", "name": "Project: Create a Responsive Portfolio Site"},
+        {"id": "10", "name": "Project: Mobile-First Web Design"},
+        {"id": "11", "name": "Final Exam"},
+        {"id": "12", "name": "Final Project Presentation"}
+    ],
+    "Highlight": [
+        {"id": "0", "name": "Mobile-First Design"},
+        {"id": "1", "name": "Flexible Layouts with CSS3"},
+        {"id": "2", "name": "Interactive Features with JavaScript"},
+        {"id": "3", "name": "Hands-on, Project-Based Learning"},
+        {"id": "4", "name": "Cross-Browser Optimization"},
+        {"id": "5", "name": "Portfolio Development"},
+        {"id": "6", "name": "Responsive Images and Typography"},
+        {"id": "7", "name": "Expert Instruction from Industry Professionals"},
+        {"id": "8", "name": "Networking Opportunities"}
+    ],
+    "softwareTaught": [
+        {"id": "0", "name": "Visual Studio Code"},
+        {"id": "1", "name": "Chrome DevTools"},
+        {"id": "2", "name": "Bootstrap"},
+        {"id": "3", "name": "Figma"},
+        {"id": "4", "name": "Git and GitHub"},
+        {"id": "5", "name": "Sass"}
+    ],
+    "careerOpportunity": [
+        {"id": "0", "name": "Web Designer"},
+        {"id": "1", "name": "Front-End Developer"},
+        {"id": "2", "name": "UI/UX Designer"},
+        {"id": "3", "name": "Mobile Web Developer"},
+        {"id": "4", "name": "Freelance Web Developer"},
+        {"id": "5", "name": "Web Development Consultant"}
+    ],
+    "skillLevel": "Beginners",
+    "duration": "4 Months",
+    "classPerWeek": "5 Days",
+    "total": "36 Classes"
+}

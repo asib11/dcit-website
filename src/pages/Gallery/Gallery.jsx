@@ -17,7 +17,7 @@ const Gallery = () => {
                 columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
                 className="shadow-2xl"
             >
-                <h1 className='text-3xl text-center font-bold pt-16 mb-6'>Gallery</h1>
+                <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold pt-16 mb-6'>Gallery</h1>
                 <Masonry className="">
                     {images.map((image, i) => (
                         <img

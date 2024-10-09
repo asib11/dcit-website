@@ -45,7 +45,7 @@ const DcitInstitue = () => {
                                     <p className='font-bold text-xl'>{course.name}</p>
                                 </div>
                                 <div className="">
-                                    <Link to={`/dcitinstitue/${course.name}`} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
+                                    <Link to={`/dcitinstitue/${course.link}`} className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ const DcitInstitue = () => {
                                         <p className='font-bold text-xl'>{course.name}</p>
                                     </div>
                                     <div className="">
-                                        <Link to={`/dcitinstitue/${course.name}`}  className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
+                                        <Link to={`/dcitinstitue/${course.Link}`}  className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ const DcitInstitue = () => {
                                     <p className='font-bold text-xl'>{course.name}</p>
                                 </div>
                                 <div className="">
-                                    <Link to={`/dcitinstitue/${course.name}`}  className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
+                                    <Link to={`/dcitinstitue/${course.link}`}  className="btn bg-[#399918] text-white hover:bg-lime-500">View Details</Link>
                                 </div>
                             </div>
                         </div>
