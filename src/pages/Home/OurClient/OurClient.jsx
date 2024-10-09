@@ -20,7 +20,7 @@ import 'swiper/css/pagination';
 
 const OurClient = () => {
     return (
-        <div className='bg-[#e6e7e7]'>
+        <div className=''>
             <div className='max-w-7xl mx-auto py-20 ' >
                 <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20' data-aos="zoom-in-down">Our Collaboration With</h2>
                 <Swiper
