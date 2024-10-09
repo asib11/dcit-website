@@ -1,36 +1,173 @@
 [
     {
-        "name":"Shared Hosting",
-        "link":"sharedHosting",
-        "content":[
+        "name": "Shared Hosting",
+        "link": "sharedHosting",
+        "content": [
             {
-                "name": "package 1",
-                "details":["Over 10 years of industry experience.","Years of Expertise on the entire Android SDK including C, C++, Java etc.","We have done lot of Successful projects in last few years for android development.","We do Perform a deep study of each and every aspect of project requirements or scope for your android development.","Preparing a required analysis report which will allow you to track the performance of your project.","We shall provide  crystal clear picture of your android application development From Start to Finish.","You will get a specific timeframe, required to complete your project.","Giving you the idea that how your app will affect your targeted market.","We will design best User interface for your mobile app with our expert designer.","low cost development and faster delivery capability is our another expertise"]
+                "name": "Basic Package",
+                "details": [
+                    "1 GB disk space and 10 GB bandwidth, ideal for small personal websites.",
+                    "User-friendly control panel for easy management.",
+                    "Free SSL certificate for secure connections.",
+                    "24/7 customer support via chat and email."
+                ]
             },
             {
-                "name": "package 2",
-                "details":["Over 10 years of industry experience.","Years of Expertise on the entire Android SDK including C, C++, Java etc.","We have done lot of Successful projects in last few years for android development.","We do Perform a deep study of each and every aspect of project requirements or scope for your android development.","Preparing a required analysis report which will allow you to track the performance of your project.","We shall provide  crystal clear picture of your android application development From Start to Finish.","You will get a specific timeframe, required to complete your project.","Giving you the idea that how your app will affect your targeted market.","We will design best User interface for your mobile app with our expert designer.","low cost development and faster delivery capability is our another expertise"]
+                "name": "Standard Package",
+                "details": [
+                    "5 GB disk space and 50 GB bandwidth, suitable for small businesses.",
+                    "Automatic daily backups to ensure data safety.",
+                    "Support for popular CMS like WordPress and Joomla.",
+                    "Email hosting with customizable email accounts."
+                ]
             },
             {
-                "name": "package 3",
-                "details":["Over 10 years of industry experience.","Years of Expertise on the entire Android SDK including C, C++, Java etc.","We have done lot of Successful projects in last few years for android development.","We do Perform a deep study of each and every aspect of project requirements or scope for your android development.","Preparing a required analysis report which will allow you to track the performance of your project.","We shall provide  crystal clear picture of your android application development From Start to Finish.","You will get a specific timeframe, required to complete your project.","Giving you the idea that how your app will affect your targeted market.","We will design best User interface for your mobile app with our expert designer.","low cost development and faster delivery capability is our another expertise"]
+                "name": "Advanced Package",
+                "details": [
+                    "10 GB disk space and 100 GB bandwidth for growing websites.",
+                    "Enhanced security features including malware scanning.",
+                    "Easy one-click installation for various applications.",
+                    "Staging environments for safe website updates."
+                ]
             },
             {
-                "name": "package 4",
-                "details":["Over 10 years of industry experience.","Years of Expertise on the entire Android SDK including C, C++, Java etc.","We have done lot of Successful projects in last few years for android development.","We do Perform a deep study of each and every aspect of project requirements or scope for your android development.","Preparing a required analysis report which will allow you to track the performance of your project.","We shall provide  crystal clear picture of your android application development From Start to Finish.","You will get a specific timeframe, required to complete your project.","Giving you the idea that how your app will affect your targeted market.","We will design best User interface for your mobile app with our expert designer.","low cost development and faster delivery capability is our another expertise"]
+                "name": "Premium Package",
+                "details": [
+                    "Unlimited disk space and bandwidth for high-traffic sites.",
+                    "Priority support with faster response times.",
+                    "Advanced caching solutions for improved website performance.",
+                    "Ability to host multiple domains under a single account."
+                ]
+            }
+        ]
+    },
+    
+    {
+        "name": "VPS Hosting",
+        "link": "VPSHosting",
+        "content": [
+            {
+                "name": "Basic Package",
+                "details": [
+                    "1 CPU core and 1 GB RAM, perfect for small to medium applications.",
+                    "Scalable resources to accommodate growing websites.",
+                    "Full root access for custom configurations.",
+                    "SSD storage for faster data access and performance."
+                ]
+            },
+            {
+                "name": "Standard Package",
+                "details": [
+                    "2 CPU cores and 2 GB RAM, ideal for moderate traffic websites.",
+                    "Flexible scaling options for increased resource needs.",
+                    "Managed security features including firewalls and backups.",
+                    "24/7 customer support to assist with technical issues."
+                ]
+            },
+            {
+                "name": "Advanced Package",
+                "details": [
+                    "4 CPU cores and 4 GB RAM, suitable for resource-intensive applications.",
+                    "Enhanced performance with dedicated IP addresses.",
+                    "Customizable software installations to meet specific needs.",
+                    "Weekly backups to ensure data safety and recovery."
+                ]
+            },
+            {
+                "name": "Premium Package",
+                "details": [
+                    "8 CPU cores and 8 GB RAM for high-performance demands.",
+                    "Optimized resource allocation for maximum uptime.",
+                    "Full management service including updates and monitoring.",
+                    "Advanced security protocols and DDoS protection."
+                ]
             }
         ]
     },
     {
-        "name":"VPS Hosting",
-        "link":"VPSHosting"
-    },
-    {
-        "name":"Dedicated Hosting",
-        "link":"dedicatedHosting"
-    },
-    {
-        "name":"Reseller Hosting",
-        "link":"resellerHosting"
+        "name": "Dedicated Hosting",
+        "link": "dedicatedHosting",
+        "content": [
+            {
+                "name": "Basic Package",
+                "details": [
+                    "Single dedicated server with 4 CPU cores and 8 GB RAM.",
+                    "Ideal for large websites and applications with high traffic.",
+                    "Managed support included for software updates and security.",
+                    "High bandwidth allowance for better performance."
+                ]
+            },
+            {
+                "name": "Standard Package",
+                "details": [
+                    "Dedicated server with 6 CPU cores and 16 GB RAM.",
+                    "Enhanced hardware resources for more demanding applications.",
+                    "24/7 monitoring and support for guaranteed uptime.",
+                    "Free migration service to switch from your current host."
+                ]
+            },
+            {
+                "name": "Advanced Package",
+                "details": [
+                    "Dedicated server with 8 CPU cores and 32 GB RAM.",
+                    "Robust infrastructure for enterprise-level applications.",
+                    "Custom server configurations tailored to your needs.",
+                    "Comprehensive security measures including SSL certificates."
+                ]
+            },
+            {
+                "name": "Premium Package",
+                "details": [
+                    "High-performance server with 12 CPU cores and 64 GB RAM.",
+                    "Designed for heavy-duty workloads and maximum efficiency.",
+                    "Full management options including server backups and updates.",
+                    "Advanced DDoS protection to safeguard your website."
+                ]
+            }
+        ]
     }
+    ,
+    {
+        "name": "Reseller Hosting",
+        "link": "resellerHosting",
+        "content": [
+            {
+                "name": "Basic Package",
+                "details": [
+                    "10 GB storage and 100 GB bandwidth for small client bases.",
+                    "Ability to create custom hosting plans for clients.",
+                    "White-label hosting to build your own brand.",
+                    "User-friendly control panel for easy management."
+                ]
+            },
+            {
+                "name": "Standard Package",
+                "details": [
+                    "20 GB storage and 200 GB bandwidth, suitable for growing businesses.",
+                    "Advanced management tools for better client handling.",
+                    "Free website migration service for new clients.",
+                    "Technical support for your clients included."
+                ]
+            },
+            {
+                "name": "Advanced Package",
+                "details": [
+                    "40 GB storage and 400 GB bandwidth for larger client portfolios.",
+                    "Dedicated IP addresses available for each client account.",
+                    "Customizable WHMCS billing software for client management.",
+                    "Regular updates and security patches provided."
+                ]
+            },
+            {
+                "name": "Premium Package",
+                "details": [
+                    "80 GB storage and 800 GB bandwidth for high-demand users.",
+                    "Priority support for reseller accounts.",
+                    "Ability to resell additional services like domain registration.",
+                    "Comprehensive analytics tools to monitor client usage."
+                ]
+            }
+        ]
+    }
+    
 ]
