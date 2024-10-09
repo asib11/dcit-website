@@ -17,23 +17,23 @@ const Courses = () => {
         , [])
 
     return (
-        <div className='max-w-7xl mx-auto mb-10'>
-            <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold max-lg:py-8 lg:py-16'>{fileData.title} </h1>
+        <div className='max-w-7xl mx-auto mb-10 text-gray-500'>
+            <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold max-lg:py-8 lg:py-16 text-red-600'>{fileData.title} </h1>
             <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row lg:justify-between gap-6 lg:p-14 m-6 lg:m-0'>
                 <div className='lg:w-2/3 text-justify '>
-                    <h3 className='text-2xl lg:my-6 font-semibold'>Overview:</h3>
+                    <h3 className='text-2xl lg:my-6 font-semibold text-green-600'>Overview:</h3>
                     <p className='text-xl'>
                         {fileData.overview}
                     </p>
-                    <h3 className='text-2xl my-6 font-semibold'>What you will learn from this course?</h3>
+                    <h3 className='text-2xl my-6 font-semibold text-green-600'>What you will learn from this course?</h3>
                     <p className='text-xl'>
                         {fileData.courseDetails}
                     </p>
-                    <h3 className='text-2xl my-6 font-semibold'>Certification:</h3>
+                    <h3 className='text-2xl my-6 font-semibold text-green-600'>Certification:</h3>
                     <p className='text-xl'>
                         {fileData.certification}
                     </p>
-                    <h3 className='text-2xl my-6 font-semibold'>
+                    <h3 className='text-2xl my-6 font-semibold text-green-600'>
                         Modules
                     </h3>
                     <ul className='text-xl list-disc pl-4'>
@@ -75,7 +75,7 @@ const Courses = () => {
                         <li>Final Exam-3</li>
                         <li>Final Project &amp; Viva</li> */}
                     </ul>
-                    <h3 className='text-2xl my-6 font-semibold'>Highlight</h3>
+                    <h3 className='text-2xl my-6 font-semibold text-green-600'>Highlight</h3>
                     <ul className='text-xl list-disc pl-4'>
                         {
 
@@ -96,7 +96,7 @@ const Courses = () => {
                     </ul>
                     <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row gap-8'>
                         <div>
-                            <h3 className='text-2xl my-6 font-semibold'>Software Taught</h3>
+                            <h3 className='text-2xl my-6 font-semibold text-green-600'>Software Taught</h3>
                             <ul className='text-xl list-disc pl-4'>
                                 {
 
@@ -109,7 +109,7 @@ const Courses = () => {
                             </ul>
                         </div>
                         <div>
-                            <h3 className='text-2xl my-6 font-semibold'>Career Opportunity:</h3>
+                            <h3 className='text-2xl my-6 font-semibold text-green-600'>Career Opportunity:</h3>
                             <p className='text-xl'>After course completion, students can get jobs as:</p>
                             <ul className='text-xl list-disc pl-4'>
                             {
