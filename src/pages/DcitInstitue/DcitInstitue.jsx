@@ -1,17 +1,8 @@
 import React, { useEffect, useState } from 'react';
-// import graphics1 from '../../../assets/approved-by/graphics.jpeg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 
 const DcitInstitue = () => {
     const [courses, setCurses] = useState([]);
-
-    useEffect(
-        () => {
-            AOS.init({ delay: 300, duration: 1000 });
-        }, []
-    )
 
     useEffect(() => {
         fetch('course.json')
@@ -27,15 +18,16 @@ const DcitInstitue = () => {
 
     return (
         <div className=''>
-            <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16 ' data-aos="zoom-in-down">RECOMMENDED</h3>
-            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6' data-aos="zoom-in-up"> Course Programs </h2>
+            <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16 ' >RECOMMENDED</h3>
+            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6' > Course Programs </h2>
 
             <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
                 {
                     recommand.map((course, index) => (
-                        <div key={index} course={course} data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
-                            <figure>
+                        <div key={index} course={course}  className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
+                            <figure className='h-[370px] w-full overflow-hidden'>
                                 <img
+                                    className="w-full h-full object-cover object-center"
                                     src={course.img}
                                     alt="Shoes" />
                             </figure>
@@ -53,14 +45,15 @@ const DcitInstitue = () => {
                 }
             </div>
             <div className='bg-[#e6e7e7]'>
-                <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16' data-aos="zoom-in-down">4<sup>TH</sup> INDUSTRIAL REVOLUTION</h3>
-                <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6' data-aos="zoom-in-up">Course Programs</h2>
+                <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16'>4<sup>TH</sup> INDUSTRIAL REVOLUTION</h3>
+                <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6'>Course Programs</h2>
                 <div className='grid grid-cols-1 justify-items-center gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20'>
                     {
                         fourth.map((course, index) => (
-                            <div key={index} data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
-                                <figure className='h-full w-full'>
+                            <div key={index} className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
+                                <figure className='h-[370px] w-full overflow-hidden'>
                                     <img 
+                                        className="w-full h-full object-cover object-center"
                                         src={course.img}
                                         alt="Shoes" />
                                 </figure>
@@ -81,14 +74,15 @@ const DcitInstitue = () => {
 
             </div>
 
-            <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16' data-aos="zoom-in-down">REGULAR</h3>
-            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6' data-aos="zoom-in-up">Course Programs</h2>
+            <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16' >REGULAR</h3>
+            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6'>Course Programs</h2>
             <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
                 {
                     regular.map((course, index) => (
-                        <div key={index} data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
-                            <figure className=''>
+                        <div key={index} className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
+                            <figure className='h-[370px] w-full overflow-hidden'>
                                 <img
+                                    className="w-full h-full object-cover object-center"
                                     src={course.img}
                                     alt="Shoes" />
                             </figure>
