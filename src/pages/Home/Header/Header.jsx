@@ -26,8 +26,8 @@ const Header = () => {
                         </div>
                     </div>
                     <div className='max-lg:w-full lg:w-3/5 max-lg:h-[300px]'>
-                        <div className='h-full m-6 ring-8 ring-green-300 rounded-xl'>
-                            <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/kjx_8jE6jJc?si=_p20n-CHoITtoxzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div className='h-full shadow-lg'>
+                            <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/N1iSHD6N6_c?si=xyjWXuNys7gFxfHp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

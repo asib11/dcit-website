@@ -10,6 +10,16 @@
     }
   },
   {
+    "name": "Shadia Hossain",
+    "position": "Director (HR & Admin)",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536432/ShadiaHossain_hyeqo0.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
     "name": "Anwar Hossain Eshfar",
     "position": "Software Engineer",
     "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536428/AnwarHossainEshfar_jojjuz.jpg",
@@ -30,16 +40,6 @@
     }
   },
   {
-    "name": "Cyinthia Afrine",
-    "position": "IT Exective",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/CyinthiaAfrine_c7tnnd.jpg",
-    "socialLinks": {
-      "facebook": "https://facebook.com/profile.php?id=100078060660992",
-      "twitter": "#",
-      "linkedin": "#"
-    }
-  },
-  {
     "name": "Fahima",
     "position": "HR Admin",
     "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/Fahima_nzm33r.jpg",
@@ -49,16 +49,6 @@
       "linkedin": "#"
     }
   }, 
-  {
-    "name": "Shadia Hossain",
-    "position": "Director (HR & Admin)",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536432/ShadiaHossain_hyeqo0.jpg",
-    "socialLinks": {
-      "facebook": "#",
-      "twitter": "#",
-      "linkedin": "#"
-    }
-  },
   {
     "name": "Easteak Nayeem",
     "position": "Assistant HR",
@@ -119,17 +109,6 @@
       "linkedin": "#"
     }
   },
-  
-  {
-    "name": "Asib Ahmed ",
-    "position": "Junior Software Engineer",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/AsibAhmed_avxxlz.jpg",
-    "socialLinks": {
-      "facebook": "https://facebook.com/asibahmed11",
-      "twitter": "https://twitter.com/asibahmed_11",
-      "linkedin": "https://linkedin.com/in/asib/"
-    }
-  },
   {
     "name": "Parvez Ahmed",
     "position": "Software Engineer (Team Leader)",
@@ -174,16 +153,6 @@
     "name": "Jaber Al Nahian",
     "position": "Junior Software Engineer",
     "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536428/JaberAlNahian_u9xmgi.jpg",
-    "socialLinks": {
-      "facebook": "#",
-      "twitter": "#",
-      "linkedin": "#"
-    }
-  },
-  {
-    "name": "Mashraba Tasnim Rodshi",
-    "position": "UI/UX Designer",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536430/MashrabaTasnimRodshi_gjkktn.jpg",
     "socialLinks": {
       "facebook": "#",
       "twitter": "#",
@@ -256,6 +225,36 @@
     "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536430/MdAlMamun_qvdynw.jpg",
     "socialLinks": {
       "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Asib Ahmed ",
+    "position": "Junior Software Engineer",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/AsibAhmed_avxxlz.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com/asibahmed11",
+      "twitter": "https://twitter.com/asibahmed_11",
+      "linkedin": "https://linkedin.com/in/asib/"
+    }
+  },
+  {
+    "name": "Mashraba Tasnim Rodshi",
+    "position": "UI/UX Designer",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536430/MashrabaTasnimRodshi_gjkktn.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Cyinthia Afrine",
+    "position": "IT Exective",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/CyinthiaAfrine_c7tnnd.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com/profile.php?id=100078060660992",
       "twitter": "#",
       "linkedin": "#"
     }
