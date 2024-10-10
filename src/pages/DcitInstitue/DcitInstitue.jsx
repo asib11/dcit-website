@@ -25,8 +25,9 @@ const DcitInstitue = () => {
                 {
                     recommand.map((course, index) => (
                         <div key={index} course={course}  className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
-                            <figure>
+                            <figure className='h-[370px] w-full overflow-hidden'>
                                 <img
+                                    className="w-full h-full object-cover object-center"
                                     src={course.img}
                                     alt="Shoes" />
                             </figure>
@@ -50,8 +51,9 @@ const DcitInstitue = () => {
                     {
                         fourth.map((course, index) => (
                             <div key={index} className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
-                                <figure className='h-full w-full'>
+                                <figure className='h-[370px] w-full overflow-hidden'>
                                     <img 
+                                        className="w-full h-full object-cover object-center"
                                         src={course.img}
                                         alt="Shoes" />
                                 </figure>
@@ -78,8 +80,9 @@ const DcitInstitue = () => {
                 {
                     regular.map((course, index) => (
                         <div key={index} className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
-                            <figure className=''>
+                            <figure className='h-[370px] w-full overflow-hidden'>
                                 <img
+                                    className="w-full h-full object-cover object-center"
                                     src={course.img}
                                     alt="Shoes" />
                             </figure>
