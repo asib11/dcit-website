@@ -6,8 +6,8 @@ import { FaBookmark } from "react-icons/fa";
 const Event = () => {
     return (
         <div className='max-w-7xl mx-auto'>
-            <h1 className='max-lg:text-3xl lg:text-5xl font-bold mt-10 mb-6'>Latest Past Events</h1>
-            <div className='flex flex-col lg:flex-row justify-center items-center py-16 '>
+            <h1 className='max-lg:text-2xl lg:text-5xl font-bold lg:mt-10 lg:mb-6 max-lg:m-4'>Latest Past Events</h1>
+            <div className='flex flex-col lg:flex-row justify-center items-center max-lg:py-8 lg:py-16 '>
                 <time datetime="" className='flex flex-col w-1/6  text-center'>
                     <span>July</span>
                     <strong className='text-2xl'>11</strong>
