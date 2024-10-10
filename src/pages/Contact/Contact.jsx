@@ -46,7 +46,6 @@ const Contact = () => {
     <div className=" mt-16">
       <h2
         className="max-lg:text-3xl lg:text-5xl text-center font-extrabold my-16"
-        data-aos="zoom-in-up"
       >
         Contact Us
       </h2>

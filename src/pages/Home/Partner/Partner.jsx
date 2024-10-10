@@ -21,7 +21,7 @@ import 'swiper/css/pagination';
 const Partner = () => {
     return (
         <div className='max-w-7xl mx-auto py-20'>
-            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20' data-aos="zoom-in-down">Our Partner </h2>
+            <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20'>Our Partner </h2>
             <Swiper
                 slidesPerView={6}
                 spaceBetween={30}
