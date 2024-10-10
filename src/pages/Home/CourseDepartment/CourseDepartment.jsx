@@ -34,10 +34,30 @@ const CourseDepartment = () => {
         }
     ]
     return (
-        <div className='pt-16 max-w-7xl mx-auto'>
+        <div className='pt-16 max-w-7xl mx-auto max-lg:m-4'>
             <Swiper
-                slidesPerView={5}
-                spaceBetween={30}
+                breakpoints={{
+                    // when window width is >= 320px
+                    320: {
+                      slidesPerView: 3,
+                      spaceBetween: 10
+                    },
+                    // when window width is >= 480px
+                    480: {
+                      slidesPerView: 3,
+                      spaceBetween: 20
+                    },
+                    // when window width is >= 768px
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 30
+                    },
+                    // when window width is >= 1024px
+                    1024: {
+                      slidesPerView: 5,
+                      spaceBetween: 30
+                    }
+                  }}
                 freeMode={true}
                 autoplay={{
                     delay: 2500,

@@ -11,7 +11,7 @@ const Facilities = () => {
         }, []
     )
     return (
-        <div className=' py-20'>
+        <div className='max-lg:m-4 py-20'>
             <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold  pt-6 pb-20'>Our Facilities</h2>
             <div className='grid grid-cols-1 md:gird md:grid-cols-2 lg:gird lg:grid-cols-3  gap-8 max-w-7xl mx-auto text-justify ' >
                 <div className='md:p-10 sm:p-6 p-10 shadow-xl rounded-md bg-green-50' >

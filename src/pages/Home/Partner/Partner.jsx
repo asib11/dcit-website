@@ -20,11 +20,32 @@ import 'swiper/css/pagination';
 
 const Partner = () => {
     return (
-        <div className='max-w-7xl mx-auto py-20'>
+        <div className='max-w-7xl mx-auto py-20 max-lg:m-4'>
             <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20'>Our Partner </h2>
             <Swiper
-                slidesPerView={6}
-                spaceBetween={30}
+                breakpoints={{
+                    // when window width is >= 320px
+                    320: {
+                      slidesPerView: 2,
+                      spaceBetween: 10
+                    },
+                    // when window width is >= 480px
+                    480: {
+                      slidesPerView: 3,
+                      spaceBetween: 20
+                    },
+                    // when window width is >= 768px
+                    768: {
+                      slidesPerView: 4,
+                      spaceBetween: 30
+                    },
+                    // when window width is >= 1024px
+                    1024: {
+                      slidesPerView: 6,
+                      spaceBetween: 30
+                    }
+                  }}
+
                 freeMode={true}
                 autoplay={{
                     delay: 4500,
