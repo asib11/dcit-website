@@ -1,10 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode, Pagination } from "swiper/modules";
-import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
-  faTwitter,
   faLinkedinIn,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -15,22 +13,6 @@ import "swiper/css/pagination";
 import team from "./team.json";
 
 const TeamItem = () => {
-  const [teamWithImages, setTeamWithImages] = useState([]);
-
-  useEffect(() => {
-    const loadImages = async () => {
-      const updatedTeam = await Promise.all(
-        team.map(async (member) => {
-          const imageModule = await import(`${member.image}`);
-          return { ...member, imageUrl: imageModule.default };
-        })
-      );
-      setTeamWithImages(updatedTeam);
-    };
-
-    loadImages();
-  }, []);
-
   return (
     <Swiper
       slidesPerView={4}
@@ -43,21 +25,21 @@ const TeamItem = () => {
       modules={[Autoplay, FreeMode, Pagination]}
       className="mySwipe"
     >
-      {teamWithImages.map((item, index) => (
-        <SwiperSlide className="card bg-white p-5 min-h-[450px]" key={index}>
-          <div className="flex flex-col justify-center items-center">
-            <div className="w-56 h-64 mb-2 overflow-hidden rounded-lg">
+      {team.map((item, index) => (
+        <SwiperSlide className="card bg-white p-5" key={index}>
+          <div className="flex flex-col h-[400px]">
+            <div className="w-56 h-64 mb-4 mx-auto overflow-hidden rounded-lg">
               <img
                 className="w-full h-full object-cover object-center"
-                src={item.imageUrl}
+                src={item.image}
                 alt={item.name}
               />
             </div>
-            <div className="p-2 text-center flex flex-col justify-evenly items-center">
-              <h3 className="text-xl font-bold uppercase">
-                {item.name}
-              </h3>
-              <p className="mb-2">{item.position}</p>
+            <div className="flex flex-col flex-grow">
+              <div className="text-center mb-4">
+                <h3 className="text-xl font-bold uppercase">{item.name}</h3>
+                <p>{item.position}</p>
+              </div>
               <div className="flex justify-center space-x-3 mt-auto">
                 <a
                   href={item.socialLinks.facebook}
