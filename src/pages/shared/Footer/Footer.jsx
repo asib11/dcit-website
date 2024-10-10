@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import info from './../../../info.json'
 
 const Footer = () => {
+  const [footerLinks, setFooterLinks] = useState([]);
+  useEffect(() => {
+    fetch("/footerLink.json")
+      .then((response) => response.json())
+      .then((data) => setFooterLinks(data));
+  }, []);
+
   return (
     <div className="bg-[#f4f4f4]">
       <div className="bg-green-50 py-16 ">
@@ -32,30 +39,44 @@ const Footer = () => {
               Aamtola Mor, Mulatol, Rangpur.
             </p>
           </nav>
-          <nav>
-            <h6 className="footer-title text-xl text-green-700">Softwares</h6>
-            <Link to={""} className="link link-hover">
+          
+            {
+              footerLinks.map((link) => (
+                <nav>
+                  <h6 className="footer-title text-xl text-green-700">{link?.Head}</h6>
+                  {
+                    link?.sublink?.map((sublink) => (
+                      <Link to={sublink.link} className="link link-hover">
+                        {sublink.name}
+                      </Link>
+                    ))
+                  }
+                </nav>
+              ))
+            }
+            {/* <h6 className="footer-title text-xl text-green-700">Softwares</h6>
+            <Link to={"/software/restaurantManagementSoftware"} className="link link-hover">
               Restaurant Management Software
             </Link>
-            <Link to={""} className="link link-hover">
+            <Link to={"/software/accountingSoftware"} className="link link-hover">
               Accounting Software
             </Link>
-            <Link to={""} className="link link-hover">
+            <Link to={"/software/inventorySoftware"} className="link link-hover">
               Inventory Software
             </Link>
-            <Link to={""} className="link link-hover">
+            <Link to={"/software/humanResourceManagementSoftware"} className="link link-hover">
               Human Resource Management Software
             </Link>
-            <Link to={""} className="link link-hover">
+            <Link to={"/software/medicineStoreApplication"} className="link link-hover">
               Medicine Store Application
             </Link>
-            <Link to={""} className="link link-hover">
+            <Link to={"/software/billingAutomationSoftware"} className="link link-hover">
               Billing Automation Software
-            </Link>
-          </nav>
-          <nav>
+            </Link> */}
+          
+          {/* <nav>
             <h6 className="footer-title text-xl text-green-700">Services</h6>
-            <Link to={""} className="link link-hover">
+            <Link to={"/software/erp"} className="link link-hover">
               Website Development
             </Link>
             <Link to={""} className="link link-hover">
@@ -73,7 +94,7 @@ const Footer = () => {
             <Link to={""} className="link link-hover">
               Email Marketing Service
             </Link>
-          </nav>
+          </nav> */}
           <nav>
             <h6 className="footer-title text-xl text-green-700"> Follow us on</h6>
             <div className="flex gap-6">
