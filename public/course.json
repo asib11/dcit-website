@@ -57,7 +57,7 @@
         "name": "python with Django",
         "link":"python",
         "price": "৳ 10,000.00 – ৳ 12,500.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png",
         "details": {
             "files": {
                 "fileName": "python.json"
@@ -69,7 +69,7 @@
         "name": "Digital Marketing",
         "link":"digitalMarketing",
         "price": "৳ 8,000.00 – ৳ 10,000.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://www.mdmarketingdigital.com/blog/wp-content/uploads/2024/01/que-es-el-marketing-digital-1-1024x640.jpg",
         "details": {
             "files": {
                 "fileName": "digitalMarketing.json"
@@ -81,7 +81,7 @@
         "name": "Responsive Web Design",
         "link":"responsiveWebDesign",
         "price": "৳ 9,000.00 – ৳ 12,000.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://kinsta.com/wp-content/uploads/2020/08/responsive-adaptive-design.png",
         "details": {
             "files": {
                 "fileName": "responsiveWebDesign.json"
@@ -107,7 +107,7 @@
         "name": "Web Development",
         "link":"webDesign",
         "price": "৳ 12,000.00 – ৳ 15,500.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*fHrAZJ1_L0Ff9dvVexL5_A.png",
         "details": {
             "files": [
                 {
@@ -121,7 +121,7 @@
         "name": "UI/UX Design",
         "link":"uiux",
         "price": "৳ 10,000.00 – ৳ 15,000.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hp-yfKsmzsj711iLbM8eEw.jpeg",
         "details": {
             "files": [
                 {
@@ -135,7 +135,7 @@
         "name": "Basic Computer",
         "link":"basicComputer",
         "price": "৳ 5,000.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://app.simpleshiksha.com/subject/avatar_1703784216279.webp",
         "details": {
             "files": [
                 {
@@ -149,7 +149,7 @@
         "name": "IoT – Internet of Things",
         "link":"iot",
         "price": "৳ 23,000.00 – ৳ 25,000.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://tektelic.com/wp-content/uploads/38-IoT.svg",
         "details": {
             "files": {
                 "fileName": "iot.json"
@@ -161,7 +161,7 @@
         "name": "Cyber Security",
         "link":"cyberSecurity",
         "price": "৳ 23,000.00 – ৳ 25,000.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://www.kaspersky.com/content/en-global/images/repository/isc/2017-images/What-is-Cyber-Security.jpg",
         "details": {
             "files": {
                 "fileName": "cyberSecurity.json"
@@ -173,7 +173,7 @@
         "name": "Blockchain Development",
         "link":"blockchainDevelopment",
         "price": "৳ 23,000.00 – ৳ 25,000.00",
-        "img": "/../src/assets/approved-by/graphics.jpeg",
+        "img": "https://pixelplex.io/wp-content/uploads/2024/01/top-blockchain-development-companies-main.jpg",
         "details": {
             "files": {
                 "fileName": "blockchainDevelopment.json"

@@ -7,7 +7,7 @@ import info from './../../../info.json'
 const Footer = () => {
   return (
     <div className="bg-[#f4f4f4]">
-      <div className="bg-[#d3e9d3] py-16 ">
+      <div className="bg-green-50 py-16 ">
         <footer className="footer p-6 max-w-7xl mx-auto text-base">
           <nav>
             <h6 className="footer-title text-xl text-green-700">Head Office</h6>

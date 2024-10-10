@@ -39,7 +39,7 @@ const DcitInstitue = () => {
                                     src={course.img}
                                     alt="Shoes" />
                             </figure>
-                            <div className="flex mt-6 p-4 justify-between items-center">
+                            <div className="flex mt-auto p-4 justify-between items-center">
                                 <div>
                                     <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>{course.price}</p>
                                     <p className='font-bold text-xl'>{course.name}</p>
@@ -59,12 +59,12 @@ const DcitInstitue = () => {
                     {
                         fourth.map((course, index) => (
                             <div key={index} data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
-                                <figure>
-                                    <img
+                                <figure className='h-full w-full'>
+                                    <img 
                                         src={course.img}
                                         alt="Shoes" />
                                 </figure>
-                                <div className="flex mt-6 p-4 justify-between items-center">
+                                <div className="flex mt-auto p-4 justify-between items-center">
                                     <div>
                                         <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>{course.price}</p>
                                         <p className='font-bold text-xl'>{course.name}</p>
@@ -87,12 +87,12 @@ const DcitInstitue = () => {
                 {
                     regular.map((course, index) => (
                         <div key={index} data-aos="fade-down" className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
-                            <figure>
+                            <figure className=''>
                                 <img
                                     src={course.img}
                                     alt="Shoes" />
                             </figure>
-                            <div className="flex mt-6 p-4 justify-between items-center">
+                            <div className="flex mt-auto p-4 justify-between items-center">
                                 <div>
                                     <p className='text-[#f58d5d] font-bold max-lg:text-[16px] lg:text-lg'>{course.price}</p>
                                     <p className='font-bold text-xl'>{course.name}</p>
