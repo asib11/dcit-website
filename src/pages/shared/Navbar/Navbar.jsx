@@ -65,43 +65,43 @@ const Navbar = () => {
                         className={`md:hidden bg-green-600 fixed w-[80%] top-0 overflow-y-auto bottom-0 py-24 pl-4 duration-500 ${open ? "left-0" : "left-[-100%]"}`}
                     >
                         <li>
-                            <Link to="/" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Home
                             </Link>
                         </li>
-                        <NavLinks />
+                        <NavLinks closeMobileMenu={() => setOpen(false)}/>
                         <li>
-                            <Link to="/event" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/event" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Event
                             </Link>
                         </li>
                         <li>
-                            <Link to="/gallery" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/gallery" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Gallery
                             </Link>
                         </li>
                         <li>
-                            <Link to="/ourClient" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/ourClient" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Our Clinets
                             </Link>
                         </li>
                         <li>
-                            <Link to="/dcitinstitue" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/dcitinstitue" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 DCIT institue
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about" className="py-2 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/about" className="py-2 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link to="/contact" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/contact" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Contact
                             </Link>
                         </li>
                         <div className="py-5">
-                            <Link to={'/contact'}><Button /></Link>
+                            <Link to={'/contact'} onClick={() => setOpen(false)}><Button /></Link>
                         </div>
                     </ul>
                 </div>

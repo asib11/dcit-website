@@ -7,9 +7,9 @@ import { IoIosBook } from "react-icons/io";
 const Header = () => {
     return (
         <div className='bg-green-50'>
-            <div className='max-w-7xl mx-auto pt-16 pb-28'>
+            <div className='max-w-7xl mx-auto pt-16 pb-28 max-lg:m-4'>
                 <div className='flex max-lg:flex-col gap-5'>
-                    <div className='max-lg:w-full lg:w-2/5 space-y-6 max-lg:p-6'>
+                    <div className='max-lg:w-full lg:w-2/5 space-y-6'>
                         <div className='flex items-center gap-2 font-semibold text-xl'>
                             <BsFillBookmarkCheckFill className='size-5 text-green-600' />
                             <h4>Unlock Your True Potential</h4>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./Mylinks";
 
-const NavLinks = () => {
+const NavLinks = ({closeMobileMenu}) => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
   return (
@@ -72,8 +72,8 @@ const NavLinks = () => {
             {link.sublinks.map((slinks) => (
               <div>
                 {slinks.sublink.map((slink) => (
-                      <li className="py-3 pl-14">
-                        <Link to={`${slink.link}`}>{slink.name}</Link>
+                      <li className="py-3 pl-14 pr-4">
+                        <Link to={`${slink.link}`} onClick={closeMobileMenu}>{slink.name}</Link>
                       </li>
                     ))}
                 {/* <div>
