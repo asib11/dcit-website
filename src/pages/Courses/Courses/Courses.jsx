@@ -132,7 +132,7 @@ const Courses = () => {
                         <figure>
                             <img
                                 src={graphics1}
-                                alt="Shoes" />
+                                alt="graphics" />
                         </figure>
                         {/* <div className="flex mt-6 p-4 justify-between items-center">
                             <div>

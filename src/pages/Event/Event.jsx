@@ -28,7 +28,7 @@ const Event = () => {
                         <p>Welcome to the DCIT Ltd, where your journey toward excellence in technology and innovation <Link to='/eventdetails'><span className='text-red-600 font-bold'>...Read more</span></Link></p>
                     </div>
                     <div className='lg:w-1/3 max-lg:pb-4'>
-                        <Link to='/eventdetails'><img src={img} className='w-full h-56' alt="" /></Link>
+                        <Link to='/eventdetails'><img src={img} className='w-full h-56' alt="event picture" /></Link>
 
                     </div>
                 </div>

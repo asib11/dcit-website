@@ -31,7 +31,7 @@ const DcitInstitue = () => {
                                 <img
                                     className="w-full h-full object-cover object-center"
                                     src={course.img}
-                                    alt="Shoes" />
+                                    alt={course.name} />
                             </figure>
                             <div className="flex mt-auto p-4 justify-between items-center">
                                 <div>
@@ -57,7 +57,7 @@ const DcitInstitue = () => {
                                     <img 
                                         className="w-full h-full object-cover object-center"
                                         src={course.img}
-                                        alt="Shoes" />
+                                        alt={course.name} />
                                 </figure>
                                 <div className="flex mt-auto p-4 justify-between items-center">
                                     <div>
@@ -86,7 +86,7 @@ const DcitInstitue = () => {
                                 <img
                                     className="w-full h-full object-cover object-center"
                                     src={course.img}
-                                    alt="Shoes" />
+                                    alt={course.name} />
                             </figure>
                             <div className="flex mt-auto p-4 justify-between items-center">
                                 <div>

@@ -14,7 +14,7 @@ const About = () => {
       <Seo title={'title'} content='Beginner friendly page for learning React Helmet.'/>
       <div className=" max-w-7xl mx-auto text-justify mb-16 max-lg:p-4">
         <div className="flex justify-center mt-16 mb-5">
-          <img src={logo} alt="" />
+          <img src={logo} alt="logo" />
         </div>
         <h1 className="text-5xl mb-1 text-center font-bold font-sans italic">
           Dhaka Centre<span className="text-red-500">NIC</span> IT Limited
