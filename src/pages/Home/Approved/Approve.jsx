@@ -6,11 +6,13 @@ import member1 from '../../../assets/approved-by/basis-logo.png.webp'
 import member2 from '../../../assets/approved-by/bacco-image.jpg.webp'
 import ecab from '../../../assets/approved-by/ecab.png'
 import bwcci from '../../../assets/approved-by/bwcci-logo.png'
+import Seo from '../../Seo/Seo';
 
 const Approve = () => {
     
     return (
         <div className='bg-[#e6e7e7] px-4 py-16'>
+            <Seo title={`approve`} content='Beginner friendly page for learning React Helmet.'/>
             <div className='flex max-md:flex-col justify-center max-lg:gap-8 lg:gap-16 max-w-7xl mx-auto'>
                 <div className='md:w-1/3 rounded-md bg-white p-1'>
                     <div className='w-full rounded-md bg-white p-5 font-bold h-full flex flex-col justify-center items-center'>

@@ -17,10 +17,12 @@ import img12 from '../../../assets/client/1513164196c8.png'
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import Seo from '../../Seo/Seo';
 
 const OurClient = () => {
     return (
         <div className=''>
+            <Seo title={'Our Collaboration With'} content='Beginner friendly page for learning React Helmet.'/>
             <div className='max-w-7xl mx-auto max-lg:py-10 lg:py-20 max-lg:m-4' >
                 <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20'>Our Collaboration With</h2>
                 <Swiper

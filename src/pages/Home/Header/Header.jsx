@@ -2,11 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsFillBookmarkCheckFill } from "react-icons/bs";
 import { IoIosBook } from "react-icons/io";
+import Seo from '../../Seo/Seo';
 
 
 const Header = () => {
     return (
         <div className='bg-green-50'>
+            <Seo title={'Unlock Your True Potential'} content='Beginner friendly page for learning React Helmet.'/>
             <div className='max-w-7xl mx-auto pt-16 pb-28 max-lg:m-4'>
                 <div className='flex max-lg:flex-col gap-5'>
                     <div className='max-lg:w-full lg:w-2/5 space-y-6'>

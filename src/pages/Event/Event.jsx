@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../assets/img2.jpg'
 import { FaBookmark } from "react-icons/fa";
+import Seo from '../Seo/Seo';
 
 const Event = () => {
     return (
         <div className='max-w-7xl mx-auto'>
+            <Seo title={`Latest Past Events`} content='Beginner friendly page for learning React Helmet.'/>
             <h1 className='max-lg:text-2xl lg:text-5xl font-bold lg:mt-10 lg:mb-6 max-lg:m-4'>Latest Past Events</h1>
             <div className='flex flex-col lg:flex-row justify-center items-center max-lg:py-8 lg:py-16 '>
                 <time datetime="" className='flex flex-col w-1/6  text-center'>

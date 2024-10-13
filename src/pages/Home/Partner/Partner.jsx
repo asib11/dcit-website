@@ -17,10 +17,12 @@ import img12 from '../../../assets/partner/tech-pro-logo.webp'
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import Seo from '../../Seo/Seo';
 
 const Partner = () => {
     return (
         <div className='max-w-7xl mx-auto py-20 max-lg:m-4'>
+            <Seo title={'Our Partner'} content='Beginner friendly page for learning React Helmet.'/>
             <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20'>Our Partner </h2>
             <Swiper
                 breakpoints={{

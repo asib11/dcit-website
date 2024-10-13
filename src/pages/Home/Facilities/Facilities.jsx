@@ -3,6 +3,7 @@ import { UserGroupIcon, BriefcaseIcon, ClockIcon, ComputerDesktopIcon, VideoCame
 import { FaHeadset } from "react-icons/fa6";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Seo from '../../Seo/Seo';
 
 const Facilities = () => {
     useEffect(
@@ -12,6 +13,7 @@ const Facilities = () => {
     )
     return (
         <div className='max-lg:m-4 max-lg:pb-10 lg:pb-20'>
+            <Seo title={'Our Facilities'} content='Beginner friendly page for learning React Helmet.'/>
             <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold  pt-6 pb-20'>Our Facilities</h2>
             <div className='grid grid-cols-1 md:gird md:grid-cols-2 lg:gird lg:grid-cols-3 gap-8 max-w-7xl mx-auto text-justify' >
                 <div className='md:p-10 sm:p-6 p-10 shadow-xl rounded-md bg-green-50' >

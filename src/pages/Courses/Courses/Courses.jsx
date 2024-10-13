@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import graphics1 from '../../../assets/approved-by/graphics.jpeg'
 import { FaRegChartBar, FaCalendarDay, FaTag, FaCertificate, FaVideo, FaLanguage } from "react-icons/fa";
 import { TbTimeDuration10 } from "react-icons/tb";
+import Seo from '../../Seo/Seo';
 
 const Courses = () => {
     const { courseName } = useParams()
@@ -18,6 +19,7 @@ const Courses = () => {
 
     return (
         <div className='max-w-7xl mx-auto mb-10 text-gray-500'>
+            <Seo title={fileData.title} content='Beginner friendly page for learning React Helmet.'/>
             <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold max-lg:py-8 lg:py-16 text-red-600'>{fileData.title} </h1>
             <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row lg:justify-between gap-6 lg:p-14 m-6 lg:m-0'>
                 <div className='lg:w-2/3 text-justify '>

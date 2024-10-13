@@ -3,6 +3,7 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import info from './../../../info.json'
+import Seo from "../../Seo/Seo";
 
 const Footer = () => {
   const [footerLinks, setFooterLinks] = useState([]);
@@ -14,6 +15,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#f4f4f4]">
+      <Seo title={`footer`} content='Beginner friendly page for learning React Helmet.'/>
       <div className="bg-green-50 py-16 ">
         <footer className="footer p-6 max-w-7xl mx-auto text-base">
           <nav>

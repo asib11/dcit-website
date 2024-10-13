@@ -44,6 +44,7 @@ const Contact = () => {
 
   return (
     <div className=" mt-16">
+      <Seo title={'contact'} content='Beginner friendly page for learning React Helmet.'/>
       <h2
         className="max-lg:text-3xl lg:text-5xl text-center font-extrabold my-16"
       >

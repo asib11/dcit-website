@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Seo from '../Seo/Seo';
 
 const Software = () => {
     const { softwareId } = useParams();
@@ -18,6 +19,8 @@ const Software = () => {
 
     return (
         <div className='max-w-7xl mx-auto space-y-6 pb-10 text-gray-500 max-lg:m-4'>
+            <Seo title={data?.name} content='Beginner friendly page for learning React Helmet.'/>
+
             <h1 className='max-lg:text-2xl lg:text-3xl font-bold max-lg:py-8 lg:pt-16 '>Get the Best <span className='text-red-600'>{data?.name}</span> in Dhaka Bangladesh </h1>
             <p className='text-xl text-justify text-black'>
                 {data?.description}

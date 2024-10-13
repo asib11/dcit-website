@@ -6,10 +6,12 @@ import "swiper/css/pagination";
 import Team from "../Home/Team/Team";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import pdf from "../../assets/DCIT_Corporate_profile.pdf";
+import Seo from "../Seo/Seo";
 
 const About = () => {
   return (
     <div>
+      <Seo title={'title'} content='Beginner friendly page for learning React Helmet.'/>
       <div className=" max-w-7xl mx-auto text-justify mb-16 max-lg:p-4">
         <div className="flex justify-center mt-16 mb-5">
           <img src={logo} alt="" />

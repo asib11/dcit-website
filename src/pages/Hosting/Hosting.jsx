@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { GiSentryGun } from "react-icons/gi";
+import Seo from '../Seo/Seo';
 
 
 const Hosting = () => {
@@ -21,6 +22,7 @@ const Hosting = () => {
 
     return (
         <div className='max-w-7xl mx-auto'>
+            <Seo title={dataHosting?.name} content='Beginner friendly page for learning React Helmet.'/>
             <h1 className='max-lg:text-3xl lg:text-5xl text-center font-bold mt-10 text-green-600 underline underline-offset-4 italic'>{dataHosting?.name}</h1>
             <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-4 py-20' >
                 {

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Seo from '../Seo/Seo';
 
 const DcitInstitue = () => {
     const [courses, setCurses] = useState([]);
@@ -18,6 +19,7 @@ const DcitInstitue = () => {
 
     return (
         <div className=''>
+            <Seo title={data?.name} content='Beginner friendly page for learning React Helmet.'/>
             <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16 ' >RECOMMENDED</h3>
             <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6' > Course Programs </h2>
 
