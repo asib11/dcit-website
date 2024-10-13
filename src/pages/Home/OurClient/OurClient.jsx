@@ -21,7 +21,7 @@ import 'swiper/css/pagination';
 const OurClient = () => {
     return (
         <div className=''>
-            <div className='max-w-7xl mx-auto py-20 max-lg:m-4' >
+            <div className='max-w-7xl mx-auto max-lg:py-10 lg:py-20 max-lg:m-4' >
                 <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20'>Our Collaboration With</h2>
                 <Swiper
                     breakpoints={{

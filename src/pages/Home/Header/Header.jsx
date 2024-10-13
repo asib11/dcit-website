@@ -18,10 +18,10 @@ const Header = () => {
                         <p className='font-semibold text-lg text-justify'>DCIT LTD is a leading software development company in Dhaka, Bangladesh, specializing in web development and solutions, with over 12 years of experience in delivering successful global projects. The company is renowned for its professional approach and commitment to innovative technology.</p>
                         <div className='flex gap-5'>
                             <Link to={'/dcitinstitue'}>
-                                <button className='bg-green-500 hover:bg-green-700 text-white px-3 py-4 text-xl text-bold rounded-lg flex items-center gap-2'> <IoIosBook />Browse Course</button>
+                                <button className='bg-green-500 hover:bg-green-700 hover:font-extrabold text-white px-3 py-4 max-lg:text-[14px] lg:text-xl text-bold rounded-lg flex items-center gap-2'> <IoIosBook />Browse Course</button>
                             </Link>
                             <Link to={'/dcitinstitue'}>
-                                <button className='bg-green-500 hover:bg-green-700 text-white px-3 py-4 text-xl text-bold mr-6 rounded-lg flex items-center gap-2'><IoIosBook />Join Free Seminar</button>
+                                <button className='bg-green-500 hover:bg-green-700 hover:font-extrabold text-white px-3 py-4 max-lg:text-[14px] lg:text-xl text-bold mr-6 rounded-lg flex items-center gap-2'><IoIosBook />Join Free Seminar</button>
                             </Link>
                         </div>
                     </div>
