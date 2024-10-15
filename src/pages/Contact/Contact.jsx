@@ -7,6 +7,7 @@ import {
 } from "@heroicons/react/24/solid";
 import Swal from "sweetalert2";
 import { Link } from "react-router-dom";
+import Seo from "../Seo/Seo";
 
 const Contact = () => {
   const contactInfo = (event) => {

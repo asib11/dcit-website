@@ -8,13 +8,13 @@ import Seo from '../../Seo/Seo';
 const Header = () => {
     return (
         <div className='bg-green-50'>
-            <Seo title={'Unlock Your True Potential'} content='Beginner friendly page for learning React Helmet.'/>
+            {/* <Seo title={'Unlock Your True Potential'} content='Beginner friendly page for learning React Helmet.'/> */}
             <div className='max-w-7xl mx-auto pt-16 pb-28 max-lg:m-4'>
                 <div className='flex max-lg:flex-col gap-5'>
                     <div className='max-lg:w-full lg:w-2/5 space-y-6'>
                         <div className='flex items-center gap-2 font-semibold text-xl'>
                             <BsFillBookmarkCheckFill className='size-5 text-green-600' />
-                            <h4>Unlock Your True Potential</h4>
+                            <h3>Unlock Your True Potential</h3>
                         </div>
                         <h1 className='text-5xl font-bold'>Empowering global web solutions with <span className='text-green-600'>innovation</span></h1>
                         <p className='font-semibold text-lg text-justify'>DCIT LTD is a leading software development company in Dhaka, Bangladesh, specializing in web development and solutions, with over 12 years of experience in delivering successful global projects. The company is renowned for its professional approach and commitment to innovative technology.</p>

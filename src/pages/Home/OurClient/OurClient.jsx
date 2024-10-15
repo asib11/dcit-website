@@ -22,7 +22,7 @@ import Seo from '../../Seo/Seo';
 const OurClient = () => {
     return (
         <div className=''>
-            <Seo title={'Our Collaboration With'} content='Beginner friendly page for learning React Helmet.'/>
+            {/* <Seo title={'Our Collaboration With'} content='Beginner friendly page for learning React Helmet.'/> */}
             <div className='max-w-7xl mx-auto max-lg:py-10 lg:py-20 max-lg:m-4' >
                 <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold pt-6 pb-20'>Our Collaboration With</h2>
                 <Swiper
@@ -61,37 +61,37 @@ const OurClient = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img className='mb-4' src={img2} alt="img 3" />
+                        <img className='mb-4' src={img2} alt="img 3" width="400" height="200"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img3} alt="img 4" />
+                        <img className='mb-4' src={img3} alt="img 4" width="400" height="200"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img4} alt="img 4" />
+                        <img className='mb-4' src={img4} alt="img 4" width="400" height="200"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img10} alt="img 5" />
+                        <img className='mb-4' src={img10} alt="img 5" width="125" height="89"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img5} alt="img 6" />
+                        <img className='mb-4' src={img5} alt="img 6" width="400" height="200"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img6} alt="img 7" />
+                        <img className='mb-4' src={img6} alt="img 7" width="400" height="200"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img7} alt="img 8" />
+                        <img className='mb-4' src={img7} alt="img 8" width="400" height="200"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img8} alt="img 9" />
+                        <img className='mb-4' src={img8} alt="img 9" width="400" height="200"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img9} alt="img 10" />
+                        <img className='mb-4' src={img9} alt="img 10" width="160" height="160"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img11} alt="img 11" />
+                        <img className='mb-4' src={img11} alt="img 11" width="490" height="221"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='mb-4' src={img12} alt="img 12" />
+                        <img className='mb-4' src={img12} alt="img 12" width="400" height="200"/>
                     </SwiperSlide>
                 </Swiper>
             </div>

@@ -36,7 +36,7 @@ const CourseDepartment = () => {
     ]
     return (
         <div className='pt-16 max-w-7xl mx-auto max-lg:m-4'>
-            <Seo title={''} content='Beginner friendly page for learning React Helmet.'/>
+            {/* <Seo title={''} content='Beginner friendly page for learning React Helmet.'/> */}
             <Swiper
                 breakpoints={{
                     // when window width is >= 320px

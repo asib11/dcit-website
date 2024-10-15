@@ -12,35 +12,35 @@ const Approve = () => {
     
     return (
         <div className='bg-[#e6e7e7] px-4 py-16'>
-            <Seo title={`approve`} content='Beginner friendly page for learning React Helmet.'/>
+            {/* <Seo title={`approve`} content='Beginner friendly page for learning React Helmet.'/> */}
             <div className='flex max-md:flex-col justify-center max-lg:gap-8 lg:gap-16 max-w-7xl mx-auto'>
                 <div className='md:w-1/3 rounded-md bg-white p-1'>
                     <div className='w-full rounded-md bg-white p-5 font-bold h-full flex flex-col justify-center items-center'>
-                        <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Collaboration with</h3>
+                        <h2 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Collaboration with</h2>
                         <div className='flex flex-col justify-center items-center h-full space-y-5'>
-                            <img src={collaboration2} alt="BITM" />
-                            <img src={collaboration1} alt="VICTVS" />
+                            <img src={collaboration2} alt="BITM" width="400" height="210"/>
+                            <img src={collaboration1} alt="VICTVS" width="300" height="89"/>
                         </div>
                     </div>
                 </div>
                 {/* <div className='shadow-md border-4 border-[#399918] shadow-[#399918] p-10 rounded-lg w-96 h-[436px] bg-white'       >
                     
-                    <h3 className='text-3xl font-bold mb-6 text-center'>Approved by</h3>
+                    <h2 className='text-3xl font-bold mb-6 text-center'>Approved by</h2>
                     <div className='flex justify-center items-center'>
                         <img src={approve1} alt="" />
                     </div>
                 </div> */}
                 <div className='md:w-1/3 rounded-md bg-white p-1'>
                     <div className='w-full rounded-md bg-white p-5 font-bold h-full flex flex-col justify-center items-center'>
-                        <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6  text-center'>Approved by</h3>
+                        <h2 className='max-lg:text-2xl lg:text-3xl font-bold mb-6  text-center'>Approved by</h2>
                         <div className='flex justify-center items-center h-full'>
-                            <img  src={approve1} alt="BITM" className='w-full' />
+                            <img  src={approve1} alt="BITM" className='w-full' width="150" height="151"/>
                             {/* <img src={collaboration1} alt="" /> */}
                         </div>
                     </div>
                 </div>
                 {/* <div className='shadow-md border-4 border-[#399918] shadow-[#399918]  p-10 rounded-lg w-96 bg-white' >
-                    <h3 className='text-3xl font-bold mb-6 text-center'>Member of</h3>
+                    <h2 className='text-3xl font-bold mb-6 text-center'>Member of</h2>
                     <div className='flex flex-col justify-center items-center'>
                         <img src={member1} alt="" />
                         <div className='w-80'><img src={member2} alt="" /></div>
@@ -49,12 +49,12 @@ const Approve = () => {
                 </div> */}
                 <div className='md:w-1/3 rounded-md bg-white p-1'>
                     <div className='w-full rounded-md bg-white p-5 font-bold h-full flex flex-col justify-center items-center'>
-                        <h3 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Member of</h3>
+                        <h2 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Member of</h2>
                         <div className='flex flex-col justify-center items-center h-full space-y-2'>
-                            <img src={member1} alt="BASIS" />
-                            <img src={member2} alt="BACCO" />
-                            <img src={bwcci} alt="BWCCI" className='w-32'/>
-                            <img src={ecab} alt="ECAB" />
+                            <img src={member1} alt="BASIS" width="234" height="120"/>
+                            <img src={member2} alt="BACCO" width="1325" height="421"/>
+                            <img src={bwcci} alt="BWCCI" className='w-32'width="400" height="400"/>
+                            <img src={ecab} alt="ECAB" width="163" height="97"/>
                         </div>
                     </div>
                 </div>
