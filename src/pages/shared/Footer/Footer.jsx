@@ -4,6 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import info from './../../../info.json'
 import Seo from "../../Seo/Seo";
+import logo from "../../../assets/logo.png";
 
 const Footer = () => {
   const [footerLinks, setFooterLinks] = useState([]);
@@ -56,49 +57,10 @@ const Footer = () => {
                 </nav>
               ))
             }
-            {/* <h3 className="footer-title text-xl text-green-700">Softwares</h3>
-            <Link to={"/software/restaurantManagementSoftware"} className="link link-hover">
-              Restaurant Management Software
-            </Link>
-            <Link to={"/software/accountingSoftware"} className="link link-hover">
-              Accounting Software
-            </Link>
-            <Link to={"/software/inventorySoftware"} className="link link-hover">
-              Inventory Software
-            </Link>
-            <Link to={"/software/humanResourceManagementSoftware"} className="link link-hover">
-              Human Resource Management Software
-            </Link>
-            <Link to={"/software/medicineStoreApplication"} className="link link-hover">
-              Medicine Store Application
-            </Link>
-            <Link to={"/software/billingAutomationSoftware"} className="link link-hover">
-              Billing Automation Software
-            </Link> */}
-          
-          {/* <nav>
-            <h3 className="footer-title text-xl text-green-700">Services</h3>
-            <Link to={"/software/erp"} className="link link-hover">
-              Website Development
-            </Link>
-            <Link to={""} className="link link-hover">
-              Android App Development
-            </Link>
-            <Link to={""} className="link link-hover">
-              Digital Marketing Service
-            </Link>
-            <Link to={""} className="link link-hover">
-              Search Engine Submission
-            </Link>
-            <Link to={""} className="link link-hover">
-              Logo Design Service
-            </Link>
-            <Link to={""} className="link link-hover">
-              Email Marketing Service
-            </Link>
-          </nav> */}
+  
           <nav>
             <h3 className="footer-title text-xl text-green-700"> Follow us on</h3>
+            
             <div className="flex gap-6">
               <p>
                 <a href={info.social.facebook} className="link link-hover text-3xl text-blue-600" target="_blank">
@@ -120,6 +82,9 @@ const Footer = () => {
                   <FaInstagram />
                 </a>
               </p>
+            </div>
+            <div className="mt-4">
+              <img src={logo}  alt="DCIT Ltd" width="191" height="163"/>
             </div>
           </nav>
         </footer>

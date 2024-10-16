@@ -6,6 +6,7 @@ import member1 from '../../../assets/approved-by/basis-logo.png.webp'
 import member2 from '../../../assets/approved-by/bacco-image.jpg.webp'
 import ecab from '../../../assets/approved-by/ecab.png'
 import bwcci from '../../../assets/approved-by/bwcci-logo.png'
+import nsda from '../../../assets/STP-DHA-002201 (1).pdf'
 import Seo from '../../Seo/Seo';
 import { Link } from 'react-router-dom';
 
@@ -20,9 +21,9 @@ const Approve = () => {
                         <h2 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Collaboration with</h2>
                         <div className='flex flex-col justify-center items-center h-full space-y-5'>
                             <div className='w-[80%]'>
-                                <Link to={'https://www.bitm.org.bd/'} target="_blank" rel="noopener noreferrer"><img src={collaboration2} alt="BITM" width="400" height="210" /></Link>
+                                <Link to={'https://www.bitm.org.bd/'} target="_blank" rel="noopener noreferrer"><img src={collaboration2} alt="BITM" width="400" height="210" className='hover:scale-110'/></Link>
                             </div>
-                            <Link to={'https://www.victvs.co.uk/'} target="_blank" rel="noopener noreferrer"><img src={collaboration1} alt="VICTVS" width="300" height="89" /></Link>
+                            <Link to={'https://www.victvs.co.uk/'} target="_blank" rel="noopener noreferrer"><img src={collaboration1} alt="VICTVS" className='hover:scale-110' width="300" height="89" /></Link>
                         </div>
                     </div>
                 </div>
@@ -36,8 +37,8 @@ const Approve = () => {
                 <div className='md:w-1/3 rounded-md bg-white p-1'>
                     <div className='w-full rounded-md bg-white p-5 font-bold h-full flex flex-col justify-center items-center'>
                         <h2 className='max-lg:text-2xl lg:text-3xl font-bold mb-6  text-center'>Approved by</h2>
-                        <div className='flex justify-center items-center h-full'>
-                            <Link to={'https://nsda.gov.bd/'} target="_blank" rel="noopener noreferrer"><img src={approve1} alt="NSDA" className='w-full' width="150" height="151" /></Link>
+                        <div className='flex justify-center items-center h-full' onClick={() => window.open(nsda, "_blank")}>
+                            <img src={approve1} alt="NSDA" className='w-full hover:scale-110' width="150" height="151" />
                             {/* <img src={collaboration1} alt="" /> */}
                         </div>
                     </div>
@@ -55,15 +56,15 @@ const Approve = () => {
                         <h2 className='max-lg:text-2xl lg:text-3xl font-bold mb-6 text-center'>Member of</h2>
                         <div className='flex flex-col justify-center items-center h-full w-full space-y-2'>
                             <div>
-                                <Link to={'https://basis.org.bd/'} target="_blank" rel="noopener noreferrer"><img src={member1} alt="BASIS" width="234" height="120" /></Link>
+                                <Link to={'https://basis.org.bd/'} target="_blank" rel="noopener noreferrer"><img src={member1} alt="BASIS" width="234" height="120" className='hover:scale-110'/></Link>
                             </div>
                             <div className='w-[85%]'>
-                                <Link to={'https://www.bacco.org.bd/'} target="_blank" rel="noopener noreferrer"><img src={member2} alt="BACCO" width="1325" height="421" /></Link>
+                                <Link to={'https://www.bacco.org.bd/'} target="_blank" rel="noopener noreferrer"><img src={member2} alt="BACCO" width="1325" height="421" className='hover:scale-110'/></Link>
                             </div>
                             <div className='w-1/2'>
-                                <Link to={'https://bwcci-bd.org/'} target="_blank" rel="noopener noreferrer"><img src={bwcci} alt="BWCCI" width="400" height="400" /></Link>
+                                <Link to={'https://bwcci-bd.org/'} target="_blank" rel="noopener noreferrer"><img src={bwcci} alt="BWCCI" width="400" height="400" className='hover:scale-110'/></Link>
                             </div>
-                            <div>
+                            <div className='hover:scale-110'>
                                 <Link to={'https://e-cab.net/'} target="_blank" rel="noopener noreferrer"><img src={ecab} className='w-[99%]' alt="ECAB" width="400" height="400" /></Link>
                             </div>
                         </div>
