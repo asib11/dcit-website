@@ -18,6 +18,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import Seo from '../../Seo/Seo';
+import { Link } from 'react-router-dom';
 
 const Partner = () => {
     return (
@@ -60,41 +61,41 @@ const Partner = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img className='mb-4' src={img1} alt="img 1" width="234" height="120"/>
-
+                    <Link to={'https://www.adb.org/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img1} alt    ="adb" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img2} alt="img 2" width="234" height="120"/>
+                    <Link to={'https://www.amarporikha.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img2} alt="amarporikha" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img3} alt="img 3" width="234" height="120"/>
+                    <Link to={'https://www.basis.org.bd/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img3} alt="basis" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img4} alt="img 4" width="234" height="120"/>
+                    <Link to={'https://www.bing.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img4} alt="bing" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img10} alt="img 5" width="234" height="120"/>
+                    <Link to={'https://www.euitsols.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img5} alt="euitsols" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img5} alt="img 6" width="234" height="120"/>
+                    <Link to={'https://www.gov.bd/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img6} 
+                    alt="gov" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img6} alt="img 7" width="234" height="120"/>
+                    <Link to={'https://www.kpi.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img7} alt="kpi" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img7} alt="img 8" width="234" height="120"/>
+                    <Link to={'https://www.microsoft.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img8} alt="microsoft" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img8} alt="img 9" width="234" height="120"/>
+                    <Link to={'https://www.midas.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img9} alt="midas" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img9} alt="img 10" width="234" height="120"/>
+                    <Link to={'https://www.pamt.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img10} alt="pamt" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img11} alt="img 11" width="234" height="120"/>
+                    <Link to={'https://www.sunshine.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img11} alt="sunshine" width="234" height="120" /></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='mb-4' src={img12} alt="img 12" width="234" height="120"/>
+                    <Link to={'https://www.techpro.com/'} target="_blank" rel="noopener noreferrer"><img className='mb-4' src={img12} alt="techpro" width="234" height="120" /></Link>
                 </SwiperSlide>
             </Swiper>
         </div>
