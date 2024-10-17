@@ -1,5 +1,6 @@
 import React from "react"
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+import Seo from "../Seo/Seo";
 
 const images = [
     "https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/441245938_992494449328652_2381951351076118884_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG8jGLO_br5D1B1PydSjio-taTZFIYNFGK1pNkUhg0UYpURW2VmMj8hIXFwFc8p1QnN8UzZFFX4DOyUz22WDTCy&_nc_ohc=keNcmkMasPUQ7kNvgGIbfne&_nc_ht=scontent.fdac138-1.fna&_nc_gid=A2mEHMa1Lw3tiEmK6a0Cutw&oh=00_AYCSKccPpFvfFFdr5tchyyf_RlPIzqMJWr1qiTsMcsfnnQ&oe=670C3909",
@@ -25,6 +26,7 @@ const images = [
 const Gallery = () => {
     return (
         <div className="max-w-7xl mx-auto">
+            <Seo title={`gallery`} content='Beginner friendly page for learning React Helmet.'/>
             <ResponsiveMasonry
                 columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
                 className="shadow-2xl"
@@ -36,7 +38,7 @@ const Gallery = () => {
                             key={i}
                             src={image}
                             style={{ width: "100%", display: "block" }}
-                            alt=""
+                            alt="gallery"
                             className="p-4"
                         />
                     ))}

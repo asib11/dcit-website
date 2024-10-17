@@ -13,7 +13,7 @@ const EventDetails = () => {
                 <h2 className='max-lg:text-3xl lg:text-5xl font-bold  my-10'>Orientation Programme 2024</h2>
                 <p className='mb-10 text-lg text-gray-500'>June 23/10:00 AM - 5:00 PM</p>
                 <div className=''>
-                    <img src={img} className='w-full' alt="" />
+                    <img src={img} className='w-full' alt="event details" />
                 </div>
                 <p className='my-12 text-xl text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptas totam itaque dolorem explicabo reiciendis quod facilis enim, at et natus adipisci omnis quia repudiandae consequuntur amet maiores laborum alias?</p>
             </div>

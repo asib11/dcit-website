@@ -11,11 +11,13 @@ import Partner from '../Partner/Partner';
 import OurClient from '../OurClient/OurClient';
 import Header from '../Header/Header';
 import CourseDepartment from '../CourseDepartment/CourseDepartment';
+import Seo from '../../Seo/Seo';
 
 
 const Home = () => {
     return (
         <div className=''>
+            {/* <Seo title={'Home'} content='Beginner friendly page for learning React Helmet.'/> */}
             <Header/>
             <CourseDepartment/>
             {/* <Bannar></Bannar> */}

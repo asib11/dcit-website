@@ -3,14 +3,16 @@ import logo from "../../../assets/logo.png";
 import dcitInstitute from "../../../assets/dcit-institute.png";
 import { DevicePhoneMobileIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
+import Seo from "../../Seo/Seo";
 
 const Logo = () => {
   return (
     <div className="">
+      {/* <Seo title={'DCIT'} content='Beginner friendly page for learning React Helmet.'/> */}
       <div className="max-w-7xl mx-auto text-[18px] flex justify-between items-center mb-6">
         <Link to="/" className="w-20 mt-4 ml-4">
           <div className="w-20  mt-4 ml-4">
-            <img src={logo} alt="DCIT Ltd" />
+            <img src={logo} alt="DCIT Ltd" width="191" height="163"/>
           </div>
         </Link>
         <div className="navbar-center hidden lg:flex">
@@ -38,7 +40,7 @@ const Logo = () => {
         <div>
           <Link to={"/dcitinstitue"}>
             <div className="w-24 mt-4 mr-4">
-              <img src={dcitInstitute} alt="DCIT Institute" />
+              <img src={dcitInstitute} alt="DCIT Institute" width="225" height="225"/>
             </div>
           </Link>
         </div>

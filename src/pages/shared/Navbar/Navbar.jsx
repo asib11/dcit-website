@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import Logo from "../../../assets/logo.png";
 import Button from "./Button";
 import NavLinks from "./NavLinks";
+import Seo from "../../Seo/Seo";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className="sticky inset-x-0 top-0 z-10 ">
+            {/* <Seo title={`navbar`} content='Beginner friendly page for learning React Helmet.'/> */}
             <nav className="bg-green-600 max-w-7xl mx-auto shadow-lg rounded-[10px] text-white">
                 <div className="lg:flex lg:items-center lg:justify-between max-lg:px-3 lg:px-5">
                     <div className="flex items-center max-lg:justify-between lg:justify-around">

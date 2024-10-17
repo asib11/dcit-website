@@ -12,6 +12,7 @@ import { TbSeo } from "react-icons/tb";
 import { LuNetwork } from "react-icons/lu";
 import { IoLogoPython } from "react-icons/io";
 import { Link } from 'react-router-dom';
+import Seo from '../../Seo/Seo';
 
 const CourseDepartment = () => {
     const data = [
@@ -35,6 +36,7 @@ const CourseDepartment = () => {
     ]
     return (
         <div className='pt-16 max-w-7xl mx-auto max-lg:m-4'>
+            {/* <Seo title={''} content='Beginner friendly page for learning React Helmet.'/> */}
             <Swiper
                 breakpoints={{
                     // when window width is >= 320px

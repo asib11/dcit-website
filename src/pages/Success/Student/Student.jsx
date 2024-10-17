@@ -12,7 +12,7 @@ const Student = () => {
                 </div>
                 <div className='w-1/2 flex justify-center'>
                     <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img} alt="" />
+                        <img className='mb-4 rounded-full' src={img} alt="logo" />
                         <h3 className='text-3xl font-bold uppercase'>Raizul Islam Khan</h3>
                         <p className='text-xl'><strong>Course: </strong> Python Development</p>
                         <p className='text-xl'><strong>Batch: </strong> 00001</p>
@@ -21,9 +21,10 @@ const Student = () => {
                 </div>
             </div>
             <div className='flex h-[400px]'>
+            <Seo title={`Job Placement Organization`} content='Beginner friendly page for learning React Helmet.'/>
                 <div className='w-1/2 flex justify-center'>
                     <div className=' flex flex-col justify-center items-center p-6'>
-                        <img className='mb-4 rounded-full' src={img} alt="" />
+                        <img className='mb-4 rounded-full' src={img} alt="logo" />
                         <h3 className='text-3xl font-bold uppercase'>Raizul Islam Khan</h3>
                         <p className='text-xl'><strong>Course: </strong> Python Development</p>
                         <p className='text-xl'><strong>Batch: </strong> 00001</p>
