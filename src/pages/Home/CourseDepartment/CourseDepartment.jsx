@@ -19,20 +19,33 @@ const CourseDepartment = () => {
         {
             "name": "Graphic and Multimedia",
             "icon": <GrPaint className='size-8 text-green-600' />,
-            "link": "dcitinstitue",
-            "class":[
-                {
-                    "div1":'card bg-white p-4 w-full shadow-md h-[90%]'
-                },
-                {
-                    "div2": ' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'
-                },
-                {
-                    "p":'size-8 text-green-600' 
-                }
-            ]
-
-        }
+            "link": "dcitinstitue"
+        },
+        {
+            "name": "Web and Software",
+            "icon": <GrCloudSoftware className='size-8 text-green-600' />,
+            "link": "dcitinstitue"
+        },
+        {
+            "name": "Graphic and Multimedia",
+            "icon": <ImVideoCamera className='size-8 text-green-600' />,
+            "link": "Video Editing"
+        },
+        {
+            "name": "Digital marketing (SEO)",
+            "icon": <TbSeo className='size-8 text-green-600' />,
+            "link": "dcitinstitue"
+        },
+        {
+            "name": "Networking",
+            "icon": <LuNetwork className='size-8 text-green-600' />,
+            "link": "dcitinstitue"
+        },
+        {
+            "name": "Python Developemnt",
+            "icon": <IoLogoPython className='size-8 text-green-600' />,
+            "link": "dcitinstitue"
+        },
     ]
     return (
         <div className='pt-16 max-w-7xl mx-auto max-lg:m-4'>
@@ -71,68 +84,20 @@ const CourseDepartment = () => {
                 modules={[Autoplay, FreeMode, Pagination]}
                 className="mySwipe h-[157px] absolute -top-28"
             >
-                <Link>
-                    <SwiperSlide >
-                        <div className='card bg-white p-4 w-full shadow-md h-[90%]'>
-                            <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
-                                <p><GrPaint className='size-8 text-green-600' /></p>
-                                <p>Graphic and Multimedia</p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                </Link>
-                <SwiperSlide >
-
-                    <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
-                            <p><GrCloudSoftware className='size-8 text-green-600' /></p>
-                            <p>Web and Software</p>
-                        </div>
-                    </div>
-
-                </SwiperSlide>
-                <SwiperSlide >
-
-                    <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
-                            <p><ImVideoCamera className='size-8 text-green-600' /></p>
-                            <p>Video Editing</p>
-                        </div>
-                    </div>
-
-                </SwiperSlide>
-                <SwiperSlide >
-
-                    <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
-                            <p><TbSeo className='size-8 text-green-600' /></p>
-                            <p>Digital marketing (SEO)</p>
-                        </div>
-                    </div>
-
-                </SwiperSlide>
-                <SwiperSlide >
-
-                    <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[90%] lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
-                            <p><LuNetwork className='size-8 text-green-600' /></p>
-                            <p>Networking</p>
-                        </div>
-                    </div>
-
-                </SwiperSlide>
-                <SwiperSlide >
-
-                    <div className='card bg-white p-4 shadow-md h-[90%]'>
-                        <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
-                            <p><IoLogoPython className='size-8 text-green-600' /></p>
-                            <p>Python Developemnt</p>
-                        </div>
-
-                    </div>
-                </SwiperSlide>
-
-
+                {
+                    data.map((item, idx) => (
+                        <Link to={item.link} key={idx}>
+                            <SwiperSlide >
+                                <div className='card bg-white p-4 w-full shadow-md h-[90%]'>
+                                    <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
+                                        <p>{item.icon}</p>
+                                        <p>{item.name}</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                        </Link>
+                    ))
+                }
             </Swiper>
         </div>
     );

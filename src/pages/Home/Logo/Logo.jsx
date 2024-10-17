@@ -19,18 +19,18 @@ const Logo = () => {
         </Link>
         <div className="navbar-center hidden lg:flex">
           <div className="p-4 flex items-center font-semibold">
-            <DevicePhoneMobileIcon className="size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6" />
+            {/* <DevicePhoneMobileIcon className="size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6" /> */}
             <div>
             <Link to={"tel:+8801710822207"}>
-                <p className="hover:text-[#399918] flex items-center gap-2"><FaWhatsapp className="text-green-400" />+8801710-822207</p>
+                <p className="hover:text-[#399918] flex items-center gap-2"><FaWhatsapp className="text-green-500" />+8801710-822207</p>
               </Link>
               <Link to={"tel:+8801872884988"}>
-                <p className="hover:text-[#399918] flex items-center gap-2"><FaPhone className="text-yellow-600" />+8801872-884988</p>
+                <p className="hover:text-[#399918] flex items-center gap-2"><FaPhone className="text-red-400" />+8801872-884988</p>
               </Link>
             </div>
           </div>
           <div className="p-4 flex items-center font-semibold">
-            <EnvelopeIcon className="size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6" />
+            {/* <EnvelopeIcon className="size-12 rounded-full border-4 p-1 text-[#399918] border-[#399918] mr-6" /> */}
             <div>
             <Link to="mailto:info@dcitltd.com.bd">
                 <p className="hover:text-[#399918] flex items-center gap-2"><FaMailBulk className="text-red-600" />info@dcitltd.com.bd</p>
