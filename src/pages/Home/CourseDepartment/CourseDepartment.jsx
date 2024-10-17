@@ -29,7 +29,7 @@ const CourseDepartment = () => {
         {
             "name": "Graphic and Multimedia",
             "icon": <ImVideoCamera className='size-8 text-green-600' />,
-            "link": "Video Editing"
+            "link": "dcitinstitue"
         },
         {
             "name": "Digital marketing (SEO)",
@@ -86,16 +86,16 @@ const CourseDepartment = () => {
             >
                 {
                     data.map((item, idx) => (
-                        <Link to={item.link} key={idx}>
                             <SwiperSlide >
-                                <div className='card bg-white p-4 w-full shadow-md h-[90%]'>
+                               <Link  to={`/${item.link}`} key={idx}>
+                               <div className='card bg-white p-4 w-full shadow-md h-[90%]'>
                                     <div className=' font-bold max-lg:text-[90%] max-lg:p-1 lg:text-2xl w-full h-full text-center flex flex-col justify-center items-center'>
                                         <p>{item.icon}</p>
                                         <p>{item.name}</p>
                                     </div>
                                 </div>
+                               </Link>
                             </SwiperSlide>
-                        </Link>
                     ))
                 }
             </Swiper>
