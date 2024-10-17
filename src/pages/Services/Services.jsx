@@ -47,7 +47,6 @@ const Services = () => {
                     {data?.p1}
                 </p>
                 <h2 className='max-lg:text-lg lg:text-xl font-bold '> {data?.title2} </h2>
-
                 <ul className='text-xl list-disc pl-4'>
 
                     {
@@ -58,9 +57,7 @@ const Services = () => {
                         )
                     }
                 </ul>
-
                 <h2 className='max-lg:text-lg lg:text-xl font-bold '> {data?.title3} </h2>
-
                 <p className='text-xl'>
                     {data?.p2}
                 </p>
@@ -74,9 +71,7 @@ const Services = () => {
                         )
                     }
                 </ul>
-
                 <h2 className='max-lg:text-lg lg:text-xl font-bold '> {data?.title4} </h2>
-
                 <p className='text-xl'>
                     {data?.p3}
                 </p>
@@ -90,11 +85,9 @@ const Services = () => {
                         )
                     }
                 </ul>
-
                 <h2 className='max-lg:text-2xl lg:text-3xl font-bold max-lg:py-8 lg:py-16 text-gray-500'>
                     For additional features or more details about <span className='text-green-600'>{data?.name}</span>. <br /> please call us : <br /> <span className='text-red-600 italic	'>+8801710-822207, +8801872-884988</span> <br /> ( 08AM to 10PM )
                 </h2>
-
             </div>
         </div>
     );
