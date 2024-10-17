@@ -1,5 +1,16 @@
 [
     {
+        "Head": "NSDA",
+        "sublink": [
+          { "name": "Wed Design and Web Development for Freelanceing 3", "link": "/dcitinstitue/webDesign" },
+          { "name": "graphics Design for Freelanceing 3", "link": "/dcitinstitue/graphics" },
+          { "name": "Digital Marketing for Freelanceing 3", "link": "/dcitinstitue/digitalMarketing" },
+          { "name": "Networking and System Security for Freelanceing 3", "link": "/dcitinstitue/networking" },
+          { "name": "Computer Operation 3", "link": "/dcitinstitue/basicComputer" }
+
+        ]
+      },
+    {
         "Head": "Softwares",
         "sublink": [
           { "name": "Restaurant Management Software", "link": "/software/restaurantManagementSoftware" },
