@@ -53,6 +53,7 @@ const TeamItem = () => {
                 className="w-full h-full object-cover object-center"
                 src={item.image}
                 alt={item.name}
+                width="400" height="200"
               />
             </div>
             <div className="flex flex-col flex-grow">

@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import Logo from "../../../assets/logo.png";
 import Button from "./Button";
 import NavLinks from "./NavLinks";
+import Seo from "../../Seo/Seo";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className="sticky inset-x-0 top-0 z-10 ">
+            {/* <Seo title={`navbar`} content='Beginner friendly page for learning React Helmet.'/> */}
             <nav className="bg-green-600 max-w-7xl mx-auto shadow-lg rounded-[10px] text-white">
                 <div className="lg:flex lg:items-center lg:justify-between max-lg:px-3 lg:px-5">
                     <div className="flex items-center max-lg:justify-between lg:justify-around">
@@ -65,43 +67,43 @@ const Navbar = () => {
                         className={`md:hidden bg-green-600 fixed w-[80%] top-0 overflow-y-auto bottom-0 py-24 pl-4 duration-500 ${open ? "left-0" : "left-[-100%]"}`}
                     >
                         <li>
-                            <Link to="/" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Home
                             </Link>
                         </li>
-                        <NavLinks />
+                        <NavLinks closeMobileMenu={() => setOpen(false)}/>
                         <li>
-                            <Link to="/event" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/event" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Event
                             </Link>
                         </li>
                         <li>
-                            <Link to="/gallery" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/gallery" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Gallery
                             </Link>
                         </li>
                         <li>
-                            <Link to="/ourClient" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/ourClient" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Our Clinets
                             </Link>
                         </li>
                         <li>
-                            <Link to="/dcitinstitue" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/dcitinstitue" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 DCIT institue
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about" className="py-2 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/about" className="py-2 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link to="/contact" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                            <Link to="/contact" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Contact
                             </Link>
                         </li>
                         <div className="py-5">
-                            <Link to={'/contact'}><Button /></Link>
+                            <Link to={'/contact'} onClick={() => setOpen(false)}><Button /></Link>
                         </div>
                     </ul>
                 </div>

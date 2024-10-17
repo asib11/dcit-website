@@ -1,10 +1,12 @@
 import React from 'react';
 import img from '../../../assets/partner/adb-logo.png.webp'
 import { Link } from 'react-router-dom';
+import Seo from '../../Seo/Seo';
 
 const Expart = () => {
     return (
         <div>
+            <Seo title={`Professional Expert Opinion`} content='Beginner friendly page for learning React Helmet.'/>
             <h3 className='text-5xl font-bold  py-16 max-w-7xl mx-auto bg-white'>Professional Expert Opinion</h3>
             <div className=' bg-gray-200'>
                 <div className='max-w-7xl mx-auto pb-16'>
@@ -20,7 +22,7 @@ const Expart = () => {
                             </div>
                             <div className='w-1/2 p-16 bg-[#baf2ac]'>
                                 <div className='flex justify-center'>
-                                    <img src={img} alt="" />
+                                    <img src={img} alt="adb-logo" />
                                 </div>
                                 <p className='text-lg font-medium text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, animi adipisci! Asperiores animi ipsa commodi ducimus? Ea nam placeat vero veritatis. Vitae et aut repellendus. Assumenda ipsum itaque ipsa in.</p>
                             </div>
@@ -36,7 +38,7 @@ const Expart = () => {
                             </div>
                             <div className='w-1/2 p-16 bg-[#baf2ac]'>
                                 <div className='flex justify-center'>
-                                    <img src={img} alt="" />
+                                    <img src={img} alt="adb-logo" />
                                 </div>
                                 <p className='text-lg font-medium text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, animi adipisci! Asperiores animi ipsa commodi ducimus? Ea nam placeat vero veritatis. Vitae et aut repellendus. Assumenda ipsum itaque ipsa in.</p>
                             </div>

@@ -7,6 +7,7 @@ import {
 } from "@heroicons/react/24/solid";
 import Swal from "sweetalert2";
 import { Link } from "react-router-dom";
+import Seo from "../Seo/Seo";
 
 const Contact = () => {
   const contactInfo = (event) => {
@@ -44,6 +45,7 @@ const Contact = () => {
 
   return (
     <div className=" mt-16">
+      <Seo title={'contact'} content='Beginner friendly page for learning React Helmet.'/>
       <h2
         className="max-lg:text-3xl lg:text-5xl text-center font-extrabold my-16"
       >
