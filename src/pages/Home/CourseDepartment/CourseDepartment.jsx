@@ -12,7 +12,6 @@ import { TbSeo } from "react-icons/tb";
 import { LuNetwork } from "react-icons/lu";
 import { IoLogoAndroid, IoLogoPython, IoLogoWordpress } from "react-icons/io";
 import { Link } from 'react-router-dom';
-import Seo from '../../Seo/Seo';
 
 const CourseDepartment = () => {
     const data = [

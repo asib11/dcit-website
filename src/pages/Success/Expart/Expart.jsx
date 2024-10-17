@@ -6,7 +6,7 @@ import Seo from '../../Seo/Seo';
 const Expart = () => {
     return (
         <div>
-            <Seo title={`Professional Expert Opinion`} content='Beginner friendly page for learning React Helmet.'/>
+            <Seo title={`Professional Expert Opinion - DCIT LTD`} content='Beginner friendly page for learning React Helmet.'/>
             <h3 className='text-5xl font-bold  py-16 max-w-7xl mx-auto bg-white'>Professional Expert Opinion</h3>
             <div className=' bg-gray-200'>
                 <div className='max-w-7xl mx-auto pb-16'>

@@ -11,7 +11,7 @@ import Seo from "../Seo/Seo";
 const About = () => {
   return (
     <div>
-      <Seo title={'About Us'} content='Beginner friendly page for learning React Helmet.'/>
+      <Seo title={'About Us - DCIT LTD'} content='Beginner friendly page for learning React Helmet.'/>
       <div className=" max-w-7xl mx-auto text-justify mb-16 max-lg:p-4">
         <div className="flex justify-center mt-16 mb-5">
           <img src={logo} alt="logo" />

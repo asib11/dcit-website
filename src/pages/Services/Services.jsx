@@ -27,7 +27,7 @@ const Services = () => {
                 <title>services</title>
                 <meta name='description' content='Beginner friendly page for learning React Helmet.' />
             </Helmet> */}
-            <Seo title={data?.name} content='Beginner friendly page for learning React Helmet.'/>
+            <Seo title={`${data?.name} - DCIT LTD`} content='Beginner friendly page for learning React Helmet.'/>
 
             <div className='max-w-7xl mx-auto space-y-6 pb-10 text-justify max-lg:m-4'>
                 {/* <SEO

@@ -6,7 +6,7 @@ import member1 from '../../../assets/approved-by/basis-logo.png.webp'
 import member2 from '../../../assets/approved-by/bacco-image.jpg.webp'
 import ecab from '../../../assets/approved-by/ecab.png'
 import bwcci from '../../../assets/approved-by/bwcci-logo.png'
-import nsda from '../../../assets/STP-DHA-002201 (1).pdf'
+import nsda from '../../../assets/nsda.pdf'
 import Seo from '../../Seo/Seo';
 import { Link } from 'react-router-dom';
 
