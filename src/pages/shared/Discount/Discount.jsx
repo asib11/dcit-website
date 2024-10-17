@@ -3,9 +3,9 @@ import React from 'react';
 const Discount = () => {
     return (
         <>
-            <div className='fixed bottom-60'>
+            <div className='fixed bottom-72'>
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}
-                <button className="px-4 py-2 bg-red-500 text-white font-bold -rotate-90 uppercase" onClick={() => document.getElementById('my_modal_3').showModal()}>get Discount</button>
+                <button className="px-4 py-2 bg-red-500 rounded-lg hover:bg-red-700 text-white font-bold -rotate-90 uppercase" onClick={() => document.getElementById('my_modal_3').showModal()}>get Discount</button>
                 <dialog id="my_modal_3" className="modal">
                     <div className="modal-box">
                         <div className='mb-4'>
