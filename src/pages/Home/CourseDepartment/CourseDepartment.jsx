@@ -10,24 +10,24 @@ import { GrCloudSoftware } from "react-icons/gr";
 import { ImVideoCamera } from "react-icons/im";
 import { TbSeo } from "react-icons/tb";
 import { LuNetwork } from "react-icons/lu";
-import { IoLogoPython } from "react-icons/io";
+import { IoLogoAndroid, IoLogoPython, IoLogoWordpress } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import Seo from '../../Seo/Seo';
 
 const CourseDepartment = () => {
     const data = [
         {
-            "name": "Graphic and Multimedia",
+            "name": "Graphic Design",
             "icon": <GrPaint className='size-8 text-green-600' />,
             "link": "dcitinstitue"
         },
         {
-            "name": "Web and Software",
+            "name": "Responsive Web Design",
             "icon": <GrCloudSoftware className='size-8 text-green-600' />,
             "link": "dcitinstitue"
         },
         {
-            "name": "Graphic and Multimedia",
+            "name": "Video Editing",
             "icon": <ImVideoCamera className='size-8 text-green-600' />,
             "link": "dcitinstitue"
         },
@@ -44,6 +44,16 @@ const CourseDepartment = () => {
         {
             "name": "Python Developemnt",
             "icon": <IoLogoPython className='size-8 text-green-600' />,
+            "link": "dcitinstitue"
+        },
+        {
+            "name": "App Development",
+            "icon": <IoLogoAndroid className='size-8 text-green-600' />,
+            "link": "dcitinstitue"
+        },
+        {
+            "name": "Wordpress Development",
+            "icon": <IoLogoWordpress className='size-8 text-green-600' />,
             "link": "dcitinstitue"
         },
     ]

@@ -1,10 +1,8 @@
 import React from "react";
 import logo from "../../../assets/logo.png";
 import dcitInstitute from "../../../assets/dcit-institute.png";
-import { DevicePhoneMobileIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 import nsda from '../../../assets/approved-by/NSDApng.png.webp'
-import Seo from "../../Seo/Seo";
 import { FaMailBulk, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 const Logo = () => {
@@ -13,7 +11,7 @@ const Logo = () => {
       {/* <Seo title={'DCIT'} content='Beginner friendly page for learning React Helmet.'/> */}
       <div className="max-w-7xl mx-auto text-[18px] flex justify-between items-center mb-6">
         <Link to="/" className="w-20 mt-4 ml-4">
-          <div className="w-20 ml-4">
+          <div className="w-20">
             <img src={logo} alt="DCIT Ltd" width="191" height="163" />
           </div>
         </Link>
