@@ -26,7 +26,7 @@ const images = [
 const Gallery = () => {
     return (
         <div className="max-w-7xl mx-auto">
-            <Seo title={`gallery`} content='Beginner friendly page for learning React Helmet.'/>
+            <Seo title={`Gallery - DCIT LTD`} content='Beginner friendly page for learning React Helmet.'/>
             <ResponsiveMasonry
                 columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
                 className="shadow-2xl"

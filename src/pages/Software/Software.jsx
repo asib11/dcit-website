@@ -19,7 +19,7 @@ const Software = () => {
 
     return (
         <div className='max-w-7xl mx-auto space-y-6 pb-10 text-gray-500 max-lg:m-4'>
-            <Seo title={data?.name} content='Beginner friendly page for learning React Helmet.'/>
+            <Seo title={`${data?.name} - DCIT LTD`} content='Beginner friendly page for learning React Helmet.'/>
 
             <h2 className='max-lg:text-2xl lg:text-3xl font-bold max-lg:py-8 lg:pt-16 '>Get the Best <span className='text-red-600'>{data?.name}</span> in Dhaka Bangladesh </h2>
             <p className='text-xl text-justify text-black'>

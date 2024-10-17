@@ -3,7 +3,7 @@ import React from 'react';
 const Jobplace = () => {
     return (
         <div className='max-w-7xl mx-auto'>
-            <Seo title={`Job Placement Organization`} content='Beginner friendly page for learning React Helmet.'/>
+            <Seo title={`Job Placement Organization - DCIT LTD`} content='Beginner friendly page for learning React Helmet.'/>
             <h3 className='max-lg:text-3xl lg:text-5xl text-center font-bold pt-16 mb-6'>Job Placement Organization</h3>
             <div className="overflow-x-auto my-16 ">
                 <table className="table border-collapse border border-green-400">

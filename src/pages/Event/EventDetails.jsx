@@ -2,6 +2,7 @@ import React from 'react';
 import img from '../../assets/img2.jpg'
 import { Link } from 'react-router-dom';
 import {  FaArrowLeft} from "react-icons/fa";
+import Seo from '../Seo/Seo';
 
 const EventDetails = () => {
     return (

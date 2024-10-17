@@ -20,7 +20,7 @@ const DcitInstitue = () => {
 
     return (
         <div className=''>
-            <Seo title={'dcit institue'} content='Beginner friendly page for learning React Helmet.'/>
+            <Seo title={'DCIT Institute'} content='Beginner friendly page for learning React Helmet.'/>
             <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16 ' >NSDA</h3>
             <h2 className='max-lg:text-3xl lg:text-5xl text-center font-extrabold my-6' > Course Programs </h2>
 
