@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Discount = () => {
+    const [option, setOption] = useState([]);
+    useEffect(()=>{
+        fetch('/course.json')
+        .then(response=>response.json())
+        .then(data=>setOption(data))
+    },[])
     return (
         <>
             <div className='fixed bottom-72 max-md:hidden'>
@@ -52,13 +58,18 @@ const Discount = () => {
                                         <option disabled selected>
                                             Please Select One course
                                         </option>
-                                        <option>Python Development</option>
+                                        {/* <option>Python Development</option>
                                         <option>Web Design</option>
                                         <option>Web Design and Development</option>
                                         <option>React Js</option>
                                         <option>Next Js</option>
                                         <option>MERN Stack Development</option>
-                                        <option>Networking</option>
+                                        <option>Networking</option> */}
+                                        {
+                                            option.map((item, idx) => (
+                                                <option key={idx}>{item.name}</option>
+                                            ))
+                                        }
                                     </select>
                                 </div>
                             </div>
