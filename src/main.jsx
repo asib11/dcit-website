@@ -12,6 +12,6 @@ createRoot(document.getElementById('root')).render(
   <div className='font-roboto'>
     <StrictMode>
       <RouterProvider router={router} />
-    </StrictMode>,
+    </StrictMode>
   </div>
 )

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaWhatsapp, FaPhone, FaInfo, FaMailBulk } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import info from './../../../info.json'
@@ -27,42 +27,57 @@ const Footer = () => {
               <br />
               Mirpur - 2, Dhaka-1216
             </p>
-            <h3 className="footer-title text-xl pt-4 text-green-700">Contact</h3>
-            <p>
-              +8801710-822207 <br />
-              +8801872-884988 <br />
-              dcitltd2022@gmail.com
-            </p>
 
-           
             <h3 className="footer-title text-xl  pt-4 text-green-700">Rangpur Office</h3>
             <p className="">
-              House: #166 ( 1st Floor ), Road #01,
-              <br />
-              Aamtola Mor, Mulatol, Rangpur.
+              House: #166 ( 1st Floor ) <br />
+              Road #01, Aamtola Mor <br />
+              Mulatol, Rangpur.
             </p>
-          
+
+            <h3 className="footer-title text-xl pt-4 text-green-700">Contact</h3>
+            <p className="">
+              <Link to={"tel:+8801710822207"}>
+                <p className="hover:text-[#399918] flex items-center gap-2"><FaWhatsapp className="text-green-400" />+8801710-822207</p>
+              </Link>
+              <Link to={"tel:+8801872884988"}>
+                <p className="hover:text-[#399918] flex items-center gap-2"><FaPhone className="text-yellow-600" />+8801872-884988</p>
+              </Link>
+              <Link to="mailto:info@dcitltd.com.bd">
+                <p className="hover:text-[#399918] flex items-center gap-2"><FaMailBulk className="text-red-600" />info@dcitltd.com.bd</p>
+              </Link>
+              <Link to="mailto:support@dcitltd.com.bd">
+                <p className="hover:text-[#399918]  flex items-center gap-2"><FaMailBulk className="text-green-600" />support@dcitltd.com.bd</p>
+              </Link>
+              <Link to="mailto:contact@dcitltd.com.bd">
+                <p className="hover:text-[#399918]  flex items-center gap-2"><FaMailBulk className="text-red-600" />contact@dcitltd.com.bd</p>
+              </Link>
+              <Link to="mailto:dcitltd2022@gmail.com">
+                <p className="hover:text-[#399918]  flex items-center gap-2"><FaMailBulk className="text-green-600" />dcitltd2022@gmail.com</p>
+              </Link>
+            </p>
+
           </nav>
-          
-          
-            {
-              footerLinks.map((link) => (
-                <nav>
-                  <h3 className="footer-title text-xl text-green-700">{link?.Head}</h3>
-                  {
-                    link?.sublink?.map((sublink) => (
-                      <Link to={sublink.link} className="link link-hover">
-                        {sublink.name}
-                      </Link>
-                    ))
-                  }
-                </nav>
-              ))
-            }
-  
+
+
+          {
+            footerLinks.map((link) => (
+              <nav>
+                <h3 className="footer-title text-xl text-green-700">{link?.Head}</h3>
+                {
+                  link?.sublink?.map((sublink) => (
+                    <Link to={sublink.link} className="link link-hover">
+                      {sublink.name}
+                    </Link>
+                  ))
+                }
+              </nav>
+            ))
+          }
+
           <nav>
             <h3 className="footer-title text-xl text-green-700"> Follow us on</h3>
-            
+
             <div className="flex gap-6">
               <p>
                 <a href={info.social.facebook} className="link link-hover text-3xl text-blue-600" target="_blank">
@@ -86,7 +101,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="mt-4">
-              <img src={logo}  alt="DCIT Ltd" width="191" height="163"/>
+              <img src={logo} alt="DCIT Ltd" width="191" height="163" />
             </div>
           </nav>
         </footer>
