@@ -33,15 +33,17 @@ const Footer = () => {
               +8801872-884988 <br />
               dcitltd2022@gmail.com
             </p>
-          </nav>
-          <nav>
-            <h3 className="footer-title text-xl text-green-700">Rangpur Office</h3>
+
+           
+            <h3 className="footer-title text-xl  pt-4 text-green-700">Rangpur Office</h3>
             <p className="">
               House: #166 ( 1st Floor ), Road #01,
               <br />
               Aamtola Mor, Mulatol, Rangpur.
             </p>
+          
           </nav>
+          
           
             {
               footerLinks.map((link) => (
