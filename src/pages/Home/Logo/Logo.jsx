@@ -41,11 +41,11 @@ const Logo = () => {
 
         <div className="flex items-center justify-center">
         <Link to={""}>
-            <div className="w-[185px] flex mt-4">
+            <div className="w-[190px] flex mt-4">
               <img src={basis} alt="DCIT Institute" width="225" height="225" />
             </div>
           </Link>
-          <div className='w-20 mt-4 mr-4' onClick={() => window.open(nsda, "_blank")}>
+          <div className='w-[78px] mt-4 mr-4' onClick={() => window.open(nsdaProfile, "_blank")}>
             <img src={nsda} alt="NSDA" className='w-full hover:scale-110' width="150" height="151" />
           </div>
           <Link to={"/dcitinstitue"}>

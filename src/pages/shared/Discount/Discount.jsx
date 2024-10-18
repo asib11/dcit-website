@@ -9,14 +9,12 @@ const Discount = () => {
     },[])
     return (
         <>
-            <div className='fixed bottom-72 max-md:hidden'>
-                {/* You can open the modal using document.getElementById('ID').showModal() method */}
-                <button className="px-4 py-2 bg-red-500 rounded-lg hover:bg-red-700 text-white font-bold -rotate-90 uppercase" onClick={() => document.getElementById('my_modal_3').showModal()}>get Discount</button>
+            <div className='fixed top-[60%] transform -translate-y-1/2'>
+                <button className="px-4 py-2 bg-red-500 rounded-lg ml-4 hover:bg-red-700 z-10 text-white font-bold -rotate-90 origin-left uppercase" onClick={() => document.getElementById('my_modal_3').showModal()}>get Discount</button>
                 <dialog id="my_modal_3" className="modal">
                     <div className="modal-box">
                         <div className='mb-4'>
                             <form method="dialog">
-                                {/* if there is a button in form, it will close the modal */}
                                 <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                             </form>
                         </div>
@@ -58,13 +56,6 @@ const Discount = () => {
                                         <option disabled selected>
                                             Please Select One course
                                         </option>
-                                        {/* <option>Python Development</option>
-                                        <option>Web Design</option>
-                                        <option>Web Design and Development</option>
-                                        <option>React Js</option>
-                                        <option>Next Js</option>
-                                        <option>MERN Stack Development</option>
-                                        <option>Networking</option> */}
                                         {
                                             option.map((item, idx) => (
                                                 <option key={idx}>{item.name}</option>
