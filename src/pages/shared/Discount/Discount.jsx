@@ -11,11 +11,11 @@ const Discount = () => {
         <>
             <div className='fixed top-[60%] transform -translate-y-1/2'>
                 <button className="px-4 py-2 bg-red-500 rounded-lg ml-4 hover:bg-red-700 z-10 text-white font-bold -rotate-90 origin-left uppercase" onClick={() => document.getElementById('my_modal_3').showModal()}>get Discount</button>
-                <dialog id="my_modal_3" className="modal">
-                    <div className="modal-box">
+                <dialog id="my_modal_3" className="p-6 rounded-md">
+                    <div className="p-6">
                         <div className='mb-4'>
                             <form method="dialog">
-                                <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                <button className="btn btn-sm btn-circle btn-ghost hover:bg-red-500 hover:text-white absolute right-2 top-2">✕</button>
                             </form>
                         </div>
                         <form onSubmit={''}>
@@ -26,7 +26,7 @@ const Discount = () => {
                                         type="text"
                                         name="name"
                                         placeholder="Name"
-                                        className="input input-bordered w-full mb-6 mr-6 border-[#399918]"
+                                        className="input input-bordered w-full mb-6 mr-6 border-[#399918] focus:ring-2 ring-green-600"
                                         required
                                     />
 
@@ -34,7 +34,7 @@ const Discount = () => {
                                         type="Email"
                                         name="email"
                                         placeholder="Email"
-                                        className="input input-bordered w-full mb-6 mr-6 border-[#399918]"
+                                        className="input input-bordered w-full mb-6 mr-6 border-[#399918] focus:ring-2 ring-green-600"
                                         required
                                     />
                                 </div>
@@ -44,12 +44,12 @@ const Discount = () => {
                                         type="text"
                                         name="phone"
                                         placeholder="Phone"
-                                        className="input input-bordered w-full mb-6 mr-6 border-[#399918]"
+                                        className="input input-bordered w-full mb-6 mr-6 border-[#399918] focus:ring-2 ring-green-600"
                                         required
                                     />
 
                                     <select
-                                        className="select select-bordered w-full border-[#399918]"
+                                        className="select select-bordered w-full border-[#399918] focus:ring-2 ring-green-600"
                                         name="courseData"
                                         required
                                     >
@@ -66,7 +66,7 @@ const Discount = () => {
                             </div>
                             <div>
                                 <textarea
-                                    className="textarea textarea-bordered border-[#399918] w-full h-48"
+                                    className="textarea textarea-bordered border-[#399918] w-full h-48 focus:ring-2 ring-green-600"
                                     placeholder="Write Here..."
                                     name="textArea"
                                     required
