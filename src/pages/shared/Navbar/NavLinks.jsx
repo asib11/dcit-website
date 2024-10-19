@@ -67,7 +67,7 @@ const NavLinks = ({closeMobileMenu}) => {
             {link.sublinks.map((slinks) => (
               <div>
                 {slinks.sublink.map((slink) => (
-                      <li className="py-3 pl-14 pr-4">
+                      <li className="py-3 pl-14 pr-4 transition-all duration-300 hover:translate-x-1">
                         <Link to={`${slink.link}`} onClick={closeMobileMenu}>{slink.name}</Link>
                       </li>
                     ))}
