@@ -59,7 +59,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="md:block hidden">
+                    <div className="md:block hidden transition-all duration-300 hover:translate-x-1">
                         <Link to={'/contact'}><Button /></Link>
                     </div>
                     {/* Mobile nav */}
