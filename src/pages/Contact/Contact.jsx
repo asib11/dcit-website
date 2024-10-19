@@ -5,47 +5,17 @@ import {
   MapPinIcon,
   ClockIcon,
 } from "@heroicons/react/24/solid";
-import Swal from "sweetalert2";
+
 import { Link } from "react-router-dom";
 import Seo from "../Seo/Seo";
+import DiscountForm from "../shared/Discount/DiscountForm";
 
 const Contact = () => {
-  const contactInfo = (event) => {
-    event.preventDefault();
-    const form = event.target;
-    const name = form.name.value;
-    const email = form.email.value;
-    const phone = form.phone.value;
-    const courseData = form.courseData.value;
-    const textArea = form.textArea.value;
-    const user = { name, email, phone, courseData, textArea };
-
-    fetch("https://dcit-server.vercel.app/users", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(user),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        if (data.insertedId) {
-          Swal.fire({
-            position: "top-center",
-            icon: "success",
-            title: "Your message has been sent successfully",
-            showConfirmButton: false,
-            timer: 1500,
-          });
-          form.reset();
-        }
-      });
-  };
+  
 
   return (
     <div className=" mt-16">
-      <Seo title={'Contact - DCIT LTD'} content='Beginner friendly page for learning React Helmet.'/>
+      <Seo title={'Contact - DCIT LTD'} content='Beginner friendly page for learning React Helmet.' />
       <h2
         className="max-lg:text-3xl lg:text-5xl text-center font-extrabold my-16"
       >
@@ -53,69 +23,7 @@ const Contact = () => {
       </h2>
       <div className="max-w-7xl mx-auto flex flex-col lg:flex lg:flex-row justify-center items-center">
         <div className="lg:w-3/4 flex flex-col p-6 lg:p-0">
-          <form onSubmit={contactInfo}>
-            <div className="flex gap-4">
-              <div className="">
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  className="input input-bordered w-full mb-6 mr-6 border-[#399918]"
-                  required
-                />
-
-                <input
-                  type="Email"
-                  name="email"
-                  placeholder="Email"
-                  className="input input-bordered w-full mb-6 mr-6 border-[#399918]"
-                  required
-                />
-              </div>
-
-              <div>
-                <input
-                  type="text"
-                  name="phone"
-                  placeholder="Phone"
-                  className="input input-bordered w-full mb-6 mr-6 border-[#399918]"
-                  required
-                />
-
-                <select
-                  className="select select-bordered w-full border-[#399918]"
-                  name="courseData"
-                  required
-                >
-                  <option disabled selected>
-                    Please Select One course
-                  </option>
-                  <option>Python Development</option>
-                  <option>Web Design</option>
-                  <option>Web Design and Development</option>
-                  <option>React Js</option>
-                  <option>Next Js</option>
-                  <option>MERN Stack Development</option>
-                  <option>Networking</option>
-                </select>
-              </div>
-            </div>
-            <div>
-              <textarea
-                className="textarea textarea-bordered border-[#399918] w-full h-48"
-                placeholder="Write Here..."
-                name="textArea"
-                required
-              ></textarea>
-            </div>
-            <div className="form-control mt-6">
-              <input
-                className="btn text-xl bg-[#399918] hover:bg-lime-600 text-white"
-                type="submit"
-                value="Send"
-              />
-            </div>
-          </form>
+         <DiscountForm />
         </div>
         <div className="lg:w-1/4">
           <div className="p-6 lg:pl-12 grid lg:grid-cols-1 max-lg:grid-cols-2 max-lg:gap-4 lg:gap-8">
@@ -157,10 +65,17 @@ const Contact = () => {
                 <h3 className="font-bold max-lg:text-[14px] lg:text-xl mb-2">
                   Email
                 </h3>
+                <Link to="mailto:info@dcitltd.com.bd">
+                  <p className="hover:text-[#399918] text-sm">info@dcitltd.com.bd</p>
+                </Link>
+                <Link to="mailto:support@dcitltd.com.bd">
+                  <p className="hover:text-[#399918]  text-sm">support@dcitltd.com.bd</p>
+                </Link>
+                <Link to="mailto:contact@dcitltd.com.bd">
+                  <p className="hover:text-[#399918]  text-sm">contact@dcitltd.com.bd</p>
+                </Link>
                 <Link to="mailto:dcitltd2022@gmail.com">
-                  <p className="hover:text-[#399918] text-sm">
-                    dcitltd2022@gmail.com
-                  </p>
+                  <p className="hover:text-[#399918]  text-sm">dcitltd2022@gmail.com</p>
                 </Link>
               </div>
             </div>
@@ -230,11 +145,18 @@ const Contact = () => {
                 Email
               </h3>
             </div>
-            <Link to="mailto:dcitltd2022@gmail.com">
-              <p className="hover:text-[#399918] max-md:text-[12px] max-lg:text-sm lg:text-lg">
-                dcitltd2022@gmail.com
-              </p>
-            </Link>
+            <Link to="mailto:info@dcitltd.com.bd">
+                <p className="hover:text-[#399918] max-md:text-[12px] max-lg:text-sm lg:text-lg">info@dcitltd.com.bd</p>
+              </Link>
+              <Link to="mailto:support@dcitltd.com.bd">
+                <p className="hover:text-[#399918]  max-md:text-[12px] max-lg:text-sm lg:text-lg">support@dcitltd.com.bd</p>
+              </Link>
+              <Link to="mailto:contact@dcitltd.com.bd">
+                <p className="hover:text-[#399918]  max-md:text-[12px] max-lg:text-sm lg:text-lg">contact@dcitltd.com.bd</p>
+              </Link>
+              <Link to="mailto:dcitltd2022@gmail.com">
+                <p className="hover:text-[#399918]  max-md:text-[12px] max-lg:text-sm lg:text-lg">dcitltd2022@gmail.com</p>
+              </Link>
           </div>
           <div>
             <div className="max-lg:flex max-lg:mb-3 max-lg:items-center">
