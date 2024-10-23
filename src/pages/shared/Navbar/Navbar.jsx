@@ -102,7 +102,7 @@ const Navbar = () => {
                                 Contact
                             </Link>
                         </li>
-                        <div className="py-5">
+                        <div className="transition-all duration-300 hover:translate-x-1">
                             <Link to={'/contact'} onClick={() => setOpen(false)}><Button /></Link>
                         </div>
                     </ul>
