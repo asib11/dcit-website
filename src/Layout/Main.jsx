@@ -14,7 +14,7 @@ const Main = () => {
         <div >
             <Logo />
             <Navbar />
-            <Discount />
+            {/* <Discount /> */}
             <Nsda />
             <Whatsapp
                 phoneNumber="+8801710822207"
