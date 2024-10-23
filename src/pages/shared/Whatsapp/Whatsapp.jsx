@@ -9,6 +9,8 @@ const Whatsapp = ({ phoneNumber, message }) => {
                 <img
                     src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                     alt="WhatsApp"
+                    width="150"
+                    height="150"
                     style={styles.icon}
                 />
             </a>

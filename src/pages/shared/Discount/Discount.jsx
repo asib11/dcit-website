@@ -16,7 +16,6 @@ const Discount = () => {
                         </div>
                         <h2 className='text-xl font-bold mb-2'>To know more about the offers, please fill up the form given below. Our representative will get back to you soon.</h2>
                         <DiscountForm />
-
                         <p className="py-4 text-[14px]"><span className='font-bold'>If Necessary: </span> +8801710-822207,+8801872-884988 or support@dcitltd.com.bd, contact@dcitltd.com.bd</p>
                     </div>
                 </dialog>
