@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../../assets/logo.png'
 import { Link } from 'react-router-dom';
+import Seo from '../../Seo/Seo';
 
 const Student = () => {
     return (

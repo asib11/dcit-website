@@ -1,6 +1,8 @@
 import DiscountForm from "./DiscountForm";
 
+
 const Discount = () => {
+    
     return (
         <>
             <div className='fixed top-[60%] transform -translate-y-1/2'>

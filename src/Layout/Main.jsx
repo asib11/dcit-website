@@ -8,13 +8,12 @@ import Nsda from '../pages/shared/Nsda/Nsda';
 import Discount from '../pages/shared/Discount/Discount';
 import Whatsapp from '../pages/shared/Whatsapp/Whatsapp';
 
-
 const Main = () => {
     return (
         <div >
             <Logo />
             <Navbar />
-            {/* <Discount /> */}
+            <Discount />
             <Nsda />
             <Whatsapp
                 phoneNumber="+8801710822207"
