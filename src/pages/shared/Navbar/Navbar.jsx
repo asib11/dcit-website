@@ -19,7 +19,7 @@ const Navbar = () => {
                                 <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
                             </div>
                         </div>
-                        <ul className="md:flex hidden font-semibold items-center lg:gap-4">
+                        <ul className="md:flex hidden font-semibold items-center lg:gap-2">
                             <li>
                                 <Link to="/" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
                                     Home
@@ -40,6 +40,11 @@ const Navbar = () => {
                             <li>
                                 <Link to="/ourClient" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
                                     Our Clinets
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/rpl" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                                    Rpl
                                 </Link>
                             </li>
                             <li>
@@ -85,6 +90,11 @@ const Navbar = () => {
                         <li>
                             <Link to="/ourClient" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 Our Clinets
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/rpl" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
+                                Rpl
                             </Link>
                         </li>
                         <li>
