@@ -119,6 +119,7 @@ export const links = [
               { name: "VPS Hosting", link: '/hosting/VPSHosting' },
               { name: "Dedicated Hosting", link: '/hosting/dedicatedHosting' },
               { name: "Reseller Hosting", link: '/hosting/resellerHosting' },
+
             ],
           },
         ],
@@ -141,7 +142,6 @@ export const links = [
               { name: "Professional Exparties Opinion", link: '/expart' },
               { name: "Video Feedback", link: '/videoadd' },
               { name: "Job Placement organization", link: '/job' },
-
             ],
           },
         ],

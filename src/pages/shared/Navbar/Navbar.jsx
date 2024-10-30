@@ -97,11 +97,6 @@ const Navbar = () => {
                                 RPL
                             </Link>
                         </li>
-                        {/* <li>
-             <Link to="/dcitinstitue" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
-                                DCIT institue
-                            </Link>
-                        </li> */}
                         <li>
                             <Link to="/about" className="py-2 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
                                 About
