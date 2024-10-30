@@ -18,7 +18,7 @@ function MessageBar() {
             {
                 showMessageBar && (
                     <div className="bg-green-700 text-white text-center p-2 font-semibold flex items-center justify-center relative">
-                        <div className="mr-2 flex max-lg:flex-col">
+                        <div className="max-lg:mr-6 flex max-lg:flex-col">
                             <p className="lg:text-justify">
                                 সম্পূর্ণ সরকারি অনুমোদনে NSDA এর অধীনে RPL Mode এ Graphic Design-3, Web Design & Development for Freelancing Level-3 and Computer Operation-3 Assessment করা হবে।
                             </p>
