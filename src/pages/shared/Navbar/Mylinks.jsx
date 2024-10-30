@@ -119,11 +119,6 @@ export const links = [
               { name: "VPS Hosting", link: '/hosting/VPSHosting' },
               { name: "Dedicated Hosting", link: '/hosting/dedicatedHosting' },
               { name: "Reseller Hosting", link: '/hosting/resellerHosting' },
-            //   { name: "Enterprise Resource Planning (ERP)", link: '/' },
-            //   { name: "Payroll Software", link: '/' },
-            //   { name: "Client Management Software", link: '/' },
-            //   { name: "Real Estate Software", link: '/' },
-            //   { name: "SMS Marketing Software", link: '/' },
             ],
           },
         ],
@@ -135,135 +130,45 @@ export const links = [
           {
             Head: "Success Stories",
             sublink: [
+              { name: "Website development", link: "/services/websitedevelopment" },
+              { name: "Android App Development", link: '/services/androidAppDevelopment' },
+              { name: "Digital Marketing Service", link: '/services/digitalMarketingService' },
+              { name: "Search Engine Submission", link: '/services/ses' },
+              { name: "Logo Design Service", link: '/services/logoDesignService' },
+              { name: "Email Marketing Service", link: '/services/emailMarketingService' },
+              { name: "Professional Training", link: '/services/professionalTraining' },
               { name: "Student's Success", link: "/student" },
               { name: "Professional Exparties Opinion", link: '/expart' },
               { name: "Video Feedback", link: '/videoadd' },
               { name: "Job Placement organization", link: '/job' },
-              // { name: "Logo Design Service", link: '/' },
-              // { name: "Email Marketing Service", link: '/' },
-              // { name: "Professional Training", link: '/' },
-            //   { name: "Enterprise Resource Planning (ERP)", link: '/' },
-            //   { name: "Payroll Software", link: '/' },
-            //   { name: "Client Management Software", link: '/' },
-            //   { name: "Real Estate Software", link: '/' },
-            //   { name: "SMS Marketing Software", link: '/' },
+
             ],
           },
         ],
       },
-    // {
-    //   name: "Success Stories",
-    //   submenu: true,
-    //   sublinks: [
-    //     {
-    //       Head: "Topwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-    //     {
-    //       Head: "Bottomwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-    //     {
-    //       Head: "innerwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-  
-    //     {
-    //       Head: "sleepwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-    //     {
-    //       Head: "footwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-    //   ],
-    // },
-
-    // {
-    //   name: "Kid's",
-    //   submenu: true,
-    //   sublinks: [
-    //     {
-    //       Head: "Topwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-    //     {
-    //       Head: "Bottomwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-    //     {
-    //       Head: "innerwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-  
-    //     {
-    //       Head: "sleepwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-    //     {
-    //       Head: "footwear",
-    //       sublink: [
-    //         { name: "T-shirt", link: '/python' },
-    //         { name: "Casual shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //         { name: "formal shirts", link: '/python' },
-    //       ],
-    //     },
-    //   ],
-    // },
+      {
+        name: "Dcit Institute",
+        submenu: true,
+        sublinks: [
+          {
+            Head: "Dcit Institute",
+            sublink: [
+              { name: "Digital Marketing for Freelanceing 3", link: '/dcitinstitue/digitalMarketing' },
+              { name: "Networking and System Security for Freelanceing 3", link: '/dcitinstitue/networking' },
+              { name: "graphics Design for Freelanceing 3", link: '/dcitinstitue/graphics' },
+              { name: "Wed Design and Web Development for Freelanceing 3", link: '/dcitinstitue/webDesign' },
+              { name: "Computer Operation 3", link: '/dcitinstitue/basicComputer' },
+              { name: "Machine Learning", link: "/dcitinstitue/machineLearning" },
+              { name: "python with Django", link: '/dcitinstitue/python' },
+              { name: "UI/UX Design", link: '/dcitinstitue/uiux' },
+              { name: "Responsive Web Design", link: '/dcitinstitue/responsiveWebDesign' },
+              { name: "App Development", link: '/dcitinstitue/app' },
+              { name: "Video Editing", link: '/dcitinstitue/videoEditing' },
+              { name: "IoT – Internet of Things", link: '/dcitinstitue/iot' },
+              { name: "Cyber Security", link: '/dcitinstitue/cyberSecurity' },
+              { name: "Blockchain Development", link: '/dcitinstitue/blockchainDevelopment' },
+            ],
+          },
+        ],
+      },
   ];
