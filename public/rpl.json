@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Web Design & Development for Freelancing-3",
         "description": "RPL 1",
-        "img":"../src/assets/approved-by/web.png",
+        "img":"https://res.cloudinary.com/duozmkqqj/image/upload/v1730273181/web_uqymr8.png",
         "courseFee": "TK. Free",
         "link": "https://forms.gle/tunWFgnT1gKuGeSc9"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Graphics Design-3",
         "description": "RPL 2",
-        "img":"../src/assets/approved-by/graphics2.png",
+        "img":"https://res.cloudinary.com/duozmkqqj/image/upload/v1730273185/graphics2_jhzchx.png",
         "courseFee": "TK. Free",
         "link": "https://forms.gle/gVFEyZhJgY6vqBKGA"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "Computer Operation-3",
         "description": "RPL 2",
-        "img":"../src/assets/approved-by/computer.png",
+        "img":"https://res.cloudinary.com/duozmkqqj/image/upload/v1730273181/computer_eue7lg.png",
         "courseFee": "TK. Free",
         "link": "https://forms.gle/YPq6BZbtCnawccCs9"
     }
