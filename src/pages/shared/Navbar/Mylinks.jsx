@@ -56,6 +56,7 @@ export const links = [
     // },
     {
         name: "Softwares",
+        link: "#",
         submenu: true,
         sublinks: [
           {
@@ -103,6 +104,7 @@ export const links = [
       
       {
         name: "Services",
+        link: "#",
         submenu: true,
         sublinks: [
           {
@@ -126,18 +128,12 @@ export const links = [
       },
       {
         name: "Success Stories",
+        link: "#",
         submenu: true,
         sublinks: [
           {
             Head: "Success Stories",
             sublink: [
-              { name: "Website development", link: "/services/websitedevelopment" },
-              { name: "Android App Development", link: '/services/androidAppDevelopment' },
-              { name: "Digital Marketing Service", link: '/services/digitalMarketingService' },
-              { name: "Search Engine Submission", link: '/services/ses' },
-              { name: "Logo Design Service", link: '/services/logoDesignService' },
-              { name: "Email Marketing Service", link: '/services/emailMarketingService' },
-              { name: "Professional Training", link: '/services/professionalTraining' },
               { name: "Student's Success", link: "/student" },
               { name: "Professional Exparties Opinion", link: '/expart' },
               { name: "Video Feedback", link: '/videoadd' },
@@ -148,6 +144,7 @@ export const links = [
       },
       {
         name: "Dcit Institute",
+        link: "/dcitinstitue",
         submenu: true,
         sublinks: [
           {

@@ -40,6 +40,16 @@
     }
   },
   {
+    "name": "Asib Ahmed ",
+    "position": "Software Engineer",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1730278015/asib_nua68f.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com/asibahmed11",
+      "twitter": "https://twitter.com/asibahmed_11",
+      "linkedin": "https://linkedin.com/in/asib/"
+    }
+  },
+  {
     "name": "Fahima",
     "position": "HR Admin",
     "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/Fahima_nzm33r.jpg",
@@ -230,13 +240,13 @@
     }
   },
   {
-    "name": "Asib Ahmed ",
-    "position": "Junior Software Engineer",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/AsibAhmed_avxxlz.jpg",
+    "name": "Md. Ripon Sheikh",
+    "position": "junior software engineer",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1730277785/ripon_p5zlbm.jpg",
     "socialLinks": {
-      "facebook": "https://facebook.com/asibahmed11",
-      "twitter": "https://twitter.com/asibahmed_11",
-      "linkedin": "https://linkedin.com/in/asib/"
+      "facebook": "https://www.facebook.com/ripon914/",
+      "twitter": "#",
+      "linkedin": "https://www.linkedin.com/in/ripon914/"
     }
   },
   {
@@ -248,6 +258,17 @@
       "twitter": "#",
       "linkedin": "#"
     }
+  },
+  {
+    "name": "Sajib Khan Tuhin",
+    "position": "office Executive",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1730277834/tuhin_crepsi.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  
   },
   {
     "name": "Cyinthia Afrine",
