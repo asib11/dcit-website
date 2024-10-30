@@ -1,4 +1,4 @@
-
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Seo from '../Seo/Seo';
 import Discount from '../shared/Discount/Discount';
@@ -100,9 +100,7 @@ const DcitInstitue = () => {
                             </div>
                         ))
                     }
-
                 </div>
-
             </div>
 
             <h3 className='max-lg:text-xl lg:text-3xl text-center font-bold pt-16' >REGULAR</h3>
