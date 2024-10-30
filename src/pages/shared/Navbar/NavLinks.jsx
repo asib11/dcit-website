@@ -34,10 +34,11 @@ const NavLinks = ({closeMobileMenu}) => {
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
-                    mt-1 bg-green-600 rotate-45"
+                    mt-1 bg-green-700 rotate-45"
                     ></div>
                   </div>
-                  <div className="text-white bg-green-600 p-5 gap-6 ">
+                  <div className="text-white bg-green-700 p-5 gap-10 ">
+
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         {mysublinks.sublink.map((slink) => (

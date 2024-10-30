@@ -9,7 +9,7 @@ import router from './Routes/Routes.jsx';
 
 
 createRoot(document.getElementById('root')).render(
-  <div className='font-roboto'>
+  <div className='font-roboto text-gray-600'>
     <StrictMode>
       <RouterProvider router={router} />
     </StrictMode>
