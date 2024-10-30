@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className="sticky inset-x-0 top-0 z-10 ">
             {/* <Seo title={`navbar`} content='Beginner friendly page for learning React Helmet.'/> */}
-            <nav className="bg-green-600 max-w-7xl mx-auto shadow-lg rounded-[10px] text-white">
+            <nav className="bg-green-700 max-w-7xl mx-auto shadow-lg rounded-[10px] text-white">
                 <div className="lg:flex lg:items-center lg:justify-between max-lg:px-3 lg:px-5">
                     <div className="flex items-center max-lg:justify-between lg:justify-around">
                         <div className={`z-50 max-lg:py-2 lg:py-5 md:w-auto w-full flex justify-end`}>
@@ -19,7 +19,7 @@ const Navbar = () => {
                                 <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
                             </div>
                         </div>
-                        <ul className="md:flex hidden font-semibold items-center lg:gap-4">
+                        <ul className="md:flex hidden font-semibold items-center lg:gap-2">
                             <li>
                                 <Link to="/" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
                                     Home
@@ -43,10 +43,15 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li>
+                                <Link to="/rpl" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
+                                    RPL
+                                </Link>
+                            </li>
+                            {/* <li>
                                 <Link to="/dcitinstitue" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1">
                                     DCIT institue
                                 </Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link to="/about" className="py-2 px-3 inline-block transition-all duration-300 hover:translate-x-1">
                                     About
@@ -64,7 +69,7 @@ const Navbar = () => {
                     </div>
                     {/* Mobile nav */}
                     <ul
-                        className={`md:hidden bg-green-600 fixed w-[80%] top-0 overflow-y-auto bottom-0 py-24 pl-4 duration-500 ${open ? "left-0" : "left-[-100%]"}`}
+                        className={`md:hidden bg-green-700 fixed w-[80%] top-0 overflow-y-auto bottom-0 py-24 pl-4 duration-500 ${open ? "left-0" : "left-[-100%]"}`}
                     >
                         <li>
                             <Link to="/" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
@@ -88,8 +93,8 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/dcitinstitue" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
-                                DCIT institue
+                            <Link to="/rpl" className="py-7 px-3 inline-block transition-all duration-300 hover:translate-x-1" onClick={() => setOpen(false)}>
+                                RPL
                             </Link>
                         </li>
                         <li>

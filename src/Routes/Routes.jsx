@@ -74,6 +74,10 @@ const router = createBrowserRouter([
         element: <OurClient />
       },
       {
+        path: '/rpl',
+        element: <Rpl/>
+      },
+      {
         path: '/news',
         element: <News />,
       },

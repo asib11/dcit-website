@@ -9,7 +9,7 @@ const NavLinks = ({closeMobileMenu}) => {
     <>
       {links.map((link) => (
         <div>
-          <div className="px-3 text-left md:cursor-pointer group">
+          <div className="px-1 text-left md:cursor-pointer group">
             <h2
               className="py-7 flex justify-between items-center md:pr-0 pr-5 group transition-all duration-300 hover:translate-x-1"
               onClick={() => {
@@ -34,10 +34,11 @@ const NavLinks = ({closeMobileMenu}) => {
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
-                    mt-1 bg-green-600 rotate-45"
+                    mt-1 bg-green-700 rotate-45"
                     ></div>
                   </div>
-                  <div className="text-white bg-green-600 p-5 gap-10 ">
+                  <div className="text-white bg-green-700 p-5 gap-10 ">
+
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         {mysublinks.sublink.map((slink) => (

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import nsda from '../../../assets/approved-by/NSDApng.png.webp'
 import nsdaProfile from "../../../assets/nsda.pdf"
 import { FaMailBulk, FaPhone, FaWhatsapp } from "react-icons/fa";
-import basis from '../../../assets/basis-logo.svg'
+
 
 const Logo = () => {
   return (
@@ -40,11 +40,7 @@ const Logo = () => {
         </div>
 
         <div className="flex items-center justify-center">
-        <Link to={""}>
-            <div className="w-[190px] flex mt-4">
-              <img src={basis} alt="DCIT Institute" width="225" height="225" />
-            </div>
-          </Link>
+
           <div className='w-[78px] mt-4 mr-4' onClick={() => window.open(nsdaProfile, "_blank")}>
             <img src={nsda} alt="NSDA" className='w-full hover:scale-110' width="150" height="151" />
           </div>

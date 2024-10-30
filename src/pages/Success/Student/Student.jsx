@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../../assets/logo.png'
 import { Link } from 'react-router-dom';
+import Seo from '../../Seo/Seo';
 
 const Student = () => {
     return (
@@ -21,7 +22,7 @@ const Student = () => {
                 </div>
             </div>
             <div className='flex h-[400px]'>
-            <Seo title={`Job Placement Organization`} content='Beginner friendly page for learning React Helmet.'/>
+                <Seo title={`Job Placement Organization`} content='Beginner friendly page for learning React Helmet.' />
                 <div className='w-1/2 flex justify-center'>
                     <div className=' flex flex-col justify-center items-center p-6'>
                         <img className='mb-4 rounded-full' src={img} alt="logo" />
