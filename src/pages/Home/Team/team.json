@@ -60,6 +60,56 @@
     }
   }, 
   {
+    "name": "Maria Sultana",
+    "position": "Digital content creator",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1730526420/team/u3wgehyvnkfv1c0rkwqs.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/maria1sultana?mibextid=LQQJ4d",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Mahfuzur Rahman",
+    "position": "Graphic Designer",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/MahfuzurRahman_womura.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Md Al-Mamun",
+    "position": "Graphic Designer",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536430/MdAlMamun_qvdynw.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Md. Ripon Sheikh",
+    "position": "junior software engineer",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1730277785/ripon_p5zlbm.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/ripon914/",
+      "twitter": "#",
+      "linkedin": "https://www.linkedin.com/in/ripon914/"
+    }
+  },
+  {
+    "name": "Sajib Khan Tuhin",
+    "position": "office Executive",
+    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1730277834/tuhin_crepsi.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
     "name": "Easteak Nayeem",
     "position": "Assistant HR",
     "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536430/EasteakNayeem_xnhncx.jpg",
@@ -179,16 +229,7 @@
       "linkedin": "#"
     }
   },
-  {
-    "name": "Mahfuzur Rahman",
-    "position": "Graphic Designer",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536429/MahfuzurRahman_womura.jpg",
-    "socialLinks": {
-      "facebook": "#",
-      "twitter": "#",
-      "linkedin": "#"
-    }
-  },
+  
   {
     "name": "Arifunnahar Rumy",
     "position": "Communication Executive",
@@ -229,26 +270,7 @@
       "linkedin": "#"
     }
   },
-  {
-    "name": "Md Al-Mamun",
-    "position": "Graphic Designer",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1728536430/MdAlMamun_qvdynw.jpg",
-    "socialLinks": {
-      "facebook": "#",
-      "twitter": "#",
-      "linkedin": "#"
-    }
-  },
-  {
-    "name": "Md. Ripon Sheikh",
-    "position": "junior software engineer",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1730277785/ripon_p5zlbm.jpg",
-    "socialLinks": {
-      "facebook": "https://www.facebook.com/ripon914/",
-      "twitter": "#",
-      "linkedin": "https://www.linkedin.com/in/ripon914/"
-    }
-  },
+  
   {
     "name": "Mashraba Tasnim Rodshi",
     "position": "UI/UX Designer",
@@ -259,17 +281,7 @@
       "linkedin": "#"
     }
   },
-  {
-    "name": "Sajib Khan Tuhin",
-    "position": "office Executive",
-    "image": "https://res.cloudinary.com/duozmkqqj/image/upload/v1730277834/tuhin_crepsi.jpg",
-    "socialLinks": {
-      "facebook": "#",
-      "twitter": "#",
-      "linkedin": "#"
-    }
-  
-  },
+ 
   {
     "name": "Cyinthia Afrine",
     "position": "IT Exective",
