@@ -18,14 +18,14 @@ function MessageBar() {
             {
                 showMessageBar && (
                     <div className="bg-green-700 text-white text-center p-2 font-semibold flex items-center justify-center relative">
-                        <div className="max-lg:mr-6 flex max-lg:flex-col w-[95%]">
+                        <div className="max-lg:mr-6 flex max-lg:flex-col w-[90%] justify-center items-center">
                             <p className="lg:text-justify">
                                 সম্পূর্ণ সরকারি অনুমোদনে NSDA এর অধীনে RPL Mode এ Graphic Design-3, Web Design & Development for Freelancing Level-3 and Computer Operation-3 Assessment করা হবে।
                             </p>
                             <div>
                                 <a
-                                    href="https://forms.gle/3H35zv36t1rZyeWq8"
-                                    className="ml-2 inline-block bg-red-800 max-lg:w-[40%] text-white px-3 py-1 rounded hover:bg-red-900 transition"
+                                    href="https://forms.gle/3H35zv36t1rZyeWq8" target="_blank" rel="noreferrer"
+                                    className="btn ml-2 bg-red-800 border-none text-white px-3 py-1 rounded hover:bg-red-900 transition"
                                 >
                                     Registration Ongoing
                                 </a>

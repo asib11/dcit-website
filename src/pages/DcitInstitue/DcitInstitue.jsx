@@ -29,10 +29,10 @@ const DcitInstitue = () => {
             <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
                 {
                     nsda.map((course, index) => (
-                        <div key={index} course={course}  className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
+                        <div key={index} course={course}  className="card bg-base-100 w-full shadow-xl rounded-md" >
                             <figure className='h-[370px] w-full overflow-hidden'>
                                 <img
-                                    className="w-full h-full object-cover object-center"
+                                    className="w-full h-full"
                                     src={course.img}
                                     alt={course.name} />
                             </figure>
@@ -55,10 +55,10 @@ const DcitInstitue = () => {
             <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
                 {
                     recommand.map((course, index) => (
-                        <div key={index} course={course}  className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
+                        <div key={index} course={course}  className="card bg-base-100 w-full shadow-xl rounded-md" >
                             <figure className='h-[370px] w-full overflow-hidden'>
                                 <img
-                                    className="w-full h-full object-cover object-center"
+                                    className="w-full h-full"
                                     src={course.img}
                                     alt={course.name} />
                             </figure>
@@ -81,10 +81,10 @@ const DcitInstitue = () => {
                 <div className='grid grid-cols-1 justify-items-center gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20'>
                     {
                         fourth.map((course, index) => (
-                            <div key={index} className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
+                            <div key={index} className="card bg-base-100 w-full shadow-xl rounded-md" >
                                 <figure className='h-[370px] w-full overflow-hidden'>
                                     <img 
-                                        className="w-full h-full object-cover object-center"
+                                        className="w-full h-full"
                                         src={course.img}
                                         alt={course.name} />
                                 </figure>
@@ -108,10 +108,10 @@ const DcitInstitue = () => {
             <div className='grid max-md:grid-cols-1 justify-items-center gap-6 max-lg:grid max-lg:grid-cols-2 lg:grid lg:grid-cols-3 max-w-7xl mx-auto py-20' >
                 {
                     regular.map((course, index) => (
-                        <div key={index} className="card bg-base-100 w-[90%] shadow-xl rounded-md" >
+                        <div key={index} className="card bg-base-100 w-full shadow-xl rounded-md" >
                             <figure className='h-[370px] w-full overflow-hidden'>
                                 <img
-                                    className="w-full h-full object-cover object-center"
+                                    className="w-full h-full"
                                     src={course.img}
                                     alt={course.name} />
                             </figure>
